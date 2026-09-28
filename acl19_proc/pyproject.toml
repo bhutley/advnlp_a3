@@ -1,0 +1,19 @@
+[project]
+name = "acl19-proc"
+version = "0.1.0"
+description = "Resolve tickers and fetch price history for the ACL19 earnings call dataset"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas",
+    "yfinance>=1.7",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
