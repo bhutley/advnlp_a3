@@ -14,12 +14,15 @@ TICKER_RE = re.compile(r"^[A-Z0-9.\-]+$")
 NO_DATA_ERRORS = (YFPricesMissingError, YFTzMissingError)
 
 
-def compute_window(first_call: date, last_call: date) -> tuple[date, date]:
-    """Return (start, end) covering 1 month before first_call to 1 year after last_call.
+def compute_window(
+    first_call: date, last_call: date, lookback_months: int = 12
+) -> tuple[date, date]:
+    """Return (start, end) covering lookback_months before first_call to 1 year after last_call.
 
+    The 12-month default leaves room for an event-study estimation window before each call.
     end is one day past the last wanted day, because yfinance treats end as exclusive.
     """
-    start = (pd.Timestamp(first_call) - pd.DateOffset(months=1)).date()
+    start = (pd.Timestamp(first_call) - pd.DateOffset(months=lookback_months)).date()
     end = (pd.Timestamp(last_call) + pd.DateOffset(years=1)).date() + timedelta(days=1)
     return start, end
 

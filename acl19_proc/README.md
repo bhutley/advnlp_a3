@@ -1,7 +1,7 @@
 # acl19_proc — price history for the ACL19 earnings-call dataset
 
 Resolves the companies in the ACL19 earnings-call audio dataset to stock tickers and
-downloads their daily price history from Yahoo Finance, from one month before each
+downloads their daily price history from Yahoo Finance, from one year before each
 company's first call to one year after its last.
 
 The audio dataset itself lives outside this repository, by default at
@@ -15,7 +15,7 @@ The audio dataset itself lives outside this repository, by default at
 |---|---|
 | Companies with price files | 240 (490 of the 572 calls) |
 | Companies with no price data | 40 (82 calls), all delisted |
-| Tests | 71, all passing |
+| Tests | 76, all passing |
 
 ## Requirements
 
@@ -32,16 +32,20 @@ uv run python resolve_tickers.py
 
 # Review data/company.csv, then fix tickers_seed.csv and re-run if needed.
 
-# Step 2: company.csv → data/<TICKER>.csv (about 10 minutes)
-uv run python fetch_prices.py
+# Step 2: company.csv → data/<TICKER>.csv, plus the SPY market index (about 10 minutes)
+uv run python fetch_prices.py --market SPY
 
 uv run pytest
 ```
 
 Both scripts accept `--tickers MMM,META,AET` to limit a run to a few companies, which
 is useful for a quick trial. `resolve_tickers.py` also takes `--dataset`, `--seed` and
-`--out`; `fetch_prices.py` takes `--company-csv`, `--data-dir` and `--force`, which
-overwrites existing price files instead of skipping them.
+`--out`; `fetch_prices.py` takes `--company-csv`, `--data-dir`, `--force`, which
+overwrites existing price files instead of skipping them, and `--market TICKER`.
+
+`--market` fetches an index such as SPY into `data/<TICKER>.csv`, in the same format as
+the company files. Its window covers every `ok` company's window, and `--tickers` does not
+filter it. The event study uses SPY as its market return. The flag can be repeated.
 
 Both scripts wait 1 second between Yahoo requests, retry a failed request 3 times
 (waiting 2s then 4s), and print per-company progress plus a summary. `fetch_prices.py`
@@ -96,8 +100,9 @@ One row per trading day, named after the **current** Yahoo ticker, so Facebook's
 is `META.csv`. Columns: `Date, Open, High, Low, Close, Adj Close, Volume, Dividends,
 Stock Splits, Split Factor`. Yahoo's values are written unchanged and unrounded.
 
-The window runs from one month before the company's first call to one year after its
-last, so a company with several calls gets a single continuous file.
+The window runs from one year before the company's first call to one year after its
+last, so a company with several calls gets a single continuous file. The year before the
+first call leaves room for the event study's estimation window (`../event_study`).
 
 ## Prices are not as-traded — use `Split Factor`
 

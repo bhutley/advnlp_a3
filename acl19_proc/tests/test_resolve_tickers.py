@@ -228,7 +228,7 @@ def test_resolve_company_requests_union_window():
         "AbbVie Inc.", "ABBV", FIRST, LAST,
         lambda *a: seen.append(a) or PRICES, lambda t: "AbbVie Inc.",
     )  # fmt: skip
-    assert seen == [("ABBV", date(2017, 3, 27), date(2018, 10, 28))]
+    assert seen == [("ABBV", date(2016, 4, 27), date(2018, 10, 28))]
 
 
 @pytest.mark.parametrize(

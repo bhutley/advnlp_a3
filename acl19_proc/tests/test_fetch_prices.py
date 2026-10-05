@@ -85,8 +85,9 @@ def test_coverage_gap_ends_early():
 
 # Wanted [start, end) windows for the companies in the fixture's company.csv.
 WINDOWS = {
-    "MMM": (date(2017, 3, 25), date(2018, 7, 26)),
-    "META": (date(2017, 10, 1), date(2018, 11, 2)),
+    "MMM": (date(2016, 4, 25), date(2018, 7, 26)),
+    "META": (date(2016, 11, 1), date(2018, 11, 2)),
+    "SPY": (date(2016, 4, 25), date(2018, 11, 2)),  # union of the ok companies' windows
 }
 LATER_SPLIT_DAY = date(2020, 6, 1)
 
@@ -127,11 +128,11 @@ def test_main_writes_ok_tickers(project):
     assert main(argv) == 0
     assert sorted(p.name for p in data_dir.iterdir()) == ["META.csv", "MMM.csv"]
     mmm_call = next(c for c in calls if c[0] == "MMM")
-    assert mmm_call[1] == date(2017, 3, 25)
+    assert mmm_call[1] == date(2016, 4, 25)
     assert mmm_call[2] > date.today()  # fetches to today to see later splits
     mmm = pd.read_csv(data_dir / "MMM.csv")
     assert list(mmm.columns) == ["Date"] + OUTPUT_COLUMNS
-    assert mmm["Date"].tolist() == ["2017-03-25", "2018-07-25"]
+    assert mmm["Date"].tolist() == ["2016-04-25", "2018-07-25"]
     assert mmm["Split Factor"].tolist() == [2.0, 2.0]
 
 
@@ -200,3 +201,47 @@ def test_main_no_rows_in_window_is_failed(project, monkeypatch, capsys):
     assert main(argv + ["--tickers", "MMM"]) == 1
     assert not (data_dir / "MMM.csv").exists()
     assert "failed: 1\n  MMM\n" in capsys.readouterr().out
+
+
+def test_main_market_uses_union_window(project, capsys):
+    argv, data_dir, calls = project
+
+    assert main(argv + ["--market", "SPY"]) == 0
+    spy_call = next(c for c in calls if c[0] == "SPY")
+    assert spy_call[1] == date(2016, 4, 25)
+    spy = pd.read_csv(data_dir / "SPY.csv")
+    assert list(spy.columns) == ["Date"] + OUTPUT_COLUMNS
+    assert spy["Date"].tolist() == ["2016-04-25", "2018-11-01"]
+    assert "partial: 0\n" in capsys.readouterr().out
+
+
+def test_main_market_not_filtered_by_tickers(project):
+    argv, data_dir, _ = project
+
+    assert main(argv + ["--tickers", "fb", "--market", "SPY"]) == 0
+    assert sorted(p.name for p in data_dir.iterdir()) == ["META.csv", "SPY.csv"]
+
+
+def test_main_market_skips_existing_file(project):
+    argv, data_dir, calls = project
+    data_dir.mkdir()
+    (data_dir / "SPY.csv").write_text("old")
+
+    assert main(argv + ["--market", "SPY"]) == 0
+    assert (data_dir / "SPY.csv").read_text() == "old"
+    assert "SPY" not in [c[0] for c in calls]
+
+
+def test_main_market_failed_fetch(project, monkeypatch, capsys):
+    argv, data_dir, _ = project
+
+    def fetch(ticker, start, end):
+        if ticker == "SPY":
+            raise ConnectionError("boom")
+        return full_window(ticker, start, end)
+
+    monkeypatch.setattr(common, "fetch_history", fetch)
+
+    assert main(argv + ["--market", "SPY"]) == 1
+    assert not (data_dir / "SPY.csv").exists()
+    assert "failed: 1\n  SPY\n" in capsys.readouterr().out

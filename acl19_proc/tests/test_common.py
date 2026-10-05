@@ -9,20 +9,27 @@ from common import TICKER_RE, compute_window, fetch_history, with_retries
 
 def test_compute_window_single_call():
     assert compute_window(date(2017, 4, 25), date(2017, 4, 25)) == (
-        date(2017, 3, 25),
+        date(2016, 4, 25),
         date(2018, 4, 26),
     )
 
 
 def test_compute_window_union_of_calls():
     assert compute_window(date(2017, 4, 27), date(2017, 10, 27)) == (
-        date(2017, 3, 27),
+        date(2016, 4, 27),
         date(2018, 10, 28),
     )
 
 
+def test_compute_window_custom_lookback():
+    assert compute_window(date(2017, 4, 25), date(2017, 4, 25), lookback_months=1) == (
+        date(2017, 3, 25),
+        date(2018, 4, 26),
+    )
+
+
 def test_compute_window_month_end():
-    start, _ = compute_window(date(2017, 3, 31), date(2017, 3, 31))
+    start, _ = compute_window(date(2017, 3, 31), date(2017, 3, 31), lookback_months=1)
     assert start == date(2017, 2, 28)
 
 
