@@ -21,4 +21,6 @@ The aim is to predict abnormal stock return direction or volatility after an ear
 
 ### Directories
 
-The `acl19_proc1` directory contains processing scripts and data to download the daily price history for companies that we have call transcripts for.
+The `acl19_proc` directory contains processing scripts and data to download the daily price history for companies that we have call transcripts for.
+
+The `event_study` directory computes cumulative abnormal returns and post-call volatility for each call from that price data. Its `data/events.csv` holds the direction and volatility targets, one row per call, keyed by the dataset folder name.

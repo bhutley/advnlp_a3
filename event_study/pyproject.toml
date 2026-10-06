@@ -1,0 +1,21 @@
+[project]
+name = "event-study"
+version = "0.1.0"
+description = "Event study of stock returns around ACL19 earnings calls"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
