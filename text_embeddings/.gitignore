@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# ~138 MB each, over GitHub's 100 MB limit; regenerate with build_embeddings.py
+data/*/sentence_emb.npy

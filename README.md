@@ -24,3 +24,5 @@ The aim is to predict abnormal stock return direction or volatility after an ear
 The `acl19_proc` directory contains processing scripts and data to download the daily price history for companies that we have call transcripts for.
 
 The `event_study` directory computes cumulative abnormal returns and post-call volatility for each call from that price data. Its `data/events.csv` holds the direction and volatility targets, one row per call, keyed by the dataset folder name.
+
+The `text_embeddings` directory holds FinBERT sentence and call embeddings plus sentiment scores for every transcript, from two models (`finbert-tone` and `ProsusAI/finbert`). They join to `event_study/data/events.csv` on the same key.

@@ -1,0 +1,22 @@
+[project]
+name = "text-embeddings"
+version = "0.1.0"
+description = "FinBERT sentence and call embeddings for the ACL19 earnings-call transcripts"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "torch",
+    "transformers",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
