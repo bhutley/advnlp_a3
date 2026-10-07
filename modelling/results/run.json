@@ -1,0 +1,64 @@
+{
+  "targets": [
+    "vol_3",
+    "vol_7",
+    "vol_15",
+    "vol_30",
+    "dir_0_1",
+    "dir_0_5"
+  ],
+  "repeats": 10,
+  "splits": 5,
+  "permutations": 20,
+  "perm_repeats": 2,
+  "seed": 0,
+  "grid": {
+    "alphas": [
+      0.01,
+      0.03162277660168379,
+      0.1,
+      0.31622776601683794,
+      1.0,
+      3.1622776601683795,
+      10.0,
+      31.622776601683793,
+      100.0,
+      316.22776601683796,
+      1000.0,
+      3162.2776601683795,
+      10000.0
+    ],
+    "ks": [
+      8,
+      16,
+      32,
+      64,
+      null
+    ],
+    "layers": [
+      3,
+      6,
+      9,
+      12
+    ]
+  },
+  "models": [
+    "finbert_tone",
+    "hubert"
+  ],
+  "robustness": {
+    "R4_prosus_finbert": [
+      "prosus_finbert",
+      "hubert"
+    ],
+    "R4_wav2vec2": [
+      "finbert_tone",
+      "wav2vec2"
+    ]
+  },
+  "n_calls": 488,
+  "n_firms": 240,
+  "sklearn": "1.9.1",
+  "runtime_s": 15875.9,
+  "created": "2026-10-07T07:34:53+00:00"
+}

@@ -1,0 +1,23 @@
+[project]
+name = "modelling"
+version = "0.1.0"
+description = "Ablation ladder: do earnings-call text and audio predict post-call volatility?"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "scipy",
+]
+
+[dependency-groups]
+dev = ["ipykernel", "nbconvert", "pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
