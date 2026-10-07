@@ -1,0 +1,22 @@
+{
+  "features": "wav2vec2",
+  "checkpoint": "facebook/wav2vec2-base",
+  "revision": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+  "device": "mps",
+  "sentence_layer": 6,
+  "pooling": "mean over frames of each hidden state",
+  "call_emb": "mean over the call's sentences, all hidden states (index 0 = CNN)",
+  "dtype": "float16",
+  "torch": "2.14.1",
+  "transformers": "5.18.0",
+  "n_calls": 572,
+  "n_clips": 89722,
+  "n_failed": 1,
+  "n_bad": 78,
+  "n_bad_calls": 2,
+  "max_words_per_sec": 8.0,
+  "max_bad_share": 0.1,
+  "workers": 10,
+  "runtime_s": 3177.1,
+  "created": "2026-10-06T22:53:10+00:00"
+}

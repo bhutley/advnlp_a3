@@ -26,3 +26,5 @@ The `acl19_proc` directory contains processing scripts and data to download the 
 The `event_study` directory computes cumulative abnormal returns and post-call volatility for each call from that price data. Its `data/events.csv` holds the direction and volatility targets, one row per call, keyed by the dataset folder name.
 
 The `text_embeddings` directory holds FinBERT sentence and call embeddings plus sentiment scores for every transcript, from two models (`finbert-tone` and `ProsusAI/finbert`). They join to `event_study/data/events.csv` on the same key.
+
+The `audio_embeddings` directory holds wav2vec2 and HuBERT embeddings (sentence level at layer 6, call level for all 13 layers) and interpretable Praat acoustic features for every sentence clip. Sentences align with `text_embeddings` on `event_id` + `sent_idx`. Two calls with broken audio segmentation are flagged by `audio_call_ok` and should be excluded from audio models. Clips come in several recording formats (`audio_embeddings/data/formats.csv`); format shapes the audio features and is weakly related to volatility, so audio models must control for it.

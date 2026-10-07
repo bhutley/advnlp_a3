@@ -1,0 +1,23 @@
+[project]
+name = "audio-embeddings"
+version = "0.1.0"
+description = "wav2vec2, HuBERT and Praat features for the ACL19 earnings-call audio clips"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "praat-parselmouth",
+    "scipy",
+    "torch",
+    "transformers",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

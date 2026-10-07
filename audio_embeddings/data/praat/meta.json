@@ -1,0 +1,15 @@
+{
+  "features": "praat",
+  "parselmouth": "0.4.7",
+  "praat": "6.1.38",
+  "n_calls": 572,
+  "n_clips": 89722,
+  "n_failed": 1,
+  "n_bad": 78,
+  "n_bad_calls": 2,
+  "max_words_per_sec": 8.0,
+  "max_bad_share": 0.1,
+  "workers": 10,
+  "runtime_s": 1515.7,
+  "created": "2026-10-06T22:00:10+00:00"
+}
