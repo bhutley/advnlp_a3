@@ -114,3 +114,100 @@ def test_no_fit_sees_test_rows(data):
     refit, inner = RecordingScaler.seen[-n_scalers:], RecordingScaler.seen[:-n_scalers]
     assert all(r == frozenset(train_ids) for r in refit)  # the final refit uses all training rows
     assert inner and all(len(r) < len(train_ids) for r in inner)  # inner-CV fits use fewer
+
+
+# --- round 2: FormatResidualizer (follow-up B) ---
+
+from pipelines import FormatResidualizer  # noqa: E402
+
+
+def onehot(labels, n):
+    return np.eye(n)[labels]
+
+
+def test_layer_select_keep_tail():
+    X = np.arange(2 * 14, dtype=float).reshape(2, 14)  # 3 layers × dim 4, then 2 tail columns
+    out = LayerSelect(layer=2, dim=4, keep_tail=2).fit_transform(X)
+    np.testing.assert_array_equal(out, np.hstack([X[:, 8:12], X[:, 12:14]]))
+
+
+def test_residuals_uncorrelated_with_format():
+    rng = np.random.default_rng(0)
+    F = onehot(rng.integers(0, 3, 200), 3)
+    E = F @ rng.normal(size=(3, 5)) * 4 + rng.normal(size=(200, 5))  # strongly format-driven
+    R = FormatResidualizer(n_format=3).fit_transform(np.hstack([E, F]))
+
+    assert R.shape == E.shape
+    for j in range(R.shape[1]):
+        for k in range(F.shape[1]):
+            assert abs(np.corrcoef(R[:, j], F[:, k])[0, 1]) < 1e-8
+
+
+def test_format_free_embedding_nearly_unchanged():
+    rng = np.random.default_rng(1)
+    F = onehot(rng.integers(0, 3, 500), 3)
+    E = rng.normal(size=(500, 4))
+    R = FormatResidualizer(n_format=3).fit_transform(np.hstack([E, F]))
+    for j in range(4):
+        assert np.corrcoef(R[:, j], E[:, j])[0, 1] > 0.98
+
+
+def test_transform_uses_training_coefficients():
+    F_train = onehot(np.array([0, 0, 1, 1, 2, 2]), 3)
+    E_train = (F_train @ np.array([[1.0], [5.0], [-2.0]]))  # exact per-format levels
+    res = FormatResidualizer(n_format=3).fit(np.hstack([E_train, F_train]))
+
+    F_new = onehot(np.array([1, 2]), 3)
+    E_new = np.array([[5.5], [-2.0]])  # 0.5 above format 1's level; exactly format 2's level
+    np.testing.assert_allclose(res.transform(np.hstack([E_new, F_new])), [[0.5], [0.0]], atol=1e-10)
+
+
+def test_r3_resid_pipeline_and_grid(data):
+    X, slices = assemble(data, rung_blocks("R3_resid", "vol_3"), "vol_3")
+    pipe = build_pipeline(slices, "regression", audio_dim=AUDIO_DIM, residualize=True)
+    grid = param_grid(slices, "regression", ks=SMALL_KS, layers=(0, 6))
+    pipe.set_params(**{k: v[0] for k, v in grid[0].items()})
+    pipe.fit(X, data.table["vol_3"])
+    assert np.isfinite(pipe.predict(X)).all()
+    assert n_combinations(param_grid(slices, "regression")) == 260  # same grid as R3
+
+
+def test_residualize_requires_format(data):
+    X, slices = assemble(data, ["past", "audio_emb"], "vol_3")
+    with pytest.raises(ValueError, match="format"):
+        build_pipeline(slices, "regression", audio_dim=AUDIO_DIM, residualize=True)
+
+
+class RecordingResidualizer(FormatResidualizer):
+    seen: list[frozenset] = []
+
+    def fit(self, X, y=None):
+        RecordingResidualizer.seen.append(frozenset(np.asarray(X)[:, 0].round().astype(int)))
+        return super().fit(X, y)
+
+
+def test_no_fit_sees_test_rows_resid(data):
+    X, slices = assemble(data, rung_blocks("R3_resid", "vol_3"), "vol_3")
+    ids = np.arange(len(X))
+    X[:, slices["past"].start] = ids
+    for layer in range(AUDIO_LAYERS):
+        X[:, slices["audio_emb"].start + layer * AUDIO_DIM] = ids
+    y = data.table["vol_3"].to_numpy()
+    split = outer_splits(data.groups, n_splits=4, n_repeats=1)[0]
+    # Spy on the residualizer: it is the audio branch's first fitted step and sees raw rows.
+    # (A spy scaler there would see residuals, not row ids; the small-block scaler is
+    # covered by test_no_fit_sees_test_rows.)
+    pipe = build_pipeline(slices, "regression", audio_dim=AUDIO_DIM, residualize=True,
+                          residualizer=RecordingResidualizer)  # fmt: skip
+    search = GridSearchCV(pipe, param_grid(slices, "regression", ks=SMALL_KS, layers=(0, 6)),
+                          cv=inner_cv(data.groups[split.train]), n_jobs=1)  # fmt: skip
+    RecordingResidualizer.seen = []
+
+    search.fit(X[split.train], y[split.train])
+
+    train_ids, test_ids = set(split.train), set(split.test)
+    assert RecordingResidualizer.seen
+    for rows in RecordingResidualizer.seen:
+        assert rows <= train_ids and not rows & test_ids
+    assert RecordingResidualizer.seen[-1] == frozenset(train_ids)  # final refit
+    assert all(len(r) < len(train_ids) for r in RecordingResidualizer.seen[:-1])

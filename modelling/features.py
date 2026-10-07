@@ -26,6 +26,14 @@ RUNGS = {
 }
 EMBEDDING_BLOCKS = {"text_emb", "audio_emb"}
 
+# Round 2 (pre-registered; docs/plans/2026-10-07-round2-design.md). Kept apart from RUNGS,
+# which run_ladder.py iterates over, so round 1 runs exactly as before.
+ROUND2_RUNGS = {
+    "R1P": ["past", "format", "prosody"],  # A: low-dimensional, interpretable audio only
+    "R3_resid": list(RUNGS["R3"]),  # B: R3 with format-residualised audio embeddings
+}
+RESIDUALIZED = {"R3_resid"}
+
 
 def task_of(target: str) -> str:
     return TASKS[target]
@@ -40,7 +48,7 @@ def past_column(target: str) -> str:
 
 def rung_blocks(rung: str, target: str) -> list[str]:
     """The rung's blocks; direction targets drop 'past' (past volatility isn't a direction cue)."""
-    blocks = RUNGS[rung]
+    blocks = RUNGS[rung] if rung in RUNGS else ROUND2_RUNGS[rung]
     return [b for b in blocks if b != "past"] if task_of(target) == "classification" else list(blocks)
 
 

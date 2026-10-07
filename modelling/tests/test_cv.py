@@ -68,3 +68,24 @@ def test_inner_cv_grouped_and_local():
     for tr, te in inner:
         assert not set(g_train[tr]) & set(g_train[te])
         assert len(tr) + len(te) == len(g_train)
+
+
+# --- ungrouped (round 2, follow-up C) ---
+
+
+def test_ungrouped_gives_each_row_its_own_group():
+    from cv import ungrouped
+
+    g = ungrouped(GROUPS)
+    assert len(g) == len(GROUPS) and len(set(g)) == len(GROUPS)
+
+
+def test_ungrouped_splits_mix_firms():
+    from cv import ungrouped
+
+    splits = outer_splits(ungrouped(GROUPS), n_repeats=2)
+    for r in range(2):
+        tested = np.concatenate([s.test for s in splits if s.repeat == r])
+        assert sorted(tested) == list(range(len(GROUPS)))
+    # Unlike grouped CV, some firm now appears on both sides of a split.
+    assert any(set(GROUPS[s.train]) & set(GROUPS[s.test]) for s in splits)

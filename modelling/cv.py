@@ -56,3 +56,9 @@ def inner_cv(groups_train, n_splits: int = 4, seed: int = 0) -> list[tuple[np.nd
     groups_train = np.asarray(groups_train)
     folds = _assign_folds(groups_train, n_splits, np.random.default_rng([seed, 10_000]))
     return _splits_from_folds(folds, n_splits)
+
+
+def ungrouped(groups) -> np.ndarray:
+    """One group per row, so outer_splits and inner_cv ignore firms: the naive split
+    (round 2, follow-up C). Used only to show what grouping prevents."""
+    return np.array([f"row{i}" for i in range(len(groups))])

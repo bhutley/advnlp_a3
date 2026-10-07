@@ -75,3 +75,15 @@ def test_direction(data, splits):
     # B0 predicts the training base rate, a constant within each fold
     assert b0.groupby("fold")["y_hat"].nunique().eq(1).all()
     assert b0["y_hat"].between(0.2, 0.8).all()
+
+
+def test_r3_resid_uses_the_residualizer(data, splits, monkeypatch):
+    import evaluate
+
+    seen = []
+    real = evaluate.build_pipeline
+    monkeypatch.setattr(evaluate, "build_pipeline",
+                        lambda *a, **k: seen.append(k.get("residualize", False)) or real(*a, **k))  # fmt: skip
+    run_rung(data, "R3", "vol_3", splits[:1], **FAST)
+    run_rung(data, "R3_resid", "vol_3", splits[:1], **FAST)
+    assert seen == [False, True]  # round-1 rungs are built exactly as before

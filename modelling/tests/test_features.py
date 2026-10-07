@@ -81,3 +81,21 @@ def test_assemble_past_follows_target(data):
     X30, _ = assemble(data, ["past"], "vol_30")
     np.testing.assert_array_equal(X3.ravel(), data.table["vol_pre_3"])
     np.testing.assert_array_equal(X30.ravel(), data.table["vol_pre_30"])
+
+
+# --- round 2 ---
+
+
+def test_round2_rungs():
+    from features import RESIDUALIZED, ROUND2_RUNGS
+
+    assert ROUND2_RUNGS == {"R1P": ["past", "format", "prosody"], "R3_resid": RUNGS["R3"]}
+    assert RESIDUALIZED == {"R3_resid"}
+    assert rung_blocks("R1P", "vol_3") == ["past", "format", "prosody"]
+    assert rung_blocks("R3_resid", "vol_3") == rung_blocks("R3", "vol_3")
+    assert rung_blocks("R1P", "dir_0_1") == ["format", "prosody"]
+
+
+def test_round1_rungs_unchanged():
+    # run_ladder.py iterates over RUNGS; round 2 must not change what round 1 runs.
+    assert list(RUNGS) == ["B0", "R1", "R2", "R3", "R4", "R4_nopast"]

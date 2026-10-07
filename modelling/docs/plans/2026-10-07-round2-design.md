@@ -163,6 +163,14 @@ All additions; round-1 code paths are unchanged, so round 1 stays reproducible.
 The notebook shows round 1 and round 2 side by side, labelled by status. Round 2's
 confirmatory claims are limited to H3–H5 as specified here.
 
+## Runtime decision (Task R7, timing only)
+
+A `--quick` trial on the real data (2 repeats; 1 D repeat) took 27 min. Its outputs were
+deleted unread. D took about 188 s per horizon per repeat (ATT about 156 s, UNI about
+32 s), so the full D run is projected at about 2.1 h. That is under the 3-hour threshold,
+so **D uses all 10 repeats**, as pre-specified. The projected total for round 2 is
+about 3.3 h.
+
 ## Deviations
 
 *None yet.*

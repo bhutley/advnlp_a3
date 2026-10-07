@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 
 from cv import Split, inner_cv
 from data import CallData
-from features import assemble, past_column, rung_blocks, task_of
+from features import RESIDUALIZED, assemble, past_column, rung_blocks, task_of
 from pipelines import ALPHAS, AUDIO_LAYER_GRID, PCA_KS, build_pipeline, param_grid
 
 OOF_COLUMNS = ["event_id", "target", "rung", "repeat", "fold", "y", "y_hat", "params"]
@@ -58,7 +58,7 @@ def run_rung(data: CallData, rung: str, target: str, splits: list[Split], inner_
             params = "{}"
         else:
             search = GridSearchCV(
-                build_pipeline(slices, task, audio_dim=data.audio_dim),
+                build_pipeline(slices, task, audio_dim=data.audio_dim, residualize=rung in RESIDUALIZED),
                 param_grid(slices, task, alphas=alphas, ks=ks, layers=layers),
                 scoring=SCORING[task],
                 cv=inner_cv(data.groups[train], seed=inner_seed + split.repeat),

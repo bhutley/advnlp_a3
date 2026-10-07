@@ -59,12 +59,43 @@ def make_project(root: Path, n_firms: int = 6, calls_per_firm: int = 3, seed: in
         praat[col] = rng.uniform(0, 1, n)
     _write(root / "audio_embeddings/data/praat/calls.csv", praat)
 
+    _write_sentences(root, ids, rng)
+
     fmts = [FORMATS[i % len(FORMATS)] for i in range(n)]
     formats = pd.DataFrame({"event_id": ids, "sample_rate": [f[0] for f in fmts],
                             "kbps": [f[1] for f in fmts], "channels": [f[2] for f in fmts],
                             "n_clips": 40, "n_other_format": 0, "n_unreadable": 0})  # fmt: skip
     _write(root / "audio_embeddings/data/formats.csv", formats.iloc[order])
     return ids
+
+
+def n_sentences(i: int) -> int:
+    """Sentences in the i-th call: 3 to 12."""
+    return 3 + i % 10
+
+
+def _write_sentences(root: Path, ids: list[str], rng: np.random.Generator) -> None:
+    """Sentence-level files in the real layouts, rows shuffled. Sentence 0 of every call has
+    audio_ok False (and a NaN audio vector), like a failed or truncated clip."""
+    keys = [(e, s) for i, e in enumerate(ids) for s in range(n_sentences(i))]
+    m = len(keys)
+    for model in ("finbert_tone", "prosus_finbert"):
+        order = rng.permutation(m)
+        d = root / "text_embeddings/data" / model
+        rows = pd.DataFrame(keys, columns=["event_id", "sent_idx"]).iloc[order]
+        rows["n_tokens"] = 20
+        _write(d / "sentences.csv", rows)
+        np.save(d / "sentence_emb.npy", rng.normal(size=(m, TEXT_DIM)).astype(np.float16))
+    for model in ("hubert", "wav2vec2"):
+        order = rng.permutation(m)
+        d = root / "audio_embeddings/data" / model
+        rows = pd.DataFrame(keys, columns=["event_id", "sent_idx"]).iloc[order].reset_index(drop=True)
+        rows["duration_s"], rows["n_frames"] = 5.0, 250
+        rows["audio_ok"] = rows["sent_idx"] != 0
+        emb = rng.normal(size=(m, AUDIO_DIM)).astype(np.float16)
+        emb[~rows["audio_ok"].to_numpy()] = np.nan
+        _write(d / "sentences.csv", rows)
+        np.save(d / "sentence_emb.npy", emb)
 
 
 def _write(path: Path, df: pd.DataFrame) -> None:
