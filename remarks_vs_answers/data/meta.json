@@ -1,0 +1,27 @@
+{
+  "dataset": "/Users/Work/ANLP_A3/ACL19_Release",
+  "release_check": {
+    "calls": 572,
+    "sentences": 89722,
+    "only_in_release": 0,
+    "only_in_saved": 0,
+    "word_count_mismatches": 0,
+    "calls_with_several_speakers": 0,
+    "ok": true
+  },
+  "n_calls": 572,
+  "n_in_sample": 488,
+  "rules_in_sample": {
+    "para1": 425,
+    "handover": 52,
+    "handback": 11
+  },
+  "sections_in_sample": {
+    "remarks": 34664,
+    "answers": 43364,
+    "closing": 435,
+    "heading": 131
+  },
+  "runtime_s": 1.1,
+  "created": "2026-10-12T13:06:06+00:00"
+}
