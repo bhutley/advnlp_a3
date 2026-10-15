@@ -53,25 +53,36 @@ question, and the closing starts at 149).
 | Calls with no answers | 11 (one paragraph only) |
 | Hand audit (50 random modelling calls) | remarks/answers boundary 50/50 correct (95% CI 0.93–1.00); answers/closing boundary 49/50 (0.90–1.00) |
 
-Details in `data/acceptance.md`. There are 30 tests, all passing.
+Details in `data/acceptance.md`. There are 31 tests, all passing.
+
+## Environment
+
+Everything in this folder runs in one conda environment, `remarks_vs_answers`, defined in
+`environment.yml`. Its Python packages are pinned to the versions in the earlier stages'
+`uv.lock` files (Python 3.13, torch 2.14.1, transformers 5.18.0, scikit-learn 1.9.1,
+pandas 3.0.6, Parselmouth 0.4.7, ...), so round 3 reuses their code under the versions
+that produced rounds 1–2. It also provides `ffmpeg`, for decoding the audio clips.
+
+```sh
+conda env create -f environment.yml
+conda activate remarks_vs_answers
+```
 
 ## Usage
 
-Run from this directory:
+Run from this directory, with the environment active:
 
 ```sh
-uv sync
-
 # labels → data/sentences.csv, data/calls.csv, data/meta.json (about 1 s)
-uv run python build_sections.py --dataset /path/to/ACL19_Release
+python build_sections.py --dataset /path/to/ACL19_Release
 
 # audit sheet → data/audit/audit_sheet.csv and .md (refuses to overwrite marks)
-uv run python make_audit.py --dataset /path/to/ACL19_Release
+python make_audit.py --dataset /path/to/ACL19_Release
 
 # acceptance report → data/acceptance.md (exits 1 if a must-pass check fails)
-uv run python check_sections.py
+python check_sections.py
 
-uv run pytest
+python -m pytest
 ```
 
 `--dataset` defaults to `~/var/data/earnings_calls/ACL19_Release`. `build_sections.py`

@@ -1,0 +1,19 @@
+{
+  "model": "prosus_finbert",
+  "checkpoint": "ProsusAI/finbert",
+  "revision": "4556d13015211d73dccd3fdd39d39232506f3e43",
+  "pooling": "mean of the last hidden layer over attention-masked tokens, incl. [CLS] and [SEP]",
+  "sentence_emb_dtype": "float16",
+  "call_emb_dtype": "float32",
+  "max_length": 512,
+  "batch_size": 64,
+  "device": "mps",
+  "torch": "2.14.1",
+  "transformers": "5.18.0",
+  "n_calls": 572,
+  "n_sentences": 89722,
+  "n_truncated": 0,
+  "n_empty_calls": 0,
+  "runtime_s": 191.8,
+  "created": "2026-10-15T11:35:36+00:00"
+}

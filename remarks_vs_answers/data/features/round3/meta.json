@@ -1,0 +1,41 @@
+{
+  "min_ok": 10,
+  "n_calls": 457,
+  "checks": {
+    "text finbert_tone": {
+      "sentences_matched": 89722,
+      "sentences_expected": 89722,
+      "max_sentence_prob_diff": 0.0,
+      "call_vectors_recombine": true,
+      "max_call_prob_diff": 3.650948241507024e-07,
+      "ok": true
+    },
+    "text prosus_finbert": {
+      "sentences_matched": 89722,
+      "sentences_expected": 89722,
+      "max_sentence_prob_diff": 0.0,
+      "call_vectors_recombine": true,
+      "max_call_prob_diff": 3.509926472800018e-07,
+      "ok": true
+    },
+    "prosody": {
+      "max_rel_diff": 4.455774280709474e-16,
+      "ok": true
+    },
+    "hubert": {
+      "build_check": true,
+      "full_run": true,
+      "stored_means_recombine": true,
+      "ok": true
+    },
+    "sample": {
+      "calls": 457,
+      "firms": 232,
+      "ok": true
+    },
+    "no_missing_values": {
+      "ok": true,
+      "columns_with_nan": []
+    }
+  }
+}

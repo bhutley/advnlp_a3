@@ -1,0 +1,19 @@
+{
+  "model": "finbert_tone",
+  "checkpoint": "yiyanghkust/finbert-tone",
+  "revision": "4921590d3c0c3832c0efea24c8381ce0bda7844b",
+  "pooling": "mean of the last hidden layer over attention-masked tokens, incl. [CLS] and [SEP]",
+  "sentence_emb_dtype": "float16",
+  "call_emb_dtype": "float32",
+  "max_length": 512,
+  "batch_size": 64,
+  "device": "mps",
+  "torch": "2.14.1",
+  "transformers": "5.18.0",
+  "n_calls": 572,
+  "n_sentences": 89722,
+  "n_truncated": 0,
+  "n_empty_calls": 0,
+  "runtime_s": 205.6,
+  "created": "2026-10-15T11:32:21+00:00"
+}
