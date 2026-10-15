@@ -170,6 +170,15 @@ below before the full run.
   absent.
 - Same sample caveats as rounds 1–2: one year, survivorship, date clustering.
 
+## Runtime decision (timing only)
+
+The `--quick` trial (`run_round3.py --quick`: 2 repeats, all rungs and targets) ran on
+the real data on 16 October 2026 on an Apple M5 MacBook Air and took 35 minutes. By
+construction it kept no predictions, metrics or comparisons, only
+`results/round3_trial/timing.json`. It projects the full run at **2.95 hours** with all
+10 repeats (2.04 hours with AR and AA on 5). That is under the 8-hour threshold, so
+**AR and AA use all 10 repeats**, as pre-specified (`--audio-repeats 10`).
+
 ## Deviations
 
 *None yet.*

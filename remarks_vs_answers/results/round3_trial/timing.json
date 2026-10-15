@@ -1,0 +1,724 @@
+{
+  "decision": {
+    "projected_hours_all_10": 2.95,
+    "projected_hours_audio_5": 2.04,
+    "limit_hours": 8.0,
+    "audio_repeats": 10
+  },
+  "timing": [
+    {
+      "target": "vol_3",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 1.4374862500699237
+    },
+    {
+      "target": "vol_3",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 8.885520917014219
+    },
+    {
+      "target": "vol_3",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 9.007141083013266
+    },
+    {
+      "target": "vol_3",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 16.797044084058143
+    },
+    {
+      "target": "vol_3",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.3829906249884516
+    },
+    {
+      "target": "vol_3",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.36233775003347546
+    },
+    {
+      "target": "vol_3",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.33499199990183115
+    },
+    {
+      "target": "vol_3",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 78.66326804098208
+    },
+    {
+      "target": "vol_3",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 81.20137304102536
+    },
+    {
+      "target": "vol_3",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.3041839590296149
+    },
+    {
+      "target": "vol_3",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 10.539407541975379
+    },
+    {
+      "target": "vol_3",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 10.620305999997072
+    },
+    {
+      "target": "vol_3",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 10.632822999963537
+    },
+    {
+      "target": "vol_3",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.41293574997689575
+    },
+    {
+      "target": "vol_3",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.40375295805279166
+    },
+    {
+      "target": "vol_3",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 10.587313500000164
+    },
+    {
+      "target": "vol_3",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 10.833486000075936
+    },
+    {
+      "target": "vol_7",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.38264550000894815
+    },
+    {
+      "target": "vol_7",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 11.131741875084117
+    },
+    {
+      "target": "vol_7",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 11.206007082946599
+    },
+    {
+      "target": "vol_7",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 20.69393604202196
+    },
+    {
+      "target": "vol_7",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.381123875034973
+    },
+    {
+      "target": "vol_7",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.37067299999762326
+    },
+    {
+      "target": "vol_7",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.39022162498440593
+    },
+    {
+      "target": "vol_7",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 87.56900533288717
+    },
+    {
+      "target": "vol_7",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 90.11227508401498
+    },
+    {
+      "target": "vol_7",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.3422838329570368
+    },
+    {
+      "target": "vol_7",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 11.793756083934568
+    },
+    {
+      "target": "vol_7",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 11.816829707939178
+    },
+    {
+      "target": "vol_7",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 11.807752207969315
+    },
+    {
+      "target": "vol_7",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.407346332911402
+    },
+    {
+      "target": "vol_7",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.38913787493947893
+    },
+    {
+      "target": "vol_7",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 12.445941665908322
+    },
+    {
+      "target": "vol_7",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 12.316629542037845
+    },
+    {
+      "target": "vol_15",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.38621912500821054
+    },
+    {
+      "target": "vol_15",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 12.763609000016004
+    },
+    {
+      "target": "vol_15",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 12.265842166962102
+    },
+    {
+      "target": "vol_15",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 22.95190129207913
+    },
+    {
+      "target": "vol_15",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.4054331660736352
+    },
+    {
+      "target": "vol_15",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.4038624999811873
+    },
+    {
+      "target": "vol_15",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.3978696250123903
+    },
+    {
+      "target": "vol_15",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 98.02888916700613
+    },
+    {
+      "target": "vol_15",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 96.49966529197991
+    },
+    {
+      "target": "vol_15",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.3564092079177499
+    },
+    {
+      "target": "vol_15",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 12.505208917078562
+    },
+    {
+      "target": "vol_15",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 12.57812850002665
+    },
+    {
+      "target": "vol_15",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 12.741523458971642
+    },
+    {
+      "target": "vol_15",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.4649292079266161
+    },
+    {
+      "target": "vol_15",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.405960459029302
+    },
+    {
+      "target": "vol_15",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 12.855027916026302
+    },
+    {
+      "target": "vol_15",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 12.499897083034739
+    },
+    {
+      "target": "vol_30",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.40075233404058963
+    },
+    {
+      "target": "vol_30",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 12.252878624945879
+    },
+    {
+      "target": "vol_30",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 12.206372834043577
+    },
+    {
+      "target": "vol_30",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 22.43376420903951
+    },
+    {
+      "target": "vol_30",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.43703766691032797
+    },
+    {
+      "target": "vol_30",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.3749587079510093
+    },
+    {
+      "target": "vol_30",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.38844441703986377
+    },
+    {
+      "target": "vol_30",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 93.15874224994332
+    },
+    {
+      "target": "vol_30",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 91.12808229203802
+    },
+    {
+      "target": "vol_30",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.37454637500923127
+    },
+    {
+      "target": "vol_30",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 11.912180832936428
+    },
+    {
+      "target": "vol_30",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 11.886655332986265
+    },
+    {
+      "target": "vol_30",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 11.899258583085611
+    },
+    {
+      "target": "vol_30",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.396447416045703
+    },
+    {
+      "target": "vol_30",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.38426974997855723
+    },
+    {
+      "target": "vol_30",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 11.957079875050113
+    },
+    {
+      "target": "vol_30",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 12.027581167058088
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.4640880828956142
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 14.77269716700539
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 13.994858333957382
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 26.143235499970615
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.4703817500267178
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.4827700419118628
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.4568874160759151
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 99.05026920803357
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 99.10697008296847
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.4616690840339288
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 14.446573167108
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 14.63619462493807
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 14.017056416952983
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.5066448749275878
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.4528450829675421
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 14.842929124948569
+    },
+    {
+      "target": "dir_0_1",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 14.13595737493597
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.4613962909206748
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 14.790916750091128
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 14.275538166984916
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 26.55194249993656
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.5020154999801889
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.5055752909975126
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.5069249169901013
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 99.565751374932
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 99.93830041703768
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.45760645798873156
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 14.522039916948415
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 14.648609500029124
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 14.230683333007619
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.47582745796535164
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.44553954200819135
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 14.910595166962594
+    },
+    {
+      "target": "dir_0_5",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 14.160015541012399
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "S1",
+      "repeats": 2,
+      "seconds": 0.5111134590115398
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TR",
+      "repeats": 2,
+      "seconds": 14.765116791939363
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TA",
+      "repeats": 2,
+      "seconds": 14.297734583029523
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TB",
+      "repeats": 2,
+      "seconds": 26.540120791993104
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "PR",
+      "repeats": 2,
+      "seconds": 0.4838336670072749
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "PA",
+      "repeats": 2,
+      "seconds": 0.4599932909477502
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "PD",
+      "repeats": 2,
+      "seconds": 0.46776995807886124
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "AR",
+      "repeats": 2,
+      "seconds": 99.04139195906464
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "AA",
+      "repeats": 2,
+      "seconds": 99.10979166603647
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "R1",
+      "repeats": 2,
+      "seconds": 0.46768624999094754
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "R2",
+      "repeats": 2,
+      "seconds": 14.587922457954846
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TR_eq",
+      "repeats": 2,
+      "seconds": 14.481690291897394
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TA_eq",
+      "repeats": 2,
+      "seconds": 14.247144125052728
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "PR_eq",
+      "repeats": 2,
+      "seconds": 0.4828157089650631
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "PA_eq",
+      "repeats": 2,
+      "seconds": 0.45633554202504456
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TR_prosus",
+      "repeats": 2,
+      "seconds": 14.743259083013982
+    },
+    {
+      "target": "dir_2_5",
+      "rung": "TA_prosus",
+      "repeats": 2,
+      "seconds": 14.199961500009522
+    }
+  ]
+}
