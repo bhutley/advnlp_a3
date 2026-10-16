@@ -1,0 +1,573 @@
+event_id,in_sample,n_sentences,n_paragraphs,rule,boundary,n_remarks,n_answers,n_closing,n_heading
+3M Company_20170425,True,179,18,para1,109,110,69,0,0
+3M Company_20170725,True,209,16,para1,115,116,93,0,0
+A.O. Smith Corp_20170726,True,62,7,para1,40,41,21,0,0
+ABIOMED Inc_20170504,False,217,21,para1,57,58,159,0,0
+AES Corp_20170508,True,140,20,handover,76,76,63,0,1
+AES Corp_20171102,True,209,20,handover,86,86,122,0,1
+AMETEK Inc._20170207,True,355,64,para1,94,95,260,0,0
+AMETEK Inc._20170802,True,252,34,para1,62,63,189,0,0
+AT&T Inc._20170425,True,227,19,para1,106,107,120,0,0
+AT&T Inc._20171024,True,399,18,para1,175,176,223,0,0
+AbbVie Inc._20170427,True,133,7,para1,63,64,69,0,0
+AbbVie Inc._20170728,True,65,3,para1,54,55,10,0,0
+AbbVie Inc._20171027,True,107,6,para1,51,52,55,0,0
+Abbott Laboratories_20171018,True,245,20,para1,35,36,209,0,0
+Activision Blizzard_20170209,False,89,1,para1,88,89,0,0,0
+Activision Blizzard_20170504,False,59,1,para1,58,59,0,0,0
+Adobe Systems Inc_20170316,True,155,10,para1,65,66,77,12,0
+Advance Auto Parts_20170524,True,308,27,para1,112,113,189,6,0
+Advanced Micro Devices Inc_20170501,True,182,30,para1,34,35,147,0,0
+Advanced Micro Devices Inc_20170725,True,218,25,para1,39,40,175,3,0
+Advanced Micro Devices Inc_20171024,True,61,6,para1,41,42,19,0,0
+Aetna Inc_20170131,False,119,11,para1,65,66,53,0,0
+Aetna Inc_20170502,False,117,13,para1,65,66,51,0,0
+Aetna Inc_20171031,False,142,13,para1,74,75,67,0,0
+Agilent Technologies Inc_20170214,True,249,46,para1,72,73,176,0,0
+Akamai Technologies Inc_20170207,True,217,21,para1,89,90,127,0,0
+Akamai Technologies Inc_20170502,True,198,16,para1,88,89,109,0,0
+Alaska Air Group Inc_20170208,True,115,15,para1,62,62,52,0,1
+Alaska Air Group Inc_20171025,True,89,10,para1,52,52,36,0,1
+Alexion Pharmaceuticals_20171026,False,90,6,para1,55,56,34,0,0
+Align Technology_20170131,True,113,6,para1,91,92,21,0,0
+Align Technology_20170427,True,206,21,handover,76,77,129,0,0
+Align Technology_20170727,True,186,26,handover,70,70,115,0,1
+Allegion_20170209,True,134,12,para1,78,79,55,0,0
+Allegion_20170427,True,105,9,para1,57,58,47,0,0
+"Allergan, Plc_20170803",False,173,13,para1,70,71,102,0,0
+Alliance Data Systems_20170126,True,59,7,para1,30,31,28,0,0
+Alliance Data Systems_20170420,True,104,15,para1,33,34,70,0,0
+Alliance Data Systems_20171019,True,105,15,para1,41,42,63,0,0
+Altria Group Inc_20170502,True,53,5,para1,35,35,17,0,1
+Altria Group Inc_20170727,True,173,34,para1,40,41,132,0,0
+Altria Group Inc_20171026,True,165,30,para1,49,50,115,0,0
+Amazon.com Inc._20170202,True,59,8,para1,18,18,36,4,1
+Amazon.com Inc._20170427,True,37,4,para1,20,21,12,4,0
+Ameren Corp_20170216,True,103,6,para1,86,87,16,0,0
+American Express Co_20170419,True,271,19,para1,126,127,144,0,0
+American Express Co_20170719,True,130,1,para1,129,130,0,0,0
+American Express Co_20171018,True,231,21,para1,115,116,115,0,0
+American Tower Corp A_20170227,True,194,13,para1,110,110,83,0,1
+American Tower Corp A_20170427,True,156,15,para1,86,87,69,0,0
+AmerisourceBergen Corp_20170131,True,134,9,para1,92,93,41,0,0
+AmerisourceBergen Corp_20170504,True,248,14,para1,114,115,127,6,0
+AmerisourceBergen Corp_20170803,True,209,11,para1,131,132,77,0,0
+AmerisourceBergen Corp_20171102,True,210,9,para1,147,148,62,0,0
+Amgen Inc._20170725,True,176,12,para1,87,88,88,0,0
+Amgen Inc._20171025,True,120,11,para1,62,63,57,0,0
+Anthem Inc._20170201,True,143,16,para1,32,33,110,0,0
+Anthem Inc._20170426,True,189,12,handover,83,83,97,8,1
+Anthem Inc._20170726,True,150,9,para1,61,62,79,9,0
+Aon plc_20170509,True,230,16,para1,77,78,152,0,0
+Aon plc_20171027,True,160,12,para1,65,66,94,0,0
+Apache Corporation_20170223,True,260,25,para1,102,103,157,0,0
+Apache Corporation_20171102,True,206,21,para1,77,78,128,0,0
+Archer-Daniels-Midland Co_20170207,True,78,8,para1,39,40,38,0,0
+Archer-Daniels-Midland Co_20170502,True,93,13,para1,33,34,59,0,0
+Archer-Daniels-Midland Co_20170801,True,55,5,para1,31,32,23,0,0
+Archer-Daniels-Midland Co_20171031,True,101,12,para1,29,30,71,0,0
+Autodesk Inc._20170302,True,85,10,para1,46,46,38,0,1
+Automatic Data Processing_20170201,True,168,19,para1,50,51,107,10,0
+Automatic Data Processing_20170503,True,124,16,para1,40,40,83,0,1
+Automatic Data Processing_20170727,True,271,24,para1,49,50,212,9,0
+Automatic Data Processing_20171102,True,265,25,para1,49,50,203,12,0
+Avery Dennison Corp_20170201,True,82,9,para1,58,58,23,0,1
+Avery Dennison Corp_20170426,True,115,13,para1,60,60,54,0,1
+Avery Dennison Corp_20170725,True,123,15,para1,59,59,63,0,1
+Avery Dennison Corp_20171025,True,117,12,para1,58,58,58,0,1
+Ball Corp_20170504,True,128,27,para1,44,45,83,0,0
+Ball Corp_20170803,True,221,36,handover,50,50,168,2,1
+Ball Corp_20171102,True,215,33,handover,52,52,162,0,1
+Baxter International Inc._20170426,True,221,18,para1,56,57,164,0,0
+Baxter International Inc._20170726,True,182,17,para1,94,94,87,0,1
+Becton Dickinson_20170803,True,244,14,para1,122,123,121,0,0
+Becton Dickinson_20171102,True,201,11,para1,164,165,36,0,0
+Biogen Inc._20170126,True,106,1,para1,105,106,0,0,0
+Boeing Company_20170426,True,306,29,handover,66,66,239,0,1
+Booking Holdings Inc_20170509,True,181,21,para1,66,66,114,0,1
+Booking Holdings Inc_20171106,True,141,23,para1,52,52,88,0,1
+BorgWarner_20170209,True,253,25,para1,115,116,137,0,0
+BorgWarner_20170727,False,91,6,para1,67,68,23,0,0
+Bristol-Myers Squibb_20170427,True,90,9,para1,46,47,43,0,0
+Bristol-Myers Squibb_20170727,True,103,9,para1,52,53,50,0,0
+Broadridge Financial Solutions_20170510,True,115,3,para1,100,101,14,0,0
+"CA, Inc._20170802",False,75,3,para1,67,67,7,0,1
+CBRE Group_20171103,True,94,8,para1,72,73,21,0,0
+CBS Corp._20170807,True,190,15,para1,112,113,77,0,0
+CBS Corp._20171102,True,243,13,para1,119,120,123,0,0
+CIGNA Corp._20170202,True,237,22,para1,60,61,176,0,0
+CIGNA Corp._20170505,True,272,25,para1,69,70,194,8,0
+CIGNA Corp._20170804,True,183,17,para1,60,61,114,8,0
+CME Group Inc._20171026,True,47,13,para1,17,17,29,0,1
+CMS Energy_20170202,True,1,1,para1,0,1,0,0,0
+CMS Energy_20170501,True,191,23,handback,75,76,112,3,0
+CMS Energy_20171026,True,112,15,para1,58,59,52,1,0
+CVS Health_20170209,True,219,26,handover,110,110,108,0,1
+Cadence Design Systems_20170724,True,53,6,para1,28,28,24,0,1
+Campbell Soup_20170217,True,220,18,para1,160,161,59,0,0
+Campbell Soup_20170519,True,207,18,para1,106,107,100,0,0
+Campbell Soup_20170831,True,191,18,para1,127,128,63,0,0
+Campbell Soup_20171121,True,171,17,para1,102,103,68,0,0
+Cardinal Health Inc._20170501,True,166,15,para1,71,71,94,0,1
+Carmax Inc_20170922,True,272,35,handover,57,57,204,10,1
+Carmax Inc_20171221,True,66,8,para1,27,28,38,0,0
+Caterpillar Inc._20170126,True,280,31,para1,132,132,147,0,1
+Caterpillar Inc._20170425,True,114,3,para1,111,112,2,0,0
+Caterpillar Inc._20170725,True,156,3,para1,138,139,17,0,0
+Caterpillar Inc._20171024,True,121,1,para1,120,121,0,0,0
+Cboe Global Markets_20170804,True,135,11,para1,73,74,61,0,0
+Celgene Corp._20170126,False,142,4,para1,84,85,57,0,0
+Celgene Corp._20170427,False,120,6,para1,67,68,52,0,0
+Celgene Corp._20170727,False,161,9,para1,60,61,100,0,0
+Celgene Corp._20171026,False,84,5,para1,66,67,17,0,0
+CenturyLink Inc_20170802,True,185,20,para1,69,70,108,7,0
+CenturyLink Inc_20171108,True,120,8,para1,46,47,73,0,0
+Chevron Corp._20170127,True,56,3,para1,37,38,18,0,0
+Chevron Corp._20170428,True,225,31,handover,82,82,142,0,1
+Chevron Corp._20170728,True,243,21,para1,92,93,150,0,0
+Church & Dwight_20170803,True,136,13,para1,58,58,77,0,1
+Church & Dwight_20171102,True,171,22,para1,48,49,121,1,0
+Cimarex Energy_20170510,False,71,7,para1,37,37,33,0,1
+Cisco Systems_20170215,True,115,14,para1,44,45,70,0,0
+Cisco Systems_20171115,True,164,17,para1,48,49,115,0,0
+Citigroup Inc._20170118,True,249,21,para1,133,133,115,0,1
+Citigroup Inc._20171012,True,259,33,para1,89,90,169,0,0
+Citrix Systems_20170802,False,174,18,para1,50,50,117,6,1
+Coca-Cola Company (The)_20170209,True,147,6,para1,87,88,52,7,0
+Coca-Cola Company (The)_20170726,True,236,17,para1,62,63,169,4,0
+Cognizant Technology Solutions_20170803,True,105,5,para1,73,74,31,0,0
+Cognizant Technology Solutions_20171101,True,118,8,para1,63,64,50,4,0
+Comcast Corp._20170126,True,128,5,para1,101,102,26,0,0
+Comcast Corp._20170427,True,104,5,para1,86,87,17,0,0
+Comcast Corp._20170727,True,87,4,para1,60,61,26,0,0
+Comerica Inc._20170117,False,138,20,para1,62,63,75,0,0
+Comerica Inc._20170418,False,118,23,para1,71,72,46,0,0
+Conagra Brands_20171221,True,229,15,para1,120,121,108,0,0
+Corning Inc._20170124,True,163,10,para1,117,118,45,0,0
+"Coty, Inc_20170209",True,211,13,para1,95,96,115,0,0
+"Coty, Inc_20170822",True,134,15,para1,60,61,73,0,0
+"Coty, Inc_20171109",True,205,16,para1,62,63,142,0,0
+Crown Castle International Corp._20170719,True,201,19,para1,49,50,148,3,0
+Cummins Inc._20170801,True,228,22,para1,78,79,149,0,0
+D. R. Horton_20170124,True,16,3,para1,12,13,3,0,0
+DTE Energy Co._20170726,True,90,7,para1,64,65,25,0,0
+DaVita Inc._20170502,True,66,16,para1,30,31,35,0,0
+DaVita Inc._20170801,True,29,3,para1,22,23,6,0,0
+Darden Restaurants_20170926,True,220,34,handover,41,41,178,0,1
+Darden Restaurants_20171219,True,305,39,para1,43,44,261,0,0
+Digital Realty Trust Inc_20170216,True,172,17,para1,59,60,112,0,0
+Digital Realty Trust Inc_20170427,True,226,18,para1,74,75,151,0,0
+Dish Network_20170222,False,11,1,para1,10,10,0,0,1
+Dish Network_20170501,False,41,4,para1,20,20,20,0,1
+Dish Network_20170803,False,289,32,para1,9,10,279,0,0
+Dish Network_20171109,False,48,8,para1,16,17,31,0,0
+Dollar General_20171207,True,75,8,para1,41,42,33,0,0
+Dominion Energy_20170504,True,120,15,para1,71,71,48,0,1
+Dominion Energy_20170802,True,114,11,para1,68,68,45,0,1
+Dominion Energy_20171030,True,106,20,para1,62,62,43,0,1
+Dover Corp._20170420,True,127,14,para1,80,81,46,0,0
+Dover Corp._20170720,True,97,8,para1,70,71,26,0,0
+Duke Energy_20171103,True,208,36,para1,76,77,127,4,0
+EQT Corporation_20170427,True,49,9,para1,29,30,19,0,0
+EQT Corporation_20170727,True,56,10,para1,35,36,20,0,0
+Ecolab Inc._20170221,True,36,3,handover,32,32,0,3,1
+Ecolab Inc._20170502,True,402,38,para1,26,27,375,0,0
+Ecolab Inc._20170801,True,30,3,handover,26,27,0,3,0
+Ecolab Inc._20171031,True,36,3,handover,31,32,0,4,0
+Edison Int'l_20170501,True,158,22,para1,101,102,56,0,0
+Edwards Lifesciences_20170201,True,291,43,handback,65,66,225,0,0
+Electronic Arts_20171031,False,248,21,para1,61,62,186,0,0
+Emerson Electric Company_20170207,True,522,85,handover,66,66,450,5,1
+Emerson Electric Company_20170502,True,476,85,para1,89,89,378,8,1
+Equinix_20170802,True,154,6,para1,86,87,67,0,0
+Equinix_20171101,True,97,2,para1,94,95,2,0,0
+Estee Lauder Cos._20170202,True,218,10,para1,126,127,91,0,0
+Estee Lauder Cos._20170503,True,282,11,para1,133,134,148,0,0
+Estee Lauder Cos._20170818,True,250,14,para1,119,120,130,0,0
+Estee Lauder Cos._20171101,True,226,10,para1,104,105,121,0,0
+Exxon Mobil Corp._20171027,True,447,75,para1,113,113,333,0,1
+F5 Networks_20170125,True,157,22,para1,67,67,89,0,1
+F5 Networks_20170426,True,167,16,para1,77,77,89,0,1
+F5 Networks_20170726,True,188,21,para1,51,51,136,0,1
+FLIR Systems_20171025,False,67,3,para1,51,52,15,0,0
+"Facebook, Inc._20171101",True,156,8,para1,84,85,71,0,0
+Fidelity National Information Services_20170207,True,148,20,para1,82,82,65,0,1
+Fidelity National Information Services_20170802,True,153,24,para1,69,69,83,0,1
+Fifth Third Bancorp_20170124,True,167,12,para1,140,141,26,0,0
+FleetCor Technologies Inc_20170803,True,157,28,para1,77,78,79,0,0
+Foot Locker Inc_20170224,False,93,8,para1,59,60,33,0,0
+Foot Locker Inc_20170519,False,155,14,para1,81,82,73,0,0
+Foot Locker Inc_20171117,False,107,7,para1,82,83,24,0,0
+Ford Motor_20170427,True,327,24,para1,85,86,241,0,0
+Fortive Corp_20170207,True,275,48,para1,84,85,190,0,0
+Fortune Brands Home & Security_20170802,True,234,14,para1,91,92,142,0,0
+Franklin Resources_20170127,True,102,24,para1,6,6,93,2,1
+Franklin Resources_20170428,True,16,5,para1,5,6,10,0,0
+Freeport-McMoRan Inc._20170425,True,301,43,para1,152,152,148,0,1
+Gap Inc._20170223,True,327,19,para1,133,134,193,0,0
+Gap Inc._20170518,True,209,14,para1,94,95,114,0,0
+Garmin Ltd._20170222,True,144,24,para1,58,59,85,0,0
+Garmin Ltd._20170503,True,119,30,para1,47,48,71,0,0
+Garmin Ltd._20171101,True,148,41,para1,46,47,101,0,0
+Gartner Inc_20170202,True,214,11,para1,147,148,66,0,0
+Gartner Inc_20170504,True,198,12,para1,139,140,58,0,0
+Gartner Inc_20170808,True,222,11,para1,145,146,76,0,0
+Gartner Inc_20171102,True,243,17,para1,150,151,92,0,0
+General Dynamics_20170127,True,189,12,handover,105,105,83,0,1
+General Dynamics_20170426,True,187,20,para1,75,76,111,0,0
+General Dynamics_20171025,True,272,31,para1,81,82,190,0,0
+General Growth Properties Inc._20170501,False,247,28,para1,89,90,152,5,0
+General Growth Properties Inc._20170802,False,216,31,para1,102,103,111,2,0
+General Mills_20170628,True,96,6,para1,69,70,26,0,0
+General Mills_20171220,True,219,10,para1,120,121,98,0,0
+General Motors_20170207,True,183,28,para1,84,84,98,0,1
+General Motors_20170428,True,144,16,para1,69,70,74,0,0
+General Motors_20170725,True,150,17,para1,58,59,91,0,0
+General Motors_20171024,True,115,14,para1,56,57,58,0,0
+Genuine Parts_20170221,True,141,19,handover,88,88,52,0,1
+Gilead Sciences_20170502,True,113,10,para1,54,55,58,0,0
+Goldman Sachs Group_20170118,True,12,1,para1,11,12,0,0,0
+Goldman Sachs Group_20170718,True,242,37,para1,89,89,152,0,1
+Goodyear Tire & Rubber_20170428,True,152,16,para1,85,86,66,0,0
+Grainger (W.W.) Inc._20170125,True,113,34,handover,33,33,74,5,1
+Grainger (W.W.) Inc._20170418,True,222,31,handover,87,87,128,6,1
+Grainger (W.W.) Inc._20170719,True,275,42,handover,96,96,178,0,1
+HCA Holdings_20170502,True,79,6,para1,41,42,37,0,0
+HP Inc._20170222,True,134,14,para1,59,60,74,0,0
+HP Inc._20170524,True,87,1,para1,86,87,0,0,0
+HP Inc._20170823,True,154,19,para1,71,71,82,0,1
+HP Inc._20171121,True,154,12,para1,68,69,85,0,0
+Halliburton Co._20171023,True,269,26,handover,138,138,123,7,1
+Hanesbrands Inc_20170502,False,109,10,para1,58,59,50,0,0
+Hanesbrands Inc_20171101,False,51,3,para1,44,45,6,0,0
+Harris Corporation_20170801,True,88,8,para1,54,55,33,0,0
+Hasbro Inc._20170206,True,255,18,para1,93,94,161,0,0
+Hasbro Inc._20170424,True,101,11,para1,60,61,40,0,0
+Hasbro Inc._20171023,True,222,24,para1,64,65,157,0,0
+Henry Schein_20170221,True,137,9,para1,88,89,48,0,0
+Hess Corporation_20170125,False,135,16,para1,74,75,60,0,0
+Hess Corporation_20170426,False,94,9,para1,49,49,44,0,1
+Hess Corporation_20171025,False,198,21,para1,64,64,133,0,1
+Hewlett Packard Enterprise_20170531,True,171,10,para1,81,81,89,0,1
+Hewlett Packard Enterprise_20170905,True,232,16,para1,89,90,142,0,0
+Hewlett Packard Enterprise_20171121,True,194,16,para1,87,88,106,0,0
+Hilton Worldwide Holdings Inc_20170215,True,313,49,para1,56,57,256,0,0
+Hilton Worldwide Holdings Inc_20170502,True,294,30,para1,65,66,228,0,0
+Hologic_20170201,False,196,24,para1,82,83,113,0,0
+Hologic_20170802,False,251,30,para1,92,93,158,0,0
+Hologic_20171108,False,265,27,para1,98,99,166,0,0
+Home Depot_20170221,True,142,18,para1,59,59,82,0,1
+Home Depot_20170516,True,100,21,para1,41,42,58,0,0
+Hormel Foods Corp._20170223,True,257,31,para1,62,63,189,5,0
+Humana Inc._20170503,True,114,17,para1,45,45,68,0,1
+Humana Inc._20170802,True,162,18,para1,45,45,116,0,1
+IPG Photonics Corp._20170502,True,200,22,para1,72,72,127,0,1
+Illinois Tool Works_20170424,True,122,25,handover,67,67,54,0,1
+Illinois Tool Works_20171023,True,88,28,para1,8,9,79,0,0
+Illumina Inc_20170131,True,65,9,para1,43,43,21,0,1
+Illumina Inc_20170801,True,172,30,para1,36,37,135,0,0
+Illumina Inc_20171024,True,290,26,para1,76,77,213,0,0
+Incyte_20170214,True,67,3,para1,58,58,8,0,1
+Incyte_20170504,True,45,1,para1,44,44,0,0,1
+Incyte_20170801,True,29,1,para1,28,28,0,0,1
+Ingersoll-Rand PLC_20170201,True,135,10,handback,77,78,57,0,0
+Ingersoll-Rand PLC_20170426,True,144,7,para1,112,113,31,0,0
+Intel Corp._20170427,True,107,11,para1,56,57,50,0,0
+Intel Corp._20170727,True,209,15,para1,71,72,137,0,0
+Intel Corp._20171026,True,185,9,para1,77,78,107,0,0
+Intercontinental Exchange_20170207,True,127,11,para1,53,54,73,0,0
+International Paper_20170202,True,135,6,para1,114,115,20,0,0
+Interpublic Group_20170210,False,118,5,para1,103,104,14,0,0
+Interpublic Group_20170421,False,64,2,para1,60,61,3,0,0
+Intuit Inc._20170223,True,229,29,handback,67,68,161,0,0
+Intuit Inc._20170523,True,293,28,handover,64,64,228,0,1
+Invesco Ltd._20170727,True,169,22,para1,66,67,102,0,0
+Invesco Ltd._20171026,True,178,21,para1,59,60,118,0,0
+Iron Mountain Incorporated_20170223,True,139,16,para1,101,102,37,0,0
+Iron Mountain Incorporated_20170427,True,85,3,para1,72,73,12,0,0
+JPMorgan Chase & Co._20170714,True,231,32,para1,96,96,134,0,1
+JPMorgan Chase & Co._20171012,True,236,37,para1,83,83,152,0,1
+Johnson Controls International_20170201,True,79,7,para1,61,62,17,0,0
+Johnson Controls International_20170427,True,139,12,para1,61,62,77,0,0
+Johnson Controls International_20170727,True,103,4,para1,74,75,28,0,0
+Johnson Controls International_20171109,True,141,13,para1,86,87,54,0,0
+Juniper Networks_20170425,False,213,24,para1,38,39,174,0,0
+Juniper Networks_20170725,False,226,16,para1,38,39,187,0,0
+KLA-Tencor Corp._20170427,True,133,12,para1,46,47,86,0,0
+KLA-Tencor Corp._20170727,True,106,12,para1,45,46,60,0,0
+Kansas City Southern_20170120,False,117,13,handover,68,68,48,0,1
+Kansas City Southern_20171020,False,136,12,para1,43,44,92,0,0
+Kellogg Co._20170504,False,174,13,para1,67,68,106,0,0
+Kellogg Co._20170803,False,205,9,para1,105,106,99,0,0
+Kellogg Co._20171031,False,174,7,para1,85,86,88,0,0
+Kimberly-Clark_20170124,True,265,51,para1,51,51,213,0,1
+Kimberly-Clark_20170424,True,204,50,para1,40,40,163,0,1
+Kimberly-Clark_20170725,True,50,3,para1,38,39,11,0,0
+Kinder Morgan_20170419,True,210,30,para1,79,80,130,0,0
+Kohl's Corp._20170223,True,198,23,para1,68,69,129,0,0
+Kohl's Corp._20170511,True,96,14,para1,40,41,55,0,0
+Kohl's Corp._20171109,True,272,22,para1,75,75,196,0,1
+Kraft Heinz Co_20170215,True,104,9,handback,65,66,38,0,0
+Kraft Heinz Co_20170503,True,91,13,para1,44,44,46,0,1
+Kraft Heinz Co_20171101,True,98,9,para1,57,57,40,0,1
+Kroger Co._20170302,True,118,21,para1,59,60,58,0,0
+Kroger Co._20170615,True,138,18,para1,53,54,84,0,0
+Kroger Co._20170908,True,256,27,handover,94,94,161,0,1
+Kroger Co._20171130,True,96,13,para1,59,60,36,0,0
+LKQ Corporation_20170427,True,193,22,para1,76,77,116,0,0
+LKQ Corporation_20170727,True,232,39,handover,97,97,134,0,1
+Lam Research_20170125,True,111,17,para1,68,68,42,0,1
+Lam Research_20170418,True,100,12,para1,67,67,32,0,1
+Lennar Corp._20170620,True,173,25,para1,67,68,102,3,0
+Lennar Corp._20171003,True,196,22,para1,92,93,102,1,0
+Lilly (Eli) & Co._20170131,True,103,6,para1,68,69,34,0,0
+Lilly (Eli) & Co._20170425,True,99,8,para1,48,49,50,0,0
+Lockheed Martin Corp._20170124,True,152,15,para1,71,72,74,6,0
+Lockheed Martin Corp._20170425,True,144,8,para1,51,52,86,6,0
+Lockheed Martin Corp._20170718,True,147,7,para1,44,45,102,0,0
+Lockheed Martin Corp._20171024,True,228,19,para1,70,71,157,0,0
+Lowe's Cos._20170524,True,92,11,para1,56,57,35,0,0
+Lowe's Cos._20170823,True,80,9,para1,53,53,26,0,1
+Lowe's Cos._20171121,True,72,5,para1,51,51,20,0,1
+LyondellBasell_20170203,True,39,2,para1,31,32,7,0,0
+MGM Resorts International_20170727,True,222,25,para1,34,34,187,0,1
+MSCI Inc_20170504,True,130,8,para1,113,113,16,0,1
+Marsh & McLennan_20170727,True,242,35,handover,63,63,178,0,1
+Marsh & McLennan_20171026,True,196,26,handover,78,78,117,0,1
+Martin Marietta Materials_20170214,True,468,47,para1,91,91,369,7,1
+Martin Marietta Materials_20170502,True,426,52,para1,81,81,338,6,1
+Martin Marietta Materials_20170801,True,420,39,para1,112,112,301,6,1
+Martin Marietta Materials_20171102,True,422,44,para1,97,97,318,6,1
+Masco Corp._20170727,True,159,21,para1,57,58,101,0,0
+Masco Corp._20171024,True,110,20,para1,48,49,61,0,0
+Mastercard Inc._20170131,True,262,17,para1,78,79,172,11,0
+Mastercard Inc._20170727,True,280,19,para1,92,93,175,12,0
+Mattel Inc._20170727,True,94,7,para1,68,69,25,0,0
+Mattel Inc._20171026,True,296,22,para1,141,142,154,0,0
+McDonald's Corp._20171024,True,149,10,para1,52,52,96,0,1
+Merck & Co._20170202,True,86,3,para1,59,60,26,0,0
+Merck & Co._20170502,True,117,8,para1,48,49,68,0,0
+Merck & Co._20170728,True,126,7,para1,57,58,68,0,0
+Merck & Co._20171027,True,75,3,para1,55,56,19,0,0
+Michael Kors Holdings_20170207,True,249,13,handover,80,80,165,3,1
+Micron Technology_20170629,True,120,13,para1,61,62,58,0,0
+Micron Technology_20170926,True,167,20,handover,79,79,87,0,1
+Microsoft Corp._20170126,True,190,12,para1,108,109,81,0,0
+Microsoft Corp._20170427,True,166,13,para1,96,97,69,0,0
+Microsoft Corp._20170720,True,187,14,para1,118,119,68,0,0
+Molson Coors Brewing Company_20170802,True,96,6,para1,59,60,36,0,0
+Mondelez International_20170802,True,183,19,para1,104,105,78,0,0
+Motorola Solutions Inc._20170504,True,84,10,para1,49,50,34,0,0
+Motorola Solutions Inc._20170803,True,102,15,para1,51,52,50,0,0
+Motorola Solutions Inc._20171102,True,64,5,para1,53,54,10,0,0
+Mylan N.V._20170510,True,99,12,para1,61,62,37,0,0
+NRG Energy_20170228,True,178,16,handover,119,119,56,2,1
+"Nasdaq, Inc._20170131",True,235,27,handover,93,93,138,3,1
+Nektar Therapeutics_20170301,True,72,8,para1,50,51,16,5,0
+Nektar Therapeutics_20171107,True,109,10,para1,55,56,48,5,0
+NetApp_20170215,True,183,22,para1,68,69,114,0,0
+NetApp_20171115,True,168,14,para1,61,62,100,6,0
+Newell Brands_20170206,True,102,7,para1,68,69,33,0,0
+Newmont Mining Corporation_20170725,True,71,4,para1,58,59,12,0,0
+News Corp. Class A_20170509,True,117,7,para1,90,91,26,0,0
+NiSource Inc._20170503,True,44,11,para1,18,19,25,0,0
+Nielsen Holdings_20170727,False,175,12,para1,75,76,99,0,0
+Nielsen Holdings_20171025,False,133,10,para1,64,65,68,0,0
+Nike_20170321,True,181,9,para1,93,93,87,0,1
+Noble Energy Inc_20170803,False,179,19,para1,85,86,93,0,0
+Nordstrom_20170223,False,115,16,para1,55,56,59,0,0
+Nordstrom_20171109,False,125,10,para1,55,56,69,0,0
+Norfolk Southern Corp._20170426,True,113,14,para1,42,43,70,0,0
+Norfolk Southern Corp._20171025,True,125,17,para1,34,35,90,0,0
+Norwegian Cruise Line_20170222,True,78,11,para1,42,43,35,0,0
+Nucor Corp._20170420,True,56,6,para1,36,37,19,0,0
+Nucor Corp._20171019,True,78,7,para1,41,42,36,0,0
+Nvidia Corporation_20170509,True,93,2,para1,86,87,6,0,0
+Oracle Corp._20170621,True,122,7,para1,81,82,40,0,0
+Oracle Corp._20170914,True,62,6,para1,40,41,21,0,0
+Oracle Corp._20171214,True,118,8,para1,56,57,61,0,0
+PACCAR Inc._20170725,True,145,33,para1,38,38,106,0,1
+PACCAR Inc._20171024,True,225,45,para1,46,46,178,0,1
+PG&E Corp._20170727,True,66,2,para1,59,60,6,0,0
+PPG Industries_20170119,True,283,28,para1,91,92,191,0,0
+PPL Corp._20170201,True,133,25,handover,92,92,38,2,1
+PPL Corp._20170504,True,99,18,handover,51,51,47,0,1
+PPL Corp._20170803,True,89,8,handover,65,65,23,0,1
+Parker-Hannifin_20170202,True,63,7,para1,42,43,20,0,0
+Parker-Hannifin_20170427,True,138,16,handover,56,56,81,0,1
+Parker-Hannifin_20171102,True,69,7,para1,39,40,29,0,0
+PayPal_20170126,True,151,8,para1,96,97,50,4,0
+PayPal_20170726,True,219,11,para1,93,94,125,0,0
+Pentair plc_20170725,True,143,30,para1,52,53,90,0,0
+PepsiCo Inc._20170215,True,134,17,para1,64,65,66,3,0
+PepsiCo Inc._20170426,True,173,16,para1,85,86,84,3,0
+PepsiCo Inc._20170711,True,178,10,para1,94,95,73,10,0
+PepsiCo Inc._20171004,True,268,28,para1,73,74,189,5,0
+PerkinElmer_20171102,True,197,21,para1,63,64,130,3,0
+Perrigo_20171109,True,169,7,para1,86,87,82,0,0
+Pinnacle West Capital_20170224,True,67,4,para1,59,60,7,0,0
+Pinnacle West Capital_20170502,True,80,14,para1,47,48,32,0,0
+Pinnacle West Capital_20170803,True,63,9,para1,36,36,26,0,1
+Pinnacle West Capital_20171103,True,82,15,para1,53,53,28,0,1
+Polo Ralph Lauren Corp._20170202,True,180,17,para1,94,95,83,2,0
+Polo Ralph Lauren Corp._20171102,True,153,14,para1,97,97,55,0,1
+Prologis_20170718,True,78,8,para1,48,49,29,0,0
+Public Serv. Enterprise Inc._20170428,True,112,15,para1,72,72,39,0,1
+Quanta Services Inc._20170221,True,194,22,para1,75,76,118,0,0
+Quanta Services Inc._20170504,True,250,24,para1,72,73,177,0,0
+Quanta Services Inc._20170803,True,200,21,para1,68,69,126,5,0
+Quest Diagnostics_20170420,True,166,21,para1,39,40,122,4,0
+Quest Diagnostics_20170725,True,249,17,handover,60,61,188,0,0
+Raytheon Co._20170427,False,143,16,para1,66,66,76,0,1
+Raytheon Co._20171026,False,139,13,para1,79,79,59,0,1
+Red Hat Inc._20170327,False,107,6,para1,73,73,33,0,1
+Red Hat Inc._20170925,False,108,13,para1,62,62,45,0,1
+Red Hat Inc._20171219,False,84,6,para1,66,66,17,0,1
+Regeneron_20170504,True,115,6,para1,85,86,29,0,0
+Regeneron_20170803,True,134,4,para1,102,103,31,0,0
+Regeneron_20171108,True,115,6,para1,75,76,39,0,0
+Regions Financial Corp._20170721,True,221,18,para1,106,107,114,0,0
+Regions Financial Corp._20171024,True,182,23,para1,122,123,59,0,0
+Republic Services Inc_20170216,True,98,21,para1,49,50,48,0,0
+Republic Services Inc_20170727,True,104,27,para1,41,42,62,0,0
+ResMed_20170123,True,199,30,para1,83,84,111,4,0
+ResMed_20170427,True,252,23,para1,97,98,144,10,0
+ResMed_20171026,True,187,18,para1,67,68,115,4,0
+Rockwell Automation Inc._20170125,True,170,50,para1,62,63,107,0,0
+Rockwell Automation Inc._20170426,True,168,36,para1,50,51,117,0,0
+Rockwell Automation Inc._20170726,True,198,33,para1,54,55,143,0,0
+Roper Technologies_20170209,True,181,10,para1,153,153,27,0,1
+Ross Stores_20170228,True,85,16,para1,33,34,51,0,0
+Ross Stores_20170518,True,47,11,para1,19,20,27,0,0
+Ross Stores_20170817,True,59,13,para1,22,23,36,0,0
+Ross Stores_20171116,True,73,13,handover,32,32,39,1,1
+Royal Caribbean Cruises Ltd_20170801,True,153,12,para1,80,81,72,0,0
+Royal Caribbean Cruises Ltd_20171107,True,213,8,para1,168,169,44,0,0
+SCANA Corp_20170427,False,108,21,para1,48,49,52,7,0
+SCANA Corp_20170803,False,68,8,para1,48,49,19,0,0
+SVB Financial_20170126,False,169,17,para1,84,84,84,0,1
+SVB Financial_20170427,False,157,13,para1,103,103,53,0,1
+Salesforce.com_20170228,True,145,7,para1,59,60,85,0,0
+Salesforce.com_20170822,True,190,11,para1,50,51,139,0,0
+Schlumberger Ltd._20170421,True,224,32,para1,55,55,168,0,1
+Schlumberger Ltd._20170721,True,211,32,para1,65,65,145,0,1
+Seagate Technology_20170124,True,46,4,para1,25,26,20,0,0
+Seagate Technology_20170426,True,27,1,para1,26,27,0,0,0
+Seagate Technology_20170725,True,122,8,handover,58,58,60,3,1
+Seagate Technology_20171023,True,49,4,para1,37,38,11,0,0
+Sealed Air_20170209,False,186,17,para1,68,69,117,0,0
+Sealed Air_20170509,False,144,15,para1,71,72,72,0,0
+Sealed Air_20171108,False,194,14,para1,78,79,115,0,0
+Sempra Energy_20170509,True,54,4,para1,45,45,8,0,1
+Sherwin-Williams_20170420,True,205,40,para1,58,58,146,0,1
+Sherwin-Williams_20170720,True,372,49,para1,89,89,282,0,1
+Skyworks Solutions_20170119,True,284,31,handover,46,46,235,2,1
+Skyworks Solutions_20170427,True,209,19,handover,39,39,167,2,1
+Skyworks Solutions_20170720,True,222,25,handover,36,36,183,2,1
+Skyworks Solutions_20171106,True,236,23,handover,51,51,181,3,1
+Snap-On Inc._20170202,True,299,26,handback,144,145,154,0,0
+Snap-On Inc._20170720,True,327,28,handback,111,112,215,0,0
+Starbucks Corp._20170126,True,118,3,para1,97,98,20,0,0
+Stericycle Inc_20170504,False,58,13,para1,25,26,32,0,0
+Stericycle Inc_20170803,False,103,13,para1,26,27,76,0,0
+Stericycle Inc_20171108,False,64,12,para1,27,28,36,0,0
+Stryker Corp._20170727,True,85,3,para1,71,71,13,0,1
+Stryker Corp._20171026,True,99,6,para1,78,78,20,0,1
+SunTrust Banks_20170120,False,183,12,para1,110,111,72,0,0
+SunTrust Banks_20171020,False,99,8,para1,77,78,21,0,0
+Symantec Corp._20170510,True,251,13,para1,135,136,105,10,0
+Synopsys Inc._20170215,True,229,22,para1,81,82,147,0,0
+Synopsys Inc._20170517,True,181,20,para1,61,62,119,0,0
+Synopsys Inc._20171129,True,159,16,para1,82,83,76,0,0
+Sysco Corp._20170508,True,173,19,para1,55,56,117,0,0
+Sysco Corp._20170814,True,82,9,para1,50,51,31,0,0
+Sysco Corp._20171106,True,196,27,para1,57,58,138,0,0
+TE Connectivity Ltd._20170125,True,216,15,handback,86,87,129,0,0
+TE Connectivity Ltd._20170726,True,226,19,handover,90,91,135,0,0
+"Tapestry, Inc._20170131",True,135,8,handback,95,96,39,0,0
+Target Corp._20170816,True,119,6,para1,86,87,32,0,0
+Target Corp._20171115,True,114,7,para1,66,67,47,0,0
+Texas Instruments_20170124,True,114,14,handover,76,76,34,3,1
+Texas Instruments_20170425,True,117,10,para1,63,64,53,0,0
+Texas Instruments_20171024,True,89,8,para1,45,46,43,0,0
+The Bank of New York Mellon Corp._20170720,True,171,20,para1,90,91,80,0,0
+The Clorox Company_20170203,True,95,3,para1,82,83,12,0,0
+The Clorox Company_20170503,True,64,1,para1,63,64,0,0,0
+The Clorox Company_20170803,True,47,3,para1,44,45,2,0,0
+The Clorox Company_20171101,True,48,2,para1,46,47,1,0,0
+The Cooper Companies_20170831,True,122,9,para1,47,48,68,6,0
+The Hershey Company_20170203,True,96,6,para1,75,76,20,0,0
+The Hershey Company_20170426,True,220,27,para1,93,94,126,0,0
+The Hershey Company_20171026,True,175,23,handover,93,93,81,0,1
+The Mosaic Company_20170502,True,83,7,para1,47,48,35,0,0
+The Mosaic Company_20170801,True,99,3,para1,55,56,43,0,0
+The Mosaic Company_20171031,True,92,7,handback,59,60,32,0,0
+The Walt Disney Company_20170207,True,97,7,para1,53,54,43,0,0
+The Walt Disney Company_20170509,True,85,7,para1,54,55,30,0,0
+The Walt Disney Company_20170808,True,58,4,para1,44,45,13,0,0
+The Walt Disney Company_20171109,True,86,8,para1,56,57,29,0,0
+Thermo Fisher Scientific_20170426,True,235,33,para1,80,81,149,5,0
+Tiffany & Co._20170524,False,61,2,para1,58,59,2,0,0
+Tractor Supply Company_20170201,True,67,3,para1,64,65,2,0,0
+Tractor Supply Company_20170426,True,89,8,para1,56,56,32,0,1
+Tractor Supply Company_20170726,True,158,21,para1,56,56,101,0,1
+Tractor Supply Company_20171025,True,178,17,para1,66,66,111,0,1
+TransDigm Group_20170207,True,347,86,para1,109,110,237,0,0
+"Twitter, Inc._20170209",False,113,11,para1,27,28,79,6,0
+"Twitter, Inc._20170426",False,50,15,handover,17,17,32,0,1
+"Twitter, Inc._20170727",False,100,7,para1,24,24,71,4,1
+Tyson Foods_20170206,True,272,41,para1,83,84,188,0,0
+U.S. Bancorp_20170419,True,194,24,para1,69,70,124,0,0
+U.S. Bancorp_20170719,True,109,20,para1,53,54,55,0,0
+Ulta Beauty_20170309,True,169,16,para1,86,87,79,3,0
+Ulta Beauty_20171130,True,211,8,para1,146,147,61,3,0
+United Health Group Inc._20170418,True,90,6,para1,44,45,45,0,0
+United Health Group Inc._20171017,True,49,5,para1,37,38,11,0,0
+United Parcel Service_20170727,True,172,13,para1,81,82,90,0,0
+United Technologies_20170725,True,70,3,para1,56,57,13,0,0
+United Technologies_20171024,True,56,2,para1,51,52,4,0,0
+Valero Energy_20170131,True,152,42,para1,21,22,130,0,0
+Valero Energy_20170425,True,99,25,para1,22,23,76,0,0
+Valero Energy_20170727,True,95,30,para1,20,21,74,0,0
+Varian Medical Systems_20170125,False,130,15,handover,53,53,76,0,1
+Varian Medical Systems_20171025,False,131,8,para1,88,88,42,0,1
+Ventas Inc_20171027,True,158,18,para1,81,81,76,0,1
+Verisign Inc._20170427,True,40,6,para1,26,27,13,0,0
+Verisign Inc._20170727,True,51,5,para1,27,28,23,0,0
+Verisign Inc._20171026,True,25,1,para1,24,25,0,0,0
+Verizon Communications_20170124,True,331,26,para1,151,152,179,0,0
+Verizon Communications_20170420,True,275,16,para1,115,116,152,7,0
+Verizon Communications_20170727,True,257,20,handback,139,140,110,7,0
+Verizon Communications_20171019,True,254,20,para1,115,116,138,0,0
+Viacom Inc._20171116,False,99,5,para1,78,79,20,0,0
+Vulcan Materials_20170802,True,262,33,handover,81,81,174,6,1
+Walgreens Boots Alliance_20170405,False,118,6,para1,94,95,23,0,0
+Walgreens Boots Alliance_20170629,False,115,5,para1,82,83,32,0,0
+Walgreens Boots Alliance_20171025,False,265,18,para1,125,126,139,0,0
+Walmart_20171116,True,195,38,para1,31,31,163,0,1
+Waste Management Inc._20170216,True,49,9,para1,27,28,21,0,0
+Waste Management Inc._20170726,True,79,15,para1,30,31,48,0,0
+Waste Management Inc._20171026,True,158,32,para1,40,41,111,6,0
+Wec Energy Group Inc_20170201,True,184,28,handover,91,91,92,0,1
+Wec Energy Group Inc_20170502,True,166,49,handover,53,54,108,4,0
+Wec Energy Group Inc_20171026,True,141,25,handover,71,71,69,0,1
+Welltower Inc._20170505,True,109,17,para1,40,41,68,0,0
+WestRock_20170124,False,190,17,handback,114,115,75,0,0
+WestRock_20170426,False,148,21,handover,103,104,44,0,0
+WestRock_20171102,False,172,16,handback,118,119,53,0,0
+Western Digital_20171026,True,90,13,para1,52,53,34,3,0
+Western Union Co_20170502,True,207,21,para1,88,88,118,0,1
+Western Union Co_20171102,True,186,35,para1,78,78,107,0,1
+Weyerhaeuser_20170203,True,241,32,handover,116,116,124,0,1
+Weyerhaeuser_20170428,True,249,41,handover,91,91,154,3,1
+XL Group_20171024,False,69,4,para1,62,63,6,0,0
+Xcel Energy Inc_20170202,True,218,52,para1,45,46,172,0,0
+Xcel Energy Inc_20170727,True,74,14,para1,35,35,38,0,1
+Xerox_20170425,True,125,7,para1,79,80,45,0,0
+Xerox_20170801,True,151,6,para1,92,93,58,0,0
+Xilinx_20170426,False,73,8,para1,35,36,37,0,0
+Yum! Brands Inc_20170209,True,216,12,para1,87,88,116,12,0
+Yum! Brands Inc_20170803,True,156,11,para1,75,76,76,4,0
+eBay Inc._20170125,True,183,12,para1,93,94,89,0,0
+eBay Inc._20170419,False,25,2,para1,21,22,3,0,0
+eBay Inc._20170720,True,95,7,para1,64,65,30,0,0

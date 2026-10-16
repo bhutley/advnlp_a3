@@ -1,0 +1,29 @@
+{
+  "model": "hubert",
+  "checkpoint": "facebook/hubert-base-ls960",
+  "revision": "dba3bb02fda4248b6e082697eee756de8fe8aa8a",
+  "device": "mps",
+  "pooling": "mean over frames of each hidden state, then mean over a section's audio_ok clips",
+  "sections": [
+    "remarks",
+    "answers",
+    "closing",
+    "heading"
+  ],
+  "dtype": "float16",
+  "n_calls": 572,
+  "n_clips": 89722,
+  "limit_calls": null,
+  "check": {
+    "calls_compared": 572,
+    "max_abs_diff": 0.0009169578552246094,
+    "max_abs_value": 3.07421875,
+    "ok": true,
+    "audio_ok_mismatches": 0
+  },
+  "torch": "2.14.1",
+  "transformers": "5.18.0",
+  "workers": 4,
+  "runtime_s": 7317.6,
+  "created": "2026-10-15T13:40:28+00:00"
+}

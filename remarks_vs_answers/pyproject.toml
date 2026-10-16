@@ -1,0 +1,19 @@
+[project]
+name = "remarks-vs-answers"
+version = "0.1.0"
+description = "Prepared remarks vs answers to questions in the ACL19 earnings calls"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

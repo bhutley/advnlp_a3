@@ -1,0 +1,659 @@
+audit_id,event_id,rule,boundary,n_sentences,n_remarks,n_answers,n_closing,end_of_para1,before_boundary,after_boundary,before_final,final_paragraph,boundary_remarks_answers_ok,correct_boundary_remarks_answers,boundary_answers_finalpara_ok,correct_boundary_answers_finalpara,notes
+1,Altria Group Inc_20171026,para1,49,165,50,115,0,,"[46 p1 remarks] As the FDA itself acknowledged, developing such a standard will be a long and complex process requiring significant stakeholder comment and engagement, and again we'll say more about all this next week
+[47 p1 remarks] In summary, we're very pleased with our performance through what's been a challenging nine months
+[48 p1 remarks] Thus, we reaffirm our 2017 full-year guidance of 7.5% to 9.5% adjusted diluted EPS growth
+[49 p1 remarks] And here's Billy for more detail on our performance","[50 p2 answers] Hi Chris
+[51 p3 answers] Good questions, both
+[52 p3 answers] So we've discussed previously, Chris, that elasticities with respect to cigarettes and we've had big jolts before like the one that we've experienced in California
+[53 p3 answers] And what happens is, as you know, there's an immediate disruption and you get a deep decline, and then it comes back to the curve that we've observed over the years, which is about negative 0.3. So a lot of it depends on how big the shock is California $2 a pack, after not having had an increase for decades, really","[160 p31 answers] The answer is yes, Nik
+[161 p31 answers] I think it's a very insightful question, and in fact, our sales team has been working on that project and others
+[162 p31 answers] I think as personalization becomes more important to the consumer and particularly with the analytical tools and the data sets that we now have that – take revenue growth management tools, for example, which we've deployed already in the smokeless business and are rolling it out across the rest of the businesses, it allows you the precision to do just that
+[163 p31 answers] It's an excellent question and we're working on it","[164 p32 answers] Okay, I look forward to it",Y,,Y,,
+2,Adobe Systems Inc_20170316,para1,65,155,66,77,12,,"[62 p1 remarks] These are our unique capabilities, and our opportunity has never been greater
+[63 p1 remarks] We have the technology leadership, partner ecosystem and customer relationships, to fundamentally reshape how individuals, brands and institutions transform themselves in the 21st century
+[64 p1 remarks] Q1 was a great start to what we believe will be another great year for Adobe
+[65 p1 remarks] Mark?","[66 p2 answers] Sterling, I’ll take that question
+[67 p2 answers] I think we’re continuing to seeing good strength across each of the groups, particularly as it relates to Q1. We saw some good SMB, small and medium business, demand that continues to do well
+[68 p2 answers] As you know that’s the team offering, which is a higher price point offering
+[69 p2 answers] And especially in EMEA, we had a good quarter","[139 p9 answers] We actually feel really good about all of the technology that we have, and we were always on the lookout for small innovative companies
+[140 p9 answers] And I think both Mark and I have always talked about; we look for is it bringing our strategic advantage; what is the culture of the companies that we’re looking at, because we are very, very thoughtful about making sure that we continue to expand on the vision of what people want; and the third is financially whether it make sense
+[141 p9 answers] And so we have done some when they make sense
+[142 p9 answers] But we feel really good about the core value that we have, and we’ll continue to be on the lookout for things that meet our criteria in all of those; namely, continuing to expand strategically what we can do; ensuring that the culture fit is right, and financially making sense","[143 p10 closing] I think, Kirk, from my point of view as we are going more and more to these large enterprises with solutions across the Creative Cloud, Document Cloud and the Marketing Cloud, we have a quarter back model, and the named account model with this quarter back is that they are clearly bringing to bear opportunities like the ones that you are talking about
+[144 p10 closing] If you are in there primarily with Marketing Cloud ensuring that we sell more solutions, sale Stock, sale Sign and continue to drive the CC DLAs
+[145 p10 closing] And so, I think the model that we have in the field is really one of how do we comprehensively to these larger accounts ensure that they are getting the benefit of the breadth of our solutions
+[146 p10 closing] And to your point, in CC when we think about the CC enterprise opportunity and the conversation that we are having with those customers, we’re very much moving them from custom to complete and we are moving them from complete to complete plus services
+[147 p10 closing] And the service that is top of mind for as Stock
+[148 p10 closing] So, a good question and it's clearly one of the areas that we are focused on
+[149 p10 closing] And since that was the last question, I think in summary, we were really pleased with the strong start to Q1. It was an outstanding quarter, and I think the Q2 targets that we gave reflect the continued momentum in the business
+[150 p10 closing] But in addition to the great quarterly performance, we’re really excited about the long-term opportunities that we’ve outlined, namely the ability to empower people to create the things they want to create and to enable businesses to transform themselves
+[151 p10 closing] And I think we’ll continue to be unique in that, we’re one of the only companies that delivering great top line growth and bottom line earnings
+[152 p10 closing] We're looking forward to next week's Adobe Summit, it's our largest ever
+[153 p10 closing] We really hope you'll join us to hear about our vision for the future, and demonstrate both product and partner progress against that vision
+[154 p10 closing] But thank you for joining us today",Y,,N,149,
+3,Waste Management Inc._20170216,para1,27,49,28,21,0,,"[24 p1 remarks] And on an as adjusted basis, the full-year tax rate was also 34.4%, which is in line with our expectations
+[25 p1 remarks] We have built our 2017 projections using current tax law, and we currently expect our 2017 tax rate to be about 36.5%
+[26 p1 remarks] The increase in our projected tax rate for 2017 is due to expectations for higher operating and pre-tax income, which reduces the benefit from our tax credit
+[27 p1 remarks] I will now turn the call back over to Jim to discuss our strategic outlook and 2017 guidance","[28 p2 answers] From a comparison perspective, the one thing I would add is that in the first quarter of 2016, we did see some MSW volume benefits from some of the waste-to-energy facilities, meeting their maximum capacity
+[29 p2 answers] And that will prove to be a bit of a tough comparison, but that's not something that would impact the full year
+[30 p2 answers] It just really impacted the first quarter
+[31 p2 answers] Buscaglia - Credit Suisse Securities (USA) LLC Okay","[44 p8 answers] And then we're not building in anything specific under recycling line of business from commodity price
+[45 p8 answers] We're not building in anything from foreign currency, either, and we also leave fuel flat
+[46 p8 answers] So, ultimately, that's what builds from this year's 13.6% to 14.05% to 100%, basically I would say
+[47 p9 answers] That's a great point, Jim","[48 p10 answers] And the other piece of that, Michael, that might be helpful is that we've got to think about yield as being off of an $11 billion base of revenue rather than the $13 billion",Y,,Y,none,
+4,Republic Services Inc_20170216,para1,49,98,50,48,0,,"[46 p1 remarks] Full year adjusted free cash flow was $885 million
+[47 p1 remarks] Cash flow exceeded the high end of our guidance range, due to lower than anticipated cash taxes of approximately $30 million
+[48 p1 remarks] Excluding the benefit from cash taxes, adjusted free cash flow would have been $855 million
+[49 p1 remarks] Now I'll turn the call back to the Don","[50 p2 answers] And just to put some more color around that, as Don mentioned, as we have disclosed in the past a $10 change in the average commodity price is worth about $0.03 in annual EPS
+[51 p2 answers] Now it's important to keep in mind that, that's based upon our average mix of materials and OCC makes up the most of our mix, but it's only 45% of the mix overall
+[52 p4 answers] So, a couple things to keep in mind, Tyler, is that, first of all, the CPI lags
+[53 p4 answers] So whatever we print then in 2017, we won't see the benefit of that until the second half of 2018. So that's the first item","[93 p22 answers] We are happy with the zones we have, and again we actually did a little better than the market share we had and it's going to be accretive to the business
+[94 p22 answers] So we are excited to get started with the city there, and I think it's going to be a great outcome overall
+[95 p23 answers] It is included, but you can imagine, right, the things starts kind of halfway through the year, it's a lot of startup costs
+[96 p23 answers] So it's not going to do much for us in 2017 by the time we get it all sorted out and stood up, we'll see some more benefit from it in 2018.","[97 p24 answers] All right, man",Y,,Y,,
+5,Nucor Corp._20171019,para1,41,78,42,36,0,,"[38 p1 remarks] The steel products segment is likely to benefit from margin improvement
+[39 p1 remarks] The steel mills segment will see some decline largely due to weakness in plate and typical seasonality
+[40 p1 remarks] Thank you for your interest in our company
+[41 p1 remarks] John?","[42 p2 answers] Let me start by saying that we do not buy our electrodes on spot markets
+[43 p2 answers] We have long established contractual relationship with our suppliers and as a result we feel pretty good about our position
+[44 p2 answers] First, the most important thing we think a look at it as our availability, we make sure that we do have electrodes and we have right now we think our inventory will get us through the first quarter of next year, so we're feeling very confident about that and we have letters of intent from our suppliers to be able to supply us with electrodes for the rest of 2018. So for us supply is really not an issue and because of the contractual arrangements - all the hype that you’re reading about the spot price increases really doesn’t pertain to us and we have pricing through the first half of next year
+[45 p2 answers] And we expect to see increases in the second half of next year in pricing but again availability is really not an issue for us","[70 p6 answers] So all said we think it will pick up a little bit and we love to continue to keep the imports down, you asked a question about 232, so I think so I can take just a minute of your time and I will share with you my thought, you summed it up well
+[71 p6 answers] I said this many time, I’m getting a little concerned about the length of time and taking for this to be implemented and I’m concerned about the surge of illegally traded imports that are coming in as a result of the delays
+[72 p6 answers] With that said, I’m still confident that President Trump will fulfill his commitments to our industry and that we will see 232 hopefully early part of next year absolutely may be there will be a nice Christmas gift to the industry and we will see at the end of this year
+[73 p6 answers] But certainly needed and it has been, we have a commitment to get it and I think as you look at some of the things that are happening even outside of our industry, for example with the Whirlpool 201, which is a different action of course but still points to severity of the imports and the type of holistic remedies that can be offered by Washington and we’re counting on getting one from the steel industry","[74 p7 answers] I probably should have said easier about just saying we want the same rules applied to 232 that do exist for critical circumstances
+[75 p7 answers] And I got to tell you this is critical circumstances, I mean you even the G-20 has come out and they called the crisis in steel today a crisis, okay that needs immediate action that’s the G-20. And the OECD that’s made a very similar comment and I’ll just point out this is that the United States are suffering through this surge and results follow the capacity in China
+[76 p7 answers] It’s Europe and Europe is quietly quickly taking action then we are then moving much quicker on to get relief for their steel industry, as well as other regions
+[77 p7 answers] India just recently a few months ago put tariffs on all of the Chinese products that come into the country so it’s a global problem other regions are reacting much quicker than the United States sadly which means that we remain the market that they can get in to while our government is dealing more slowly with the issues that other government have dealt with more quickly",Y,,Y,,
+6,Sherwin-Williams_20170420,para1,58,205,58,146,0,,"[55 p1 remarks] And an increase in the income tax provision benefit of $0.25 per share more than forecasted in our original 2017 EPS guidance
+[56 p1 remarks] These two items account for all of the change in our full-year 2017 EPS guidance
+[57 p1 remarks] As a reminder, full-year 2016 earnings per share included $0.86 per share related to the Valspar acquisition and $0.40 accretion from the adoption of ASU 2016-09. Again, I'd like to thank you for joining us this morning and now we'll be happy to take your questions
+[58 p1 heading] Question-and-Answer Session","[59 p2 answers] Yes, so we don't talk about any specific customers so I'm not address the INFINITY directly
+[60 p2 answers] I will say that, as I mentioned earlier that the overall performance for the quarter fell short of our expectations and while we found ourselves in a situation where we felt there was weakness across the board
+[61 p2 answers] And it was a very challenging market
+[62 p2 answers] We just, we don't accept that","[192 p39 answers] Going forward, I'd say that the expectations that we have would have to include catching up on some of the business that we had expected to see already and it's going to be hard to say how much of that is market improvement and how much of that is some of the product that we had hoped would have been shipped prior to this moment actually getting shipped
+[193 p39 answers] So it's going to be a little difficult for us to have that clean line of sight
+[194 p39 answers] Again I'd reiterate that and we're feeling good about the relationships that we have with our customers and not having experienced a specific loss of any space
+[195 p39 answers] We truly believe that working with our customers and this is what we have been working on to make them better is going to be the answer","[196 p40 answers] Customer is number one always number one
+[197 p40 answers] We want to get in front of as many customers as we can
+[198 p40 answers] We've got a very detailed plan on how we approach this and we're anxious to get in front of those customers as quickly as possible
+[199 p40 answers] Number two employees
+[200 p40 answers] We've got because of the line of sight of our customers is somewhat muted, we don't have specific customers to see we can't exchange that information
+[201 p40 answers] We have plans to be in certain business units to visit with those key customers but we do know where the employees are and so getting in front of those customers, employees, and working with them to really put them at ease on the exciting future that they're going to have with Sherwin-Williams would be second
+[202 p40 answers] From there, there is a great deal of effort that has gone into the blueprinting of the businesses, how we're going to move forward in areas such as removing complexity, value capture, exchange of information, exchange of technology, and each business unit has mapped those out in great detail
+[203 p40 answers] Again there are limits in what we can exchange but there's a lot of things that we can and so we've had the right people engaged in the room in talking about what those priorities are and we've got that down business to business, line by line and we're very excited, if there's been any positive at all to this business taking a little longer to be combined than what we would have liked, it's been our ability to work in greater detail on some of the things that we may not have gotten to until month two or three
+[204 p40 answers] But with the additional time, we've been able to get deeper, where legally allowed",Y,,Y,,
+7,AmerisourceBergen Corp_20170131,para1,92,134,93,41,0,,"[89 p1 remarks] So in closing a better than expected quarter and a solid start to our fiscal year, as always we continue to deliver outstanding service, solutions and value to our customers each and every day
+[90 p1 remarks] And at the same time we look to drive operating efficiencies
+[91 p1 remarks] This is a winning combination that enables AmerisourceBergen to grow and create long-term shareholder value
+[92 p1 remarks] Now here's Keri to start our Q&A","[93 p2 answers] Thanks Bob for the question and I'll take them in order
+[94 p2 answers] So the first one we did see brand pricing trail off a bit in our first quarter to December quarter
+[95 p2 answers] So that was a little bit of a headwind for our core drug business that we were able to cover
+[96 p2 answers] So that's true but then we got the January, we saw the price increases relatively in-line with last year in terms of the number of announcements","[128 p7 answers] Yes, thanks Lisa
+[129 p7 answers] Let me clarify no, there’re couple pennies we called out a little bit of timing and that would be in pharmaceutical distribution so more on the drug company side
+[130 p9 answers] Right, yes the couple pennies to clarify - the couple pennies really we thought we would come as we earned in the March quarter they have pulled forward
+[131 p9 answers] We hit some triggers early but Steve point is right in terms of the MWI that our calendar year there are contracts of manufacturers around our calendar year and you always come down to proving that up based on final volumes and you have two different tiers and that helped us in the December quarter with MWI but that happens every December nothing unusual","[132 p10 answers] I think the manufacturers realize we provide extremely valuable service in terms of the quantities we keep an inventory, the credit, the collections that we provide so I mean I think they realize it, it’s a very good value and very economical
+[133 p10 answers] And we had discussions, we had fee-for-service agreements over 10 plus years and we see those continuing and we don’t see those changing going forward though it seems to be very acceptable based on WAC pricing and that's how the industry is compensated",Y,,Y,none,
+8,IPG Photonics Corp._20170502,para1,72,200,72,127,0,,"[69 p1 remarks] This guidance is based upon current market conditions and expectations and is subject to the risks outlined in the company's reports with the SEC and assumes exchange rates relative to the US$1 of €0.94, RUB 56, ¥112 and CNY 6.9, respectively
+[70 p1 remarks] As a reminder, we do not attempt to forecast changes in foreign exchange rates
+[71 p1 remarks] With that, Valentin and I will be happy to take your questions
+[72 p1 heading] Question-and-Answer Session","[73 p2 answers] When we look at that we're looking at the midpoint of the guidance range we gave at the beginning of the year and adding the outperformance in
+[74 p2 answers] We get to a slightly lower number than that
+[75 p2 answers] If you went to 25%, Patrick, you'd be factoring-in continued outperformance in the second half of the year which at this point in time we're not providing guidance around
+[76 p2 answers] I think one of the challenges as well is you had an exceptionally strong Q4 a year ago when the momentum that we're seeing now really started to pick-up","[192 p21 answers] The U.S
+[193 p21 answers] economy clearly at the moment is pretty strong
+[194 p21 answers] China credit remains available
+[195 p21 answers] So yeah, I think the global economies is as strong as it has been for a while, and that helps with the industrial investment cycle","[196 p22 answers] Yeah
+[197 p22 answers] We're not big on telecom in China at the moment
+[198 p22 answers] It's a very small part of our business
+[199 p22 answers] Most of our telecom is outside of China",Y,,Y,none,
+9,American Express Co_20170719,para1,129,130,130,0,0,,"[126 p1 remarks] In addition, as is our historical practice, we will continue to balance delivering earnings to the bottom line and investing for the moderate to long term
+[127 p1 remarks] I would also say that as moved the back half of 2017, the uneven year-over-year comparisons from the last few years have discontinued partnerships, large restructuring charges and portfolio sales will be behind us
+[128 p1 remarks] And results in the second half of this year should therefore provide a clearer picture for all of us of the progress we have made towards producing steady and consistent results
+[129 p1 remarks] Against the backdrop of all these moving pieces and given that we are at the midpoint of the year, we are confident that we will deliver full year earnings per share between $5.60 and $5.80. With that, let me turn it back over to Toby as we move to Q&A",,,,Y,,Y,,
+10,Coca-Cola Company (The)_20170726,para1,62,236,63,169,4,,"[59 p1 remarks] Looking at the back half of the year, we will continue to face many of the macro headwinds we have seen year-to-date and over the past few years
+[60 p1 remarks] However, we are building on a solid marketing calendar, an innovation pipeline, and strong execution
+[61 p1 remarks] And I am confident we will achieve our full-year outlook
+[62 p1 remarks] So with that, I will turn the call over to Kathy to take you through our numbers","[63 p2 answers] Yeah, I think we've said that we're going to manage the year, and we're going to try and put into that balance the obvious building of the business over the long term
+[64 p2 answers] We have stated that we'd like to get out of the trend of declining EPS, which we've seen in the last few years, and that we are going to invest where it makes sense
+[65 p2 answers] So, we are constantly looking at where that places our momentum and should we invest more, and we have done so
+[66 p2 answers] And we have increased our plans in the downhill in a couple of places where we see really good momentum and the good reasons to invest for better results","[228 p22 answers] is the putting in place of the structures and mechanisms so the system can act as one; act as one with customers; act as one from a production system; act as one in terms of IT; act as one in terms of really working out what's the strategy
+[229 p22 answers] So, it will be a strong combination of local knowledge and the ability to act across the system
+[230 p22 answers] I think they've done a great job over the last several years in bringing it to life and delivering top-class results in the U.S
+[231 p22 answers] environment and I think that's going to continue to be the system of the future","[232 p23 closing] Thank you, Kathy and Tim
+[233 p23 closing] So midway through the year, we are on track
+[234 p23 closing] We will continue to transform our business and culture, and we fully expect to meet our full-year guidance
+[235 p23 closing] So, as always, thank you for your interest, your investment in our company, and thank you for joining us this morning",Y,,Y,,
+11,Illinois Tool Works_20171023,para1,8,88,9,79,0,,"[5 p1 remarks] Year-to-date, our organic growth rate of 2.7% is more than double last year's rate despite the fact that two of our fastest-growing segments, Auto OEM and Food Equipment, are experiencing a little bit of market softness
+[6 p1 remarks] Based on our solid Q3 results and a fairly stable near-term end market demand environment; we are increasing our full year EPS guidance as we now expect to grow full year earnings by 14% at the midpoint, and that's excluding the 17% per share full year benefit from the legal settlement
+[7 p1 remarks] Overall, we continue to be very pleased with the progress we are making in leveraging ITW's differentiated business model and high-quality diversified business portfolio to deliver consistent top tier performance
+[8 p1 remarks] We look forward to updating you on our strategy and long-term performance goals at our Annual Investor Day on December 1. With that, I'll turn the call over to Michael, who will provide you with more detail regarding our Q3 performance and 2017 forecast","[9 p2 answers] Hey Andy
+[10 p3 answers] Well, I think overall, what I would say is we certainly are getting much better balanc across the portfolio
+[11 p3 answers] Keep in mind that there is – and this is just repeating something you already know, but there has been an intense focus on a lot of the restructuring initiatives going on inside the company related to our Enterprise Initiatives
+[12 p3 answers] 85 divisions across the company all starting to make this pivot, all of them in various – in different stages in terms of making that turn","[83 p35 answers] So, Test & Measurement, Food, Polymers & Fluids, Welding all positive, Specialty Products all positive here in the third quarter, up 13%
+[84 p35 answers] And on a year-to-date basis, the same is true and our businesses in China are up 15% on a year-to-date basis
+[85 p36 answers] Yeah, no, I think across the board really stable overall, like I said, China up 13%
+[86 p37 answers] Yeah, it's about two quarters until we've offset any -- the material cost side with price, about two quarters historically so",[87 p38 answers] All right,Y,,Y,,
+12,Quanta Services Inc._20170504,para1,72,250,73,177,0,,"[69 p1 remarks] We will pursue opportunities to enhance Quanta's core business and leadership position in the industry and provide innovative solutions to our customers
+[70 p1 remarks] We believe Quanta's unique operating model and entrepreneurial mindset will continue to provide us the foundation to generate long-term value for our stakeholders
+[71 p1 remarks] With that, I will now turn the call over to Derrick Jensen, our CFO, for his review of our first quarter results
+[72 p1 remarks] Derrick?","[73 p2 answers] As far as the backlog goes, and where we're at in the pipeline cycle there, it's lumpy, we've talked about it
+[74 p2 answers] We've announced ACP before
+[75 p2 answers] It's not in our backlog today
+[76 p2 answers] So you can see some of the stuff that's not in there and others that are imminent here","[243 p23 answers] So as you see that, you can see I'm talking about it as well in our CapEx
+[244 p23 answers] You can see others talking about how they're putting on people
+[245 p23 answers] It's a big market
+[246 p23 answers] I'm optimistic we'll be able to sign stuff fairly quickly here","[247 p24 answers] I'd like to thank you all for participating in our first quarter 2017 conference call
+[248 p24 answers] We appreciate your questions and your ongoing interest on Quanta Services
+[249 p24 answers] Thank you, and this concludes our call",Y,,Y,,
+13,JPMorgan Chase & Co._20170714,para1,96,231,96,134,0,,"[93 p1 remarks] We remain encouraged by the growth outlook for the global economy and expect continued solid growth here in the U.S
+[94 p1 remarks] , which positions us well going forward
+[95 p1 remarks] And with that operator, you can open up the line to Q&A
+[96 p1 heading] Question-and-Answer Session","[97 p2 answers] Good
+[98 p3 answers] Yes, I would just stop for a second to just point out what Jamie actually said was, this is uncharted territory
+[99 p3 answers] It’s not something that we've seen before and so while it is the case that the Fed is communicating clearly and has every intention to make this gradual and predictable things can change and we should be prepared for that, not to say that that would have a particularly significant impact necessarily on JPMorgan, but that that would just be a downside risk, not a probability
+[100 p3 answers] So on the balance sheet, it is still the case that we expect to start seeing normalization in the balance sheet, in September, if not in September by the end of this year with the actually calling for the next rate hike in December the market is calling for March of next year","[226 p30 answers] So, right now the requirement is that we have to disclose, I suspect although we've asked for a delay as an industry that we might have to disclose, we will continue to debate, I think with regulators the merits of those public disclosures over time
+[227 p31 answers] Yes and I mean, I would suggest although it's not something we tell you every quarter that we've been pretty forthcoming about showing you the level of our deposits and the split, at least Investor Day now and then between operating and non-operating deposits and as we start to see the impact of the Fed balance sheet unwind in the light, we will – we will be very forthcoming
+[228 p31 answers] We tried to be incredibly transparent and we will take that under advisement regardless of what the regulatory disclosures are about the quality of our deposit franchise
+[229 p31 answers] But we have I think periodically been more to disclosed this than most in terms of the quality of our deposits","[230 p32 answers] And we have moved $200 billion of non-operating deposits proactively, so we manage it very carefully",Y,,Y,none,
+14,"Coty, Inc_20170209",para1,95,211,96,115,0,,"[92 p1 remarks] On the P&G Beauty Business merger, the integration is progressing as expected, with no major issues to-date
+[93 p1 remarks] And we are reiterating our previously communicated $750 million synergy target by fiscal 2020. If I can summarize, fiscal 2017 remains a challenging transitional year, but one that we believe is setting the stage for enormous potential as a global leader and challenger in beauty
+[94 p1 remarks] I believe the new Coty is a much stronger company than the two previous organizations running separately, and now that we have full control of the combined brand portfolio, I'm even more confident about the great long-term potential of the new Coty
+[95 p1 remarks] I will now turn it over to Patrice","[96 p2 answers] Thanks, Steph, for the question
+[97 p2 answers] Look, this is a big reorganization because both companies were not organized and structured this way prior to the merger
+[98 p2 answers] So we have created three divisions
+[99 p2 answers] Both Coty Legacy and P&G Beauty Business were not managed this way, so clearly having to manage now – having managing the company with three end-to-end division where they have full responsibility for the entire portfolio and the P&L, this is clearly a different way of working that has been embedded in the organization at the moment","[195 p12 answers] Regarding your first question, which is about the mobility and the cross-fertilization across the different divisions, first of all I think we need to say that the three divisions require a level of expertise because the knowledge of the category and the channels is very important
+[196 p12 answers] This is why also we have decided to structure ourself with the three divisions
+[197 p12 answers] That being said, I also believe that people will have to move across divisions in order to fertilize on success and learnings and on capabilities
+[198 p12 answers] So it's going to be a mix of both in answering your first question as well","[199 p13 answers] So, when in terms of mass fragrance, Linda, so the mass fragrance clearly is suffering as a category overall because of certain dynamics
+[200 p13 answers] One of the key element that I think is affecting the mass fragrance is the fact that you – it's very difficult in the store environment to smell the fragrance, the juice
+[201 p13 answers] So that's one of the key driver for trying the new fragrances, and that's still a key barrier there
+[202 p13 answers] And I think this is an issue that we in the industry all need to work together with the retailers to try to overcome this barrier
+[203 p13 answers] The second point is that within mass fragrance, I think we need to distinguish between celebrities and other lifestyle brands
+[204 p13 answers] Within celebrities, it's fair to say that the – I would say the last brand of the celebrity brand is decreased, has decreased significantly just because the brand name and the hype behind the celebrity is now shorter
+[205 p13 answers] It's just that's what's happening
+[206 p13 answers] Now, when you look at the other side on the lifestyle brands, we have brands like Bruno Banani or adidas or Max, which are actually great brands that we plan to focus in countries like Germany, Russia
+[207 p13 answers] These are brands that are doing well
+[208 p13 answers] They are, again, iconic brands in the lifestyle mass fragrance in the specific countries
+[209 p13 answers] And we believe that they have potential
+[210 p13 answers] So again, it's a mixed sort of dynamic within the category",Y,,Y,none,
+15,Pinnacle West Capital_20170803,para1,36,63,36,26,0,,"[33 p1 remarks] We also plan to release 2018 ongoing guidance on our third quarter call consistent with our standard practice
+[34 p1 remarks] This concludes our prepared remarks
+[35 p1 remarks] I will now turn the call back over to the operator for questions
+[36 p1 heading] Question-and-Answer Session","[37 p2 answers] I would just say, Greg, it’s a great question as one quarter we come up pretty flat to negative
+[38 p2 answers] We do know that consumer confidence at the residential level increased in the second quarter
+[39 p2 answers] And I think that’s consistent with the surge in housing permits in the second quarter
+[40 p2 answers] That said we will see some consumer elasticity as they get their bills in July from the warm June","[55 p9 answers] So that would create a drag until it ultimately gets some rates hopefully in 2020.
+[56 p10 answers] Yes
+[57 p10 answers] I think we are pleased with where we are compared to our plan this year
+[58 p10 answers] And beyond that, we haven’t really given any guidance and we will talk about that when we get guidance out here soon","[59 p11 answers] Yes
+[60 p11 answers] So I would say that we get probably as much impact of energy efficiency as we do rooftop, but we probably will have by the time rate goes into effect and installations that are valid we have received before that, we will probably end with 70,000 or so rooftop solar and that will be about 6% of our residential customer base will be with rooftop solar
+[61 p11 answers] After that, remains to be seen in terms of continued growth
+[62 p11 answers] We get about a 1.5% or so offset typically from the EE and DE",Y,,Y,none,
+16,Garmin Ltd._20171101,para1,46,148,47,101,0,,"[43 p1 remarks] Looking at guidance by segment, we've increased growth expectations for outdoor, aviation, and auto by 200 basis points to 300 basis points
+[44 p1 remarks] Our outlook for marine is unchanged, while the outlook for fitness has been reduced slightly by 200 basis points
+[45 p1 remarks] That concludes my remarks
+[46 p1 remarks] Next, Doug will walk us through additional details of our financial results","[47 p2 answers] So, we don't quantify any of the particular categories within our segments, but I would say that auto has been performing well this year, particularly around new programs such as the Honda programs as well as our existing programs with Daimler and others
+[48 p3 answers] Yeah, so activity trackers declined on a year-over-year basis
+[49 p3 answers] We don't really track sequentially, but year-over-year, as we said in our remarks, they continue to decline
+[50 p3 answers] In terms of quantifying what those represent, we don't comment on specific categories, but as the decline has been fairly steep, I would say that the basic trackers have become much less of an influence in our overall results","[143 p40 answers] And in terms of inReach, it's a very nice incremental category for us, but probably not moving the needle the same way that fēnix 5 is
+[144 p41 answers] So Alphamantis brings additional technology to our portfolio allowing us to create new product categories within our cycling area
+[145 p41 answers] I think as a company, they've been focused on more the technical side of the business, particularly with very technical and professional riders, but it's our goal to be able to try to bring that technology down into the mass market
+[146 p42 answers] Could be new form factors",[147 p43 answers] Thank you,Y,,Y,,
+17,Agilent Technologies Inc_20170214,para1,72,249,73,176,0,,"[69 p1 remarks] We have a deep commitment to customers, a strong team, and a belief that we can deliver a superior customer experience and exceptional innovative new offerings
+[70 p1 remarks] I look forward to answering your questions later in the call, and I will now hand off to Didier
+[71 p1 remarks] Didier will provide additional insights on our Q1 results and updated guidance
+[72 p1 remarks] Didier?","[73 p2 answers] I'm going to start off with a good afternoon from California, and I'm going to pass it over to Didier
+[74 p3 answers] No
+[75 p3 answers] Actually I'd say the flow – and again, I just want to clarify
+[76 p3 answers] I hope it came through clear in my remarks","[243 p57 answers] A lot of tools just out there with some of our customers in the Bay Area, for example, as well as Ginkgo
+[244 p57 answers] So they're using our tools
+[245 p57 answers] Not clear to me though whether companies will be able to build a sustainable business around R&D services in SimBio, and that's why we went in a different direction in terms of our view of Gen9. And Jacob, anything else you'll add to that?
+[246 p58 answers] That's right, thanks for that","[247 p59 answers] All right
+[248 p59 answers] Thanks a lot, Jon",Y,,Y,,
+18,AbbVie Inc._20170728,para1,54,65,55,10,0,,"[51 p1 remarks] This gross margin comprehends current exchange rates and is inclusive of the dilutive impact of partnered products
+[52 p1 remarks] In closing, we delivered outstanding performance in the quarter, driven by our focus on strong commercial and operational execution
+[53 p1 remarks] We expect to continue this momentum in the second half of 2017, putting us in a great position to deliver top-tier revenue and EPS growth for the full year
+[54 p1 remarks] And with that, I'll turn the call back over to Liz","[55 p2 answers] So, Marc, yeah, it was a nice quarter for gross margin
+[56 p2 answers] We've gone back and looked
+[57 p2 answers] Historically, Q2 does run a little stronger than the rest of the year
+[58 p2 answers] That's a function of product mix, to a certain extent","[59 p2 answers] But that said, we continue to make pretty nice progress on this line, even in the face of the partnership accounting
+[60 p2 answers] If you back out partnership accounting, we are probably up about 120 basis points
+[61 p2 answers] Yeah, I think the main drivers, about a third of that was a favorable impact of exchange
+[62 p2 answers] But that still left 80 basis points to the good, and that was really a mix of product mix as well as just cost efficiencies","[63 p3 answers] The royalty burden really lifts in two different phases
+[64 p3 answers] The first third of it lifts at the very end of 2017, so you see a P&L impact in 2018. The other two-thirds lifts at the very end of 2018, so you see the P&L benefit in 2019. And then in terms of quantity to model, we have said that that burden is about 5% to 6% of global HUMIRA sales",Y,,Y,none,
+19,Martin Marietta Materials_20170801,para1,112,420,112,301,6,,"[109 p1 remarks] Anne has played an integral role in the growth of this company, always maintained a relentless focus on accountability and in so doing, has helped to deliver exceptional returns to our stakeholders
+[110 p1 remarks] On behalf of the Board of Directors and the entire Martin Marietta team, we wish Anne only the best in all things as she begins her next chapter in life
+[111 p1 remarks] If the operator will now give the required instructions, we'll turn our attention to addressing your questions
+[112 p1 heading] Question-and-Answer Session","[113 p2 answers] Kathryn, good morning, and thank you for that
+[114 p2 answers] I'll address those both in order
+[115 p2 answers] So, if we think about the volume flow for the quarter, Kathryn, the most important thing to remember is we had fairly significant portions of our footprint that really experienced almost two-thirds of the quarter with heavy rain
+[116 p2 answers] And what I mean by that is principally the Southeast and the Mid-Atlantic","[410 p40 answers] Some of that ties back into the commentary that I offered before and that is people are much more moved by one price increase at the beginning of the year that they can plan for and the less mid-years, frankly, the better customers will feel about it
+[411 p40 answers] Unknown Speaker All right
+[412 p40 answers] Appreciate it, Ward, and Anne, congrats on your retirement
+[413 p41 answers] Thanks, Jeff (1:11:17)","[414 p42 closing] Thank you again for joining us our second quarter 2017 earnings call
+[415 p42 closing] We remain confident in Martin Marietta's future and are poised to deliver solid results in 2017 and the next several years
+[416 p42 closing] We continue to experience strong job growth in our key markets, robust construction activity with increased aggregates demand and notable commercial opportunities
+[417 p42 closing] Our team's disciplined execution of our strategic plan continues to provide a firm foundation to enhancing long-term shareholder value
+[418 p42 closing] Additionally, we're excited to welcome Jim Nickolas to our team and look forward to introducing him to you in the coming months, and he and I will discuss our third quarter results in the fall
+[419 p42 closing] Until then, thank you for your time and continued support of Martin Marietta",Y,,Y,,
+20,News Corp. Class A_20170509,para1,90,117,91,26,0,,"[87 p1 remarks] Susan brings to this important task a savvy strategic sensibility and a rigorous attention to both detail and the larger landscape
+[88 p1 remarks] She has experience in both the UK and Australia, as well as insight in the importance of digital transformation of the news and property businesses
+[89 p1 remarks] For these reasons and more I have great confidence not on in her but in the prospects for this business and its value for our shareholders
+[90 p1 remarks] Thank you for your support and so please welcome Susan","[91 p2 answers] Yeah thanks very much Susan
+[92 p2 answers] Entcho I think what we are seeing, is what we hope to see which is a real complementarity in the offering of the two
+[93 p2 answers] You've seen talkSPORT drive way to the Sun and the Sun drive business to talkSPORT
+[94 p2 answers] We're also seeing portfolio at pitches with the Wireless Group, the Sun, Storyful, Unruly, generating new business and obviously it's the early stage of the new partnership in UK","[110 p5 answers] So all-in-all that ability that we have to learn from our experience at REA, our ability to generate audience through marketed platforms, which gives us a marketing edge and our ability to create a site, that's not just a listing side for Realtor's and vendors but also a site that is holistic real estate experience with more news, more analysis than any other means that we certainly have a comparative advantage going forward
+[111 p6 answers] We don't speculate on speculation
+[112 p6 answers] All I would say on the subject of media reform, is that really we do need comprehensive holistic wholesale media reform in Australia
+[113 p6 answers] We have a set of loads that are more for the Goldenberg [ph] era than the Zuckerberg era and as long as there is wholesale reform, we'll be supported by them","[114 p7 answers] I think, it's a very good question and it's one that was spending a lot of time and energy across our market looking at our ability to increase yields as we identify reader demographics and that's obviously at the very heart of the new advertising platform that we're building here in the US
+[115 p7 answers] We know that across the U.S
+[116 p7 answers] monthly we on our sites including Realtor, we have around 220 million visitors combined with our newspaper mastered audiences that is a valuable source of audience for advertisers and we're doing our very best to monetize it in a way that make sense to advertisers, increasingly find themselves on third-party networks unable to be sure the company that they're keeping",Y,,Y,none,
+21,AT&T Inc._20170425,para1,106,227,107,120,0,,"[103 p1 remarks] And we don't know how much demand there will be for any of the new product offerings that come out
+[104 p1 remarks] Changes in customer phone buying habits have minimal impact on our profitability, but it does make revenue forecasts more unpredictable
+[105 p1 remarks] With that, I would now like to hand this over to Randall Stephenson, who is going to provide a strategic update on our overall business
+[106 p1 remarks] Randall?","[107 p2 answers] 2018.
+[108 p3 answers] John, with regard to that on – as Randall said, the FiberTower itself gives us a base of 39 gigahertz nationwide to really build on and plan on
+[109 p3 answers] And so that in and of itself is a great starting point and gives our network team an opportunity to incorporate that planning into our project evolution and this next-generation network
+[110 p3 answers] When you look at Straight Path, it really has two holdings, the 39 gigahertz, which would complement FiberTower's and give us that depth that we would prefer, and so that would be great, but it also adds a strong 28 gigahertz piece, which we could incorporate into our network and use that way, or we could, as we've done in the past, use as an opportunity for spectrum swaps to take advantage of other opportunities","[222 p20 answers] I would expect that it will come back, not only for new phones coming out but quite frankly, for example, as we, if you will, get our network even hotwired more than it is as the Austin-type situation, where you can get multiple hundred meg speeds on your phones, you'll see people want to get those devices, so I think that'll help
+[223 p20 answers] But I clearly believe it is a permanent change from where we were in the subsidy model, and I believe that the upgrade rates will be down on a permanent basis
+[224 p21 answers] We haven't mentioned, and I think you all know this, but with the move towards carrier aggregation and four-way, which the Galaxy S8 has the capability of doing that, with regard to MIMO and the ability to have the on- and off-ramps operate much quickly and move into that QAM 256, all three of those things are now available for us, and we're working this true (1:04:49) our Austin, and we're seeing tremendous, tremendous results there
+[225 p21 answers] So that's what's so encouraging about us, particularly about this continuation of wireless and this opportunity to support an overall broadband solution, as well as coordinate it with a FirstNet build that is consistent with the government's requirements",[226 p22 answers] Thanks,Y,,Y,,
+22,Kimberly-Clark_20170424,para1,40,204,40,163,0,,"[37 p1 remarks] We're managing our company with financial discipline
+[38 p1 remarks] And we continue to be optimistic about our opportunities to create long-term shareholder value
+[39 p1 remarks] That wraps up our prepared remarks, and now we'll begin to take your questions
+[40 p1 heading] Question-and-Answer Session","[41 p2 answers] Good morning, Lauren
+[42 p3 answers] I'll let Mike Hsu give you a little bit more color on that, but we've certainly seen a pretty strong uptick in e-commerce
+[43 p3 answers] And that's a trend that's happening in lots of places, but it did seem to accelerate in the U.S
+[44 p3 answers] in the last couple of quarters","[198 p49 answers] But, beyond that, I'm probably not going to give you any more color on quarterly guidance
+[199 p50 answers] No, not at all
+[200 p50 answers] The volume actually has been pretty strong throughout and so is it's been more of a function of innovation and category growth and consumer spending power and that we expect those stronger results to come through more clearly in the back half of the year
+[201 p51 answers] Thanks, Jason","[202 p52 answers] Well, once again, we are continuing to execute our Global Business Plan and allocating capital in shareholder friendly ways
+[203 p52 answers] And we appreciate your support of Kimberly-Clark",Y,,Y,,
+23,ResMed_20170123,para1,83,199,84,111,4,,"[80 p1 remarks] We continue to lead in connected care with enhanced solutions that lower cost for providers and improve outcomes for patients
+[81 p1 remarks] We are leading the industry, driving consumer awareness of sleep, so that undiagnosed consumers go to see their doctors and healthcare providers
+[82 p1 remarks] We continue to bring out strategy into action for the benefit of physicians, providers, payers and most importantly to improve the lives of tens of millions of sleep apnea and COPD patients around the world
+[83 p1 remarks] With that I will turn the call over to Brett for his remarks and then we will go to Q&A","[84 p2 answers] Thanks for the question David
+[85 p2 answers] Look the patients and provide and clinician acceptance in the mask has been great
+[86 p2 answers] The Infinity Seal technology particularly and its ability to reach 97% to 99% of the patients that coming to a sleep lab or through a clinic
+[87 p2 answers] And so these acceptance has been great and certainly exceeding what we had thought it may be","[191 p29 answers] Back to industry standards on year-on-year in terms of price
+[192 p29 answers] So the competition is fierce, but it’s around innovation
+[193 p29 answers] Who's got the best fit, the best comfort, the quietest device and now best informatic solution to really improve quality of care with patients and provide us to improve their world flow efficiency
+[194 p29 answers] Thanks for your questions Victor","[195 p30 closing] Yeah, thanks
+[196 p30 closing] In closing, I want to thank the 5,000 strong ResMed team from around the world for their commitment to changing tens of millions of lives
+[197 p30 closing] We remain laser focused on our long term goal of improving 20 million lives by 2020, and we look forward to executing on everything we talked about this last 60 minutes and driving this innovation, great products throughout 2017. Thanks for your time today
+[198 p30 closing] And we’ll talk to you again in about 90 days",Y,,Y,,
+24,Lockheed Martin Corp._20171024,para1,70,228,71,157,0,,"[67 p1 remarks] We'll continue to have robust cash flow even with the higher pension contributions in the future
+[68 p1 remarks] We'll maintain our balanced approach to cash deployment
+[69 p1 remarks] And during our earnings call next quarter, we will provide our full year 2018 outlook under the new revenue recognition standard, which is effective for us on January 1. With that, we're ready for your questions
+[70 p1 remarks] John? Question-and-Answer Session","[71 p2 answers] Hi, Rich
+[72 p3 answers] Let me take a shot at both of those, I think
+[73 p3 answers] So I think the first part of your two-parter was – and good on you to get a two-parter in, by the way
+[74 p3 answers] But your first part was cash from operations, $16 billion, is that considered the restart of Greece and Bahrain and maybe Saudi THAAD, if I caught the question right","[210 p21 answers] Short of that, I mean, unless there's maybe some – we have a couple of fairly significant collections associated with some international contracts right on the cusp of this year, 2017, that could slip into 2018. Depending on the timing of when those things happen, whether it's late December or slips into next year, if all of them happen and we get hit on the head with horseshoes in 2017, we might actually make a – try to get a dent in our pension contributions this year, which, of course, would lower our pension contributions next year sort of dollar for dollar
+[211 p21 answers] But that's sort of the only thing we're thinking about as we sit here today
+[212 p21 answers] But in any event, still, I would expect to achieve the $6.2 billion of cash from operations this year
+[213 p21 answers] If anything, on top of that, we might actually look at that as an opportunity to bring down or draw down the pension contribution, that $1.6 billion in 2018.","[214 p22 answers] So we talked about, Sam, the pension contributions
+[215 p22 answers] We've teed up $1.6 million this year
+[216 p22 answers] We've said it's $3.3 billion over 2018 and 2019, which would imply a $1.7 billion required contribution in 2019. So that is increasing a little bit there
+[225 p22 answers] And you may have seen that we're also building a fairly large facility out of our Space Systems company in Denver to accommodate greater capacity and greater sized satellites going forward, because we think that's where the market is headed
+[226 p22 answers] So sort of those higher pension a little bit, more than in 2018, and maybe a little bit of CapEx is some of the headwind that we're seeing
+[227 p22 answers] But other than that, I think it should sort of follow suit, as you said",Y,,Y,none,
+25,Motorola Solutions Inc._20171102,para1,53,64,54,10,0,,"[50 p1 remarks] The Motorola Public Safety LTE LEX F10 handset and the VML 750 vehicular modem were added to the FirstNet
+[51 p1 remarks] com website and AT&T's speed portal
+[52 p1 remarks] And finally, we closed the acquisition of Kodiak Networks, which provides push-to-talk over cellular solutions in North America, Latin America and Europe for customers such as AT&T, Verizon, Sprint, Bell Canada and Telefónica
+[53 p1 remarks] I'd now like to turn the call back over to Greg","[54 p2 answers] Sure, Stanley
+[55 p2 answers] I'll start with full year organic growth
+[56 p2 answers] Embedded in that number is organic growth of between 2% and 3% and that includes iDEN down $45 million in 2017. With respect to FX for the full year, it's de minimis
+[57 p2 answers] It's a push for the quarter based on rates right now approximately $20 million to $25 million in the Q4 – in our Q4 number","[59 p4 answers] Kyle, this is Gino
+[60 p4 answers] From a Q4 perspective, aged entering into the quarter, we are better aged entering Q4 than we were last year at the end of Q3. And you started the comment with Q4 not being the largest quarter
+[61 p4 answers] Q4 will still be our largest quarter
+[62 p4 answers] And if you look at it from a percentage perspective, from a linearity perspective, it's within a point or so of the normal linearity that we would experience during any particular year","[63 p5 answers] Thanks, Kyle",Y,,Y,none,
+26,Conagra Brands_20171221,para1,120,229,121,108,0,,"[117 p1 remarks] As we just discussed, we'll stay active in our pursuit of value enhancing M&A and will be relentless about doing what's necessary to deliver our long-term algorithm
+[118 p1 remarks] Given our strong performance, we've updated our 2018 guidance to reflect organic net sales and adjusted EPS to be near the high end of their respective guidance ranges
+[119 p1 remarks] With that, I'll hand it over to Dave to share more on the details of the quarter
+[120 p1 remarks] Dave, over to you?","[121 p2 answers] Morning
+[122 p3 answers] Yes, good morning, Andrew
+[123 p3 answers] Yes, this is Sean
+[124 p3 answers] We will continue to invest above the line and below the line behind the brands in the second half","[219 p15 answers] And as we did that build back in better retailer margins so case in point there is Healthy Choice Power Bowls
+[220 p15 answers] We still have a small sliver of Healthy Choices that are these classic meals that are sold to older boomers that business has gotten smaller as we kind of sunset that piece of it but we are replacing it with higher margin
+[221 p15 answers] Higher dollar in businesses like Healthy Choice simply and now Healthy Choice Power Bowls, which are not only higher price points but better margin structure for our retailers
+[222 p15 answers] So we are participating and rebuilding retailer margins but in our case we're doing in the context of modernized brands with higher absolute price points and higher absolute food quality","[223 p16 answers] On that latter piece, Jason, I'm not any more concerned this quarter than I've been previous quarters about private label as I've mentioned before
+[224 p16 answers] Private label on average under indexes in our categories it's about a 70 index versus food on average and in key strategic categories like frozen it's significantly lower than that so I'm not anticipating any change, it's not built into our planning posture in terms of private label interaction getting to be more of a headwind
+[225 p16 answers] With respect to investing behind our business in trade but I wouldn't over think this is a simple way to think about it is we were in launch mode in the front half of this year and we knew, we have we want to support our brand because we're trying to build future cash flows here by reestablishing consumer loyalty and household penetration on our brands and when we saw the early traction on the business when we saw we got up to a fast start of the year and fueled in part by a high degree of confidence, we're going to get a tax return
+[226 p16 answers] We made the strategic decision to put more money behind our businesses because we had confidence in our brands and in our innovation and by and large we got the response that we were looking for and that's bit of a higher level of support as we continue to launch stuff through the back half of the year and then next year we will wrap some of these levels investments will be baked into our core, so I wouldn't anticipate another step up as we move into the out years I think we're going to kind of get it in our base here as we proceed
+[227 p16 answers] But at the end of the day the fact that we've got traction on these brands and our investments are working in terms of driving consumer trial, and we have confidence in the products themselves to drive repeat
+[228 p16 answers] This is all part of a positive flywheel in our view",Y,,Y,none,
+27,Lennar Corp._20171003,para1,92,196,93,102,1,,"[89 p1 remarks] Given production deficits that persist, existing housing supply constraints, a pro-growth stance in government, generally solid employment fundamentals, we believe that the macro environment reads very positively for the next years and there is still a long runway in this recovery
+[90 p1 remarks] We are clearly well positioned to capitalize across our platform on strong market conditions that have materialized and seem to define the market for the future
+[91 p1 remarks] In spite of the short-term speed bumps that will temporarily slow progress in the fourth quarter, each of our operating segments is mature and positioned to perform and strengthen
+[92 p1 remarks] People, assets and operations are all aligned as we begin to prepare for 2018. With that, let me turn over to Bruce","[93 p2 answers] Well, let me start and I’m sure that Jon who’s really been spearheading the dynamic pricing and Rick would also want to join in
+[94 p2 answers] But dynamic pricing – our dynamic pricing model helps us in a number of ways and really it helps us focus in order to drive margin and even ASP growth
+[95 p2 answers] It starts with a proper alignment of our production machine and our sales machine recognizing that as we near completion, it’s time to sell
+[96 p2 answers] That has really enabled us to bring down our incentives generally","[191 p22 answers] So I’m not here to give you a weather report at this point in time, but there’s no question we will encounter some delays
+[192 p22 answers] That’s going to be with regard to getting some materials
+[193 p22 answers] Pipe is pretty tight right now
+[194 p22 answers] In addition to that there’s just been a slowdown on the overall inspections as both the municipalities are focused on other infrastructure things that are more compelling to get up and running","[195 p23 closing] With that, thanks everyone for joining us and we look forward to updating you with our fourth quarter conference call",Y,,Y,,
+28,A.O. Smith Corp_20170726,para1,40,62,41,21,0,,"[37 p1 remarks] We expect to repurchase our shares in the amount of approximately $135 million in 2017 under a 10b5-1 plan
+[38 p1 remarks] We may opportunistically repurchase additional shares up to $65 million
+[39 p1 remarks] If $135 million of our stock is repurchased, we expect our average diluted outstanding shares in 2017 will be approximately 174.5 million
+[40 p1 remarks] I will now turn the call back to Ajita, who will summarize our guidance, the business assumptions for 2017 and our growth strategy beginning on slide 10. Ajita","[41 p2 answers] Hi, Scott
+[42 p3 answers] I will tell you our steel prices have increased every quarter this year
+[43 p3 answers] And clearly compared to the prior years, they're up significantly from the prior year
+[44 p3 answers] So when we tear apart, for example, North America second quarter, the pricing could not offset the steel increases last year","[57 p6 answers] And then, when you look, that's down a couple hundred thousand units from the first quarter
+[58 p6 answers] But I'll tell you, overall, we're pleased where the industry is
+[59 p6 answers] It's up almost 200,000 when you include tankless year-over-year
+[60 p7 answers] First quarter","[61 p9 answers] Well, obviously, it depends where steel goes, but we would expect it will offset",Y,,Y,none,
+29,Booking Holdings Inc_20171106,para1,52,141,52,88,0,,"[49 p1 remarks] Our non-GAAP EPS forecast includes an estimated income tax rate of approximately 18%, which is higher than the prior year rate for the same reasons I just discussed for the GAAP tax rate
+[50 p1 remarks] Our forecast does not assume any significant change in macroeconomic conditions in general or in the travel market in particular
+[51 p1 remarks] We will now take your questions
+[52 p1 heading] Question-and-Answer Session","[53 p2 answers] The couple of things I called out in the prepared remarks, Perry, were, in particular, the comp that we had to prior year, where we had really high growth rates and the steps that we're taking in performance marketing to optimize ROIs
+[54 p2 answers] So I think that that will be with us for the coming quarters until we lap it
+[55 p2 answers] But I wouldn't call it structural
+[56 p2 answers] And fundamentally, the travel market feels healthy","[135 p21 answers] So very profitable business, growing
+[136 p21 answers] I think run very responsibly by Steve Hafner and his team
+[137 p21 answers] And we're excited about the prospects of bringing Momondo and KAYAK together and sharing best practices from brand to brand and having the teams work together to make both brands stronger in the future
+[138 p22 answers] You're welcome","[139 p23 answers] You didn't ask the second question about trivago
+[140 p23 answers] What's your question?",Y,,Y,none,
+30,Synopsys Inc._20170517,para1,61,181,62,119,0,,"[58 p1 remarks] We do this by investing organically and through M&A and EDA, IP and software integrity to realize our Silicon to Software vision
+[59 p1 remarks] We do this by executing with a clear intent to sustain technology leadership while simultaneously growing revenue and profitability throughout our business
+[60 p1 remarks] And we do this with a clear bottom line objective and many year track record, of driving ongoing high single-digit EPS growth and returning cash to shareholders
+[61 p1 remarks] Let me now turn the call over to Trac","[62 p2 answers] Well, in general, I think we're in a phase of the industry around us and ourselves that tends to be strong and when we give you directions on growth rates of the different areas, we always look at it from a perspective of a multi-year outlook because that's sort of the only fair way to do it, all the more given that we have a multi-year agreement
+[63 p2 answers] Having said that, there's no question that the push towards more advanced chips is actually continuing strong and I think the reason for that is relatively straightforward which is that the new opportunities in technologies and products are using any of the existing computation and mobility techniques but now amended by increased digital intelligence requirements, will continue to be very strong after that enormous amounts of data generated by a happily growing set of sensors
+[64 p2 answers] And you can see that the entire field is really poised to demand more computation
+[65 p2 answers] And so it is natural, therefore, for people to come to our products","[173 p19 answers] We refer to that as hardware
+[174 p19 answers] And that growth has just been exemplary because so many people would like to run software on hardware they don't have and so instead, they use an emulator to sort of fake the hardware if you like
+[175 p19 answers] And I expect that to continue because if you want to go to market, you want to start the software development as soon as you possibly can and make sure that it's going to work with the hardware that takes a long time to manufacture
+[176 p19 answers] So that has really been one of the key variables in this game","[177 p20 answers] Well, thank you very much for attending this earnings release
+[178 p20 answers] Hopefully, you took away that we had a very strong quarter, that the outlook for the coming quarter is strong, the overall year is looking extremely solid
+[179 p20 answers] But most importantly, I think the alignment around our Silicon to Software strategy appears to be working quite well and all the individual businesses have contributed strongly to our present success
+[180 p20 answers] So with the intent to continue on that trajectory, we thank you for your support and attention",Y,,Y,,
+31,Autodesk Inc._20170302,para1,46,85,46,38,0,,"[43 p1 remarks] I also want to recognize Carl Bass for his leadership and tireless service to Autodesk over the past 20 plus years, and we look forward to his continued input as the special advisor over the next few months and an ongoing board member
+[44 p1 remarks] As we undergo the CEO transition, both Andrew and Amar have our full confidence to lead the Company to continued success
+[45 p1 remarks] Operator, we’d now like to open up the call for questions
+[46 p1 heading] Question-and-Answer Session","[47 p2 answers] And Heather within that the strength comes from BIM 360 largely followed by Fusion and then shotgun
+[48 p2 answers] So it was a very strong quarter, it's good to see the cloud products which will be key to kind of the second wave of the transition that the cloud products begin to take off
+[49 p2 answers] In terms of disclosure, I would say at this point well it's – we're seeing good growth, still good growth off a small base and it's having a bigger effect obviously on subs and it is on ARR as that becomes material or we think it's clouding the results and making it too difficult to model that's will consider breaking it out
+[50 p3 answers] Yes, Sterling said another way","[75 p10 answers] So good question, I mean look I think our unit volume for this year was right where we expected it to be and I think our growing momentum based on the factors that Andrew touched upon, we are certainly seeing increasing momentum through license compliance to what we would have called a legacy customer base
+[76 p10 answers] And one of the places where we are definitely accelerating acquisition of customers is also the cloud and as regions around the world whether they are emerging countries or places in Asia they come back to better economic health, they will contribute to this sort of overall unit volume growth
+[77 p10 answers] That's why we're very confident that the momentum we're carrying into this year combined with license compliance legacy as well as momentum in cloud as well as the changes that we talked about in the product that really drive customers to be more current
+[78 p10 answers] They're all factors that we believe will drive that result that we pointed to","[79 p11 answers] Yes, so one of the reasons we structured the program the way we did is we were really focused on minimizing the churn off of that maintenance base
+[80 p11 answers] So we feel that the way we structured the program, the huge incentives for loyalty that we're giving the maintenance customers is really a churn minimization plan
+[81 p11 answers] So we're feeling pretty confident
+[82 p11 answers] Our competitors have historically tried to make incursions into our installed base as we move to subscription, but the truth of the matter is none of them have been particularly successful and it's really hard to compete with software that that prices and accessibility levels that are far below what they've been historically when you come in with more expensive perpetual software
+[83 p11 answers] So yes competitors try to make encourage their incursions
+[84 p11 answers] They haven't been successful and I think we structured this program as a churn minimization program with a primary goal",Y,,Y,none,
+32,Advanced Micro Devices Inc_20170501,para1,34,182,35,147,0,,"[31 p1 remarks] Naples is the first step in our long-term plan to deliver a leadership data center product roadmap; complementing the success of our mainstream Polaris-based GPUs with our high-end Vega GPUs; extending our Zen core into the mainstream desktop and premium notebook markets with the launches of our Ryzen 3 CPUs and Ryzen mobile APUs in the second half of the year; and expanding our participation in the fast-growing market for GPU compute with the launch of Radeon Instinct Accelerators mid-year
+[32 p1 remarks] 2017 is an important year for AMD, and we are well-positioned for solid revenue growth and margin expansion based on bringing performance, choice and innovation to an expanding set of markets
+[33 p1 remarks] I look forward to discussing more about our long-term strategy at our Financial Analyst Day later this month
+[34 p1 remarks] Now, I'd like to turn the call over to Devinder to provide some additional color on our first quarter financial performance","[35 p2 answers] So look, we're very pleased with how the Ryzen launch went
+[36 p2 answers] It was a big launch for us
+[37 p2 answers] We did Ryzen 7 first early March and then Ryzen 5 here in the middle of April
+[38 p2 answers] All of the feedback that we've gotten so far from both our customers and from end users has been very strong","[168 p30 answers] We think, from a value proposition standpoint, performance, performance per dollar, it's very strong
+[169 p30 answers] We obviously have other products we're going to be launching throughout the year to ensure that we have strong product positioning throughout the year
+[170 p30 answers] And I think the more important thing, Joe, and we'll talk more about this at our Financial Analyst Day is we have a long-term roadmap, whether you're talking about PCs or GPUs or servers to ensure that we continue to refresh our product plans and our product roadmaps over time
+[171 p30 answers] So I think we feel good about where we are positioned today, and we're going to ensure that we continue to roll out products to strengthen that positioning over time","[172 p31 answers] Yes, Chris
+[173 p31 answers] So there was no particular supply constraint
+[174 p31 answers] I think it's more of the ebb and flow of the market
+[175 p31 answers] When you think about the channel market or the DIY market, you can basically introduce your product any time during the year
+[176 p31 answers] The OEMs have a very set cycle
+[177 p31 answers] They typically launch new products in Q2 for the back-to-school season
+[178 p31 answers] And so that was just the timing of when the OEM platforms were ready
+[179 p31 answers] And then, again, when you're launching so many different SKUs – I think, launching Ryzen 7 first, then Ryzen 5, then Ryzen 3 – was absolutely our plan to make sure that we hit all of the logistics and stuff on plan
+[180 p31 answers] But, overall, like I said, nothing different than what we expected
+[181 p31 answers] I think we're pleased with where the overall launch is, and we'll be rolling out many more products over the coming quarters",Y,,Y,none,
+33,3M Company_20170725,para1,115,209,116,93,0,,"[112 p1 remarks] This growth was partially offset by declines in the U.S
+[113 p1 remarks] Finally, operating income was $195 million with an operating margin of 17.2%
+[114 p1 remarks] Adjusting for strategic investments year-on-year, operating margins were 22.2%
+[115 p1 remarks] Please turn to slide 15 and I will now turn the call back over Inge","[116 p2 answers] Good morning, Andrew
+[117 p3 answers] Yeah, Andy, in the case of pricing both for the quarter and for the year, we're not – if I think about 3M's business model, where we take technology, use that to create value for the customers, that ultimately creates our fundamental pricing power
+[118 p3 answers] That hasn't changed
+[119 p3 answers] That remains strong","[204 p16 answers] But in terms of the footprint side, we'll still be seeing the negative impact in absolute terms in 2018 on our margin and on our EPS
+[205 p16 answers] We expect in 2019 to become positive, and then by 2020 to be the full amount
+[206 p16 answers] As far as the M&A and what that might do in 2018, I think it's too early for me to speculate on that piece
+[207 p18 answers] No, nothing has changed on that front",[208 p19 answers] Absolutely not,Y,,Y,none,
+34,The Cooper Companies_20170831,para1,47,122,48,68,6,,"[44 p1 remarks] Our office and surgical products business grew 1% for the quarter, with strength in our disposable hysteroscope EndoSee offset by weakness in the older product lines
+[45 p1 remarks] Before turning it over to Al, I want to express my appreciation to our employees for their hard work and dedication
+[46 p1 remarks] I also want to especially send our best wishes to those impacted by the storm in Texas including our employees located in that area
+[47 p1 remarks] And now, I will turn it over to Al","[48 p2 answers] Sure, Brian
+[49 p2 answers] Pricing gets a lot of questions and has historically got a lot of questions
+[50 p2 answers] It is true there are some competitors raising prices -- list prices
+[51 p2 answers] It's also true that as an industry we've been trading up, we've been more about trading up","[112 p9 answers] We're happy with the numbers we're putting up
+[113 p9 answers] We're happy with some of the progress we've made with MyDay Toric, which is early in the game in terms of rolling it out now into your and later next year in the U.S
+[114 p9 answers] We're happy with Biofinity extended range, the made to order
+[115 p9 answers] So a lot of good things that should keep a solid momentum in that specialty contact lens area","[116 p10 closing] Well, I want to thank you for joining us today for an update on how the year is progressing
+[117 p10 closing] We have a lot of positive activities going on as you can see
+[118 p10 closing] We look forward to updating you as we approach and come out with our year-end numbers
+[119 p10 closing] and I believe that’s on December the 7th
+[120 p10 closing] And so, we look forward to giving you an update at that time
+[121 p10 closing] Thank you",Y,,Y,,
+35,Darden Restaurants_20170926,handover,41,220,41,178,0,"[28 p1 remarks] Cheddar’s is heavily penetrated in Texas, and they were impacted more by Hurricane Harvey than Darden overall
+[29 p1 remarks] Also, during the quarter we exercised our right of first refusal to acquire the 11 restaurants owned by the Cheddar’s franchisee in Georgia as well as the development rights they held for Cheddar’s in Georgia and Alabama
+[30 p1 remarks] This transaction, which closed on August 28, gives us the opportunity to enhance our presence in two states that we believe will have strong growth opportunities for the Cheddar’s brand
+[31 p1 remarks] Now I’ll turn it over to Rick
+[32 p2 remarks] Thanks Rick","[38 p2 remarks] I am very proud of the response from everyone across Darden
+[39 p2 remarks] Moments like these, as difficult as they are, highlight the strength of our culture and what makes our people, our restaurants and our brand so special
+[40 p2 remarks] With that, we’ll take your questions
+[41 p2 heading] Question-and-Answer Session","[42 p3 answers] Okay, good morning, Brett
+[43 p3 answers] There’s seven questions, I think, in there, but great way to frame that up as one question
+[44 p3 answers] Let me start with Olive Garden, because I think that’s where everybody wants me to start, then I’ll make some comments on the overall environment
+[45 p3 answers] I’m super excited about the quarter we put up in Olive Garden","[208 p33 answers] I think about the drivers of that, we’ve got to continue to simplify the operation
+[209 p33 answers] These are very high volume, complex restaurants, and the more simplicity that the team can bring to it, and you think about just doing one less promotion inside that last quarter, that improved our--you know, that simplified things for the restaurant managers dramatically by not having to do one more rollout
+[210 p33 answers] So that’s what we’re really focused on, is the simplicity of it, and hopefully that will continue to lead to better execution
+[211 p33 answers] Was there a second question there, Peter, I missed?","[212 p34 answers] Yes, value scores have ticked up just a little bit
+[213 p34 answers] I wouldn’t say it’s significant, but they are already fairly high
+[214 p34 answers] When you do come off your TDIs a little bit, your value is going to take a little bit of a hit too, but I look at--you know, you can’t look at one metric
+[215 p34 answers] You have to look at all the metrics together to inform you to make good decisions
+[216 p34 answers] If you’re just trying to get one metric, I hate to use a sports analogy, but it doesn’t matter how many first downs you get in a football game
+[217 p34 answers] You’ve got to put the most points up on the board, so we’ve got a lot of data coming in
+[218 p34 answers] We think we’ve got a competitive advantage here
+[219 p34 answers] We look at all that data and that helps inform us to make decisions that we think are good for the long term for that specific business, not what’s good for the first quarter or for the quarter that we’re in, what’s good for the long term",Y,,Y,none,
+36,Broadridge Financial Solutions_20170510,para1,100,115,101,14,0,,"[97 p1 remarks] Broadridge remains focused on disciplined expense management
+[98 p1 remarks] We expect spending on efficiency initiatives to increase in the fourth quarter, as we position the business for more growth
+[99 p1 remarks] We look forward to closing out fiscal year 2017 and updating you on our plan for fiscal year 2018 on our August call
+[100 p1 remarks] With that, I will now hand the call back to Rich for his closing remarks","[101 p2 answers] And Connor (44:27), this is Jim
+[102 p2 answers] And it sounds like you did catch the comment on the lag between sales and revenue recognition
+[103 p2 answers] Again, it's a great success
+[104 p2 answers] We've built up a good set of deals in our revenue backlog","[106 p2 answers] So, there'll be a little bit of delayed gratification
+[107 p2 answers] That said, it's giving us very good visibility into the next couple of fiscal years, which is a good spot to be in
+[108 p2 answers] Unknown Speaker Sure
+[109 p2 answers] Great","[110 p3 answers] And Rich, you captured exactly why, which is as I can tell you since I've been here, this is a recurring activity at Broadridge
+[111 p3 answers] Sometimes, it's more formal, less formal
+[112 p3 answers] As Rich said, maybe a bit more intensity and formality around this
+[113 p3 answers] But this is kind of a muscle that we exercise pretty regularly
+[114 p3 answers] So, just sort of giving you a heads up that we could see a little bit of elevated expense in the fourth quarter for that, as part of laying our foundation for more growth",Y,,Y,none,
+37,Thermo Fisher Scientific_20170426,para1,80,235,81,149,5,,"[77 p1 remarks] But at a high level, we're raising our revenue guidance to a new range of $19.51 billion to $19.71 billion, which would now result in 7% to 8% growth over 2016. In terms of our adjusted EPS, we're raising our guidance to a new range of $9.12 to $9.28 for 2017, for 10% to 12% growth over 2016. Before I turn the call over to Stephen, let me summarize our takeaways from Q1. First, we delivered strong financial performance on the top and bottom line
+[78 p1 remarks] We also continued to strengthen our position with strategic investments in innovation, emerging markets, and our customer value proposition
+[79 p1 remarks] We feel good about our strong start to the year
+[80 p1 remarks] And we're confident we'll deliver another excellent year in 2017. With that I'm going to hand the call over to our CFO, Stephen Williamson","[81 p2 answers] Good morning, Derik
+[82 p3 answers] Derik, thanks for the question
+[83 p3 answers] At a high-level, when I think about the quarter, obviously a very good start to the year
+[84 p3 answers] And the team executed well, serving all of the markets","[226 p34 answers] There's lots of demand and interest in vaccines and pharmaceutical production
+[227 p34 answers] That's been good for both our biosciences business and bioproduction
+[228 p34 answers] So it's been pretty broad-based but precision medicine, food safety are probably the two areas that jump out the most to us as big opportunities for continued momentum
+[229 p35 answers] Thanks for the question","[230 p36 closing] So let me wrap up the call
+[231 p36 closing] First, thank you for joining us
+[232 p36 closing] We're very pleased to have delivered a strong start to the year
+[233 p36 closing] We feel we're very well positioned to deliver another great year in 2017. And of course, thanks for your support of Thermo Fisher Scientific
+[234 p36 closing] Thanks, everyone",Y,,Y,,
+38,Merck & Co._20170202,para1,59,86,60,26,0,,"[56 p1 remarks] We are committed to building our leadership position for KEYTRUDA around the world, and we'll continue to prioritize resources behind key franchises like JANUVIA and vaccines
+[57 p1 remarks] And we will maximize other product launches such as ZEPATIER and BRIDION
+[58 p1 remarks] This together will position us well for years ahead
+[59 p1 remarks] With that, I'll turn the call over to Roger","[60 p2 answers] Hi, Jeff
+[61 p2 answers] So with regard to KEYNOTE-021G, as you know, right now KEYTRUDA is approved first-line use in patients that have PD-L1 greater than or equal to 50%
+[62 p2 answers] Assuming that KEYNOTE-021G gets put into the label, we anticipate that that would open up the non-squamous lung market
+[63 p2 answers] So we would have patients that are negative on PD-L1 all the way from PD-L1 of 1% up through greater than 50%","[66 p2 answers] They're going to evaluate it patient by patient and see where they believe that the combination of the two would outweigh potential side effects and so forth
+[67 p2 answers] So I think initially, it will be used in patients that are relatively healthy and those where they would be thinking about using ALIMTA anyway
+[68 p2 answers] After that, we believe that it will go into patients that are relatively healthy where they're not necessarily thinking about ALIMTA but they might start to use ALIMTA in combination with KEYTRUDA to treat those patients and get better results
+[69 p2 answers] And then lastly, over time, we think that even in patients that are less healthy, they'll probably, after having a lot of exposure to the combination, begin to use it in those patients as well","[70 p3 answers] Hi, Jami
+[71 p3 answers] So, first of all, when you think about KEYNOTE-021G, it certainly opens up the entire market for first-line for non-squamous patients
+[72 p3 answers] And once it's in the label, I think physicians will tend to use the product
+[83 p3 answers] Hopefully, we'll get KEYNOTE-021G in the label, which will give us even a further head start in first-line lung
+[84 p3 answers] Physicians will become very comfortable using KEYTRUDA as the drug of choice in first-line lung where it's approved
+[85 p3 answers] And then over time, I think we'll have a very solid position in the trials that Roger and his team are looking at across I-O/I-O combinations will only be helpful as we learn more",Y,,Y,none,
+39,General Motors_20170428,para1,69,144,70,74,0,,"[66 p1 remarks] In January, we increased our savings target to, at least $6.5 billion through 2018, which we expect will more than offset incremental investments in engineering, brand building, and technology
+[67 p1 remarks] And we are always seeking additional opportunities to streamline the business and identify further savings
+[68 p1 remarks] Our solid quarter follows three years of record-setting performance and a track record of taking bold and decisive actions to execute our strategic plan, put the customers at the center of everything we do, and deliver shareholder value
+[69 p1 remarks] And, with that, I'll turn it over to Chuck","[70 p3 answers] When you say that business, Rod, are you referring to passenger cars? I wasn't sure of your question
+[71 p4 answers] First, I would say, if you look at the cars, the Cruze, the Malibu, specifically that we just launched last year, they are on very efficient architectures; architectures that we'll use for multiple generations, not only from a light-weighting efficiency from a performance perspective, but also efficiency from a cost perspective
+[72 p4 answers] So, that's one opportunity that we're already putting in place – or we've already put in place
+[73 p4 answers] The brand building that we're doing is very important, also looking at the material cost performance that we continue to drive, and then really looking at configuring the vehicle and making sure we have the right vehicle offering to best satisfy and create the value for the customer","[132 p18 answers] We pulled that whole organization together, they operate under one person that we brought into the company
+[133 p18 answers] So, that's the way we're leveraging the engineering and then we do have a new electrical architecture coming in our vehicles that has been under development for a couple of years and will be launched shortly
+[134 p18 answers] So, we have addressed, I'll say, the core electrical architecture, but I think more importantly, bringing the resources and having the view that the car extends outside of the pain to make sure that we have the systems integrated well and that's the way that we operate today
+[135 p18 answers] And so, that's how we're addressing, I'll say, the tech piece of it to support the opportunity that we have to be first and fast in really leveraging this new area","[136 p19 answers] Thank you, operator
+[137 p19 answers] I just got a couple of comments
+[138 p19 answers] I'm really proud of the team and what they've accomplished in this first quarter
+[139 p19 answers] This again, I think, demonstrates our resolve that we are going to continue to strengthen the core business, generate the best possible return for our owners and then continue to execute with a huge sense of urgency on the transformative technologies that are really going to allow us to have a leadership position and make people's lives safer, simpler, and better as we move forward
+[140 p19 answers] We are a very disciplined company as we approach this
+[141 p19 answers] I think, you've seen actions from us, you'll continue to see actions that represent us because myself, the leadership team and every GM employee, we are here to win
+[142 p19 answers] And that's what we focus on doing every day when we are at work or wherever we are
+[143 p19 answers] So, thanks again for participating",Y,,Y,,
+40,Stryker Corp._20171026,para1,78,99,78,20,0,,"[75 p1 remarks] With respect to the outlook, recall that in August when we announced the Sage recall, we revised our 2017 EPS outlook to come in at the low end of our $6.45 to $6.55 range, which excluded the anticipated $0.03 to $0.05 of dilution related to the planned acquisition of NOVADAQ
+[76 p1 remarks] Based on our strong year-to-date results, we now expect our adjusted net earnings per diluted share, including $0.05 of dilution related to NOVADAQ, as well as the impacts related to Sage product actions and weather disruptions to be in the range of $6.45 to $6.50 per share
+[77 p1 remarks] And now we'll open up the call for Q&A
+[78 p1 heading] Question-and-Answer Session","[79 p2 answers] David, as you think about op margin, and we're not giving guidance for 2018, but I can comment that, yes, NOVADAQ was $0.05 dilutive and will be this year
+[80 p2 answers] And we're assuming that it will have no effect in next year
+[81 p2 answers] So it'll essentially be flat for next year
+[82 p2 answers] So, that's a little bit of a tailwind","[90 p5 answers] I think we're actually a little up year-to-date, but you're right, it's maybe close to flat
+[91 p5 answers] If you go back and look at Q4, it typically is our strongest sales quarter and also generates the greatest amount of leverage in every single year
+[92 p5 answers] We'll expect that that will also happen this year with our sales growth expectations
+[93 p5 answers] Also, we're beginning to see some of the benefits from our CTG investments, which I think will contribute to that in Q4. And then if I think about excluding those impacts of Sage, weather, NOVADAQ, which are not incidental to the margin, I think we'll be in the range of 30 to 50 basis points for the full year","[94 p6 answers] Yeah, I think going back to when we introduced sort of the cost transformation for growth program we talked about margin expansion over a five-year period of time
+[95 p6 answers] That included sort of a range of 30 to 50 basis points of expansion each year and 30 basis points in the earlier year, ramping more to like 50 basis points in the latter year
+[96 p6 answers] And really, beyond that, I think you can look at sort of what we've historically done in Q4 in operating margins, which is fairly more significant than the first three quarters of a year
+[97 p6 answers] And that should give you pretty good guidance
+[98 p6 answers] And we'll revisit it at Q4 when we give guidance for 2018.",Y,,Y,,
+41,Kimberly-Clark_20170725,para1,38,50,39,11,0,,"[35 p1 remarks] The comparison included benefits from cost savings
+[36 p1 remarks] So in summary, our second quarter results were impacted by difficult environment with weaker economies, category softness and increased competitive activity
+[37 p1 remarks] Nonetheless, we are achieving strong cost savings, we're generating healthy cash flow, and we're allocating capital in shareholder-friendly ways
+[38 p1 remarks] I'll now turn the call back over to Tom","[39 p2 answers] Yeah, we do continue to deliver significant cost savings through the FORCE program, and we were able to take up the full year target
+[40 p2 answers] And what I'd say is that as the program name implies, our teams really are Focused On Reducing Costs Everywhere
+[41 p2 answers] When you look at our supply chain savings that includes improving productivity and waste across our manufacturing operations, driving down the cost of our facilities, optimizing the cost of our product specifications and continually negotiating lower input costs or material costs of our products
+[42 p2 answers] And year-to-date, we are at 4% of cost of goods, which is really a strong performance, not only internally but benchmarks very well","[41 p2 answers] When you look at our supply chain savings that includes improving productivity and waste across our manufacturing operations, driving down the cost of our facilities, optimizing the cost of our product specifications and continually negotiating lower input costs or material costs of our products
+[42 p2 answers] And year-to-date, we are at 4% of cost of goods, which is really a strong performance, not only internally but benchmarks very well
+[43 p2 answers] I continue to see opportunities for us to continue to deliver the FORCE cost savings as we move forward
+[44 p2 answers] So good performance there, and I think more opportunity there","[45 p3 answers] Sure
+[46 p3 answers] On the buyback, the $800 million to $1 billion is still the right number for the year
+[47 p3 answers] We're on track with that
+[48 p3 answers] And in terms of the interest expense, we did some pre-funding on the $950 million that comes due in August, which is why you see a higher debt number at the end of the quarter, but that should normalize
+[49 p3 answers] And the debt that we'll take out in August is a pretty high coupon, it's 6.125%, and so that will be replaced with lower interest rate debt and that should bring the interest expense down for the year",Y,,Y,none,
+42,Grainger (W.W.) Inc._20170418,handover,87,222,87,128,6,"[72 p1 remarks] It's not an easy one to execute, but this is absolutely the right thing to do
+[73 p1 remarks] We will be more competitive
+[74 p1 remarks] We will provide a much better customer experience and we are going to allow Grainger to compete leading with our strikes
+[75 p1 remarks] So with that, I will turn it over to Ron
+[76 p2 remarks] Cost productivity is a key component to making sure that we achieve our forward-looking goals, I think it's important to understand the progress that we've made on cost","[84 p2 remarks] So a change of this nature is challenging and it's complex
+[85 p2 remarks] We know this is the right thing to do for the long-term success of the business and we are committed to making the changes needed to accelerate growth and to get back to the profitability that we expect
+[86 p2 remarks] So with that, I will open it up to questions
+[87 p2 heading] Question-and-Answer Session","[88 p3 answers] Good morning
+[89 p4 answers] I think it's a great question
+[90 p4 answers] And our expectation now is that we were more than breakeven in terms of profit dollars as we get the volume growth and improve our cost structure to get the operating margins back to our expectations
+[91 p4 answers] So it's a significant challenge in 2017 and 2018, but by 2019 we feel like our profit dollars will be at or higher than they would otherwise have been","[212 p35 answers] I would say that our experience with the online model would suggest both of those are actually pretty sticky when you've got a strong supply chain, you provide great service
+[213 p35 answers] So our expectation is that we'll be able to get growth both through our large contracts and through new customer acquisition with the changes we're making
+[214 p37 answers] Yes, I would say – yes, I’d also add that the cost leverage is in a world where you have that much price decline
+[215 p37 answers] We are getting significant cost leverage on an activity basis on a COGS basis, but it's a challenge obviously when you have that much price deflation","[216 p38 closing] So thanks everyone for joining the call
+[217 p38 closing] Obviously it was a challenging quarter
+[218 p38 closing] I just want to conclude by saying that we are facing into the challenges we have, we're facing into them with that the information that we have now and we are confident this is the right thing to do for the long-term health of the Company
+[219 p38 closing] We obviously wouldn't be taking these actions if we didn't think they are right for our customers and for creating value over the long haul
+[220 p38 closing] There is no question about that, but we are aligned as a team, we are fully committed to making this work to driving the volume growth and to getting the margins back to where they need to be
+[221 p38 closing] So appreciate your time today and we'll see you soon",Y,,Y,,
+43,PPL Corp._20170504,handover,51,99,51,47,0,"[40 p1 remarks] In the UK, as I mentioned earlier, Article 50 was invoked on March 29, which formally began the process of the UK exiting the European Union
+[41 p1 remarks] That process is expected to take up to two years to complete
+[42 p1 remarks] As we've discussed in the past, we expect no changes to our UK operations as a result of the exit
+[43 p1 remarks] I will now turn the call over to Robert Symons to provide an update on WPD's performance against our RIIO-ED1 incentive targets
+[44 p2 remarks] Thank you, Vince","[48 p2 remarks] That's our focus each and every day as we work to provide safe, reliable and affordable service to our customers, while growing value for shareowners
+[49 p2 remarks] Thank you for joining us on today's call
+[50 p2 remarks] And with that, operator, let's open the call to questions, please
+[51 p2 heading] Question-and-Answer Session","[52 p3 answers] Good morning, Greg
+[53 p4 answers] Very good
+[54 p5 answers] I'll let Vince take that question
+[55 p6 answers] If the pound continues to strengthen or even stays at the current forward rates, we would probably be slightly above the 6%, which is the upper end of our guidance","[93 p19 answers] And then, we have to basically select an approval process whether it's a public policy project, which would have to be opened by New York ISO, or there's another separate process under CARIS, which is the economic project
+[94 p19 answers] So, we still feel confident with the 2021 to 2023 dates
+[95 p20 answers] Start construction
+[96 p21 answers] Okay","[97 p22 answers] And I think seeing no further questions in the queue, I want to thank everyone for joining us on today's call and we will talk to you on the second quarter earnings call
+[98 p22 answers] Thank you",Y,,Y,,
+44,Marsh & McLennan_20170727,handover,63,242,63,178,0,"[57 p1 remarks] Similar to the first quarter, recent M&A activity impacted earnings
+[58 p1 remarks] We anticipate improvement as the year progresses and expect Consulting to deliver solid earnings growth and margin expansion for 2017. In summary, we are pleased with the results for the first half of the year
+[59 p1 remarks] For the full year 2017, we continue to expect underlying revenue growth within the 3% to 5% range that we have operated in for the past seven years, margin expansion in both operating segments and strong growth in adjusted EPS
+[60 p1 remarks] With that, let me turn it over to Mark
+[61 p2 remarks] Thanks, Mark","[60 p1 remarks] With that, let me turn it over to Mark
+[61 p2 remarks] Thanks, Mark
+[62 p2 remarks] Operator, we're ready to go to Q&A
+[63 p2 heading] Question-and-Answer Session","[64 p3 answers] Thanks, Kai
+[65 p3 answers] It's Dan, I'll just start a little bit by saying how thrilled I am that John is part of the team
+[66 p3 answers] And as you know, over the last several years, Marsh is doing well, so it's not crying out for massive amounts of change
+[67 p3 answers] But having said that, every business can be improved of – and I'm sure John will put his own mark on the organization and I'm looking forward to seeing the further developments as we go forward","[235 p37 answers] If you ask me if I would have preferred that we didn't exit that kind of specialty placement business
+[236 p37 answers] Yeah, the answer would be, I would prefer that we would have been still in that business, but when we go back in, it's a different kind of question
+[237 p37 answers] I mean I think they've done a very nice job, there is some good companies out there, but we're an awfully big company and we would have wanted to do something in a real minor way on an a structural basis like that
+[238 p37 answers] But fundamentally, we look at the wholesale business, so called wholesale business and we think they've done a nice job building out their specialties and their capabilities over a long period of time","[239 p38 answers] Okay
+[240 p38 answers] Thank you very much, Mindy
+[241 p38 answers] And I'd like to just thank everybody for joining us on the call this morning, and I'd especially like to thank our clients for their continued support in our colleagues for their hard work and dedication in serving them",Y,,Y,,
+45,AES Corp_20171102,handover,86,209,86,122,0,"[72 p1 remarks] Integrating energy storage to enhance the output of solar and wind facilities is a key focus area for Fluence, our new energy storage joint venture with Siemens
+[73 p1 remarks] The Fluence JV received anti-trust approval from the European Commission in October and is expected to close by the end of this year
+[74 p1 remarks] Once closed, we expect Fluence to deliver energy storage solution and services to a broader group of customers, from commercial and industrial companies to utilities and power developers in 160 countries
+[75 p1 remarks] Together with Siemens, our goal is for Fluence to be the market leader in this high-growth segment that is expected to grow tenfold in five years, reaching at least 28 gigawatts of installed capacity by 2022. With that, I'll turn the call over to Tom to discuss our third quarter results, capital allocation and guidance in more detail
+[76 p2 remarks] Thanks, Tom","[83 p2 remarks] Our overriding objective is to generate 8% to 10% average annual growth in earnings and free cash flow
+[84 p2 remarks] When combined with our dividend, we expect to deliver a total shareholder return of at least 12% annually
+[85 p2 remarks] Now we’ll be happy to take your questions
+[86 p2 heading] Question-and-Answer Session","[87 p3 answers] Hi, Ali
+[88 p4 answers] Yes, Ali, well, when we started, we were in 28 countries
+[89 p4 answers] When we exit the Philippines, we’ll be in 15. We’ve always said that somewhere between 12 to 15 countries is kind of our probably we thought that where we would end up
+[90 p4 answers] So I think it’s looking more like a dozen","[200 p20 answers] So that plant is up and running
+[201 p20 answers] So that whole – and what I would put it was basically part that the CAMMESA would take part of your payments and essentially give you these bonds and use the funds to build a new asset
+[202 p20 answers] But they have paid interest
+[203 p20 answers] The plants have been completed, so that – that’s going well","[204 p21 answers] No, because of the contract we have
+[205 p21 answers] I mean, I think that when you speak about it, it would – what I think is interesting is that with energy storage, we’re seeing that regulations
+[206 p21 answers] And they have a lot of – they do a lot of things, which aren’t translated in the current regulation
+[207 p21 answers] All over the world, what we’re doing is, let’s say, testing and actually, certifying some of our coal plants to run at lower MINs [ph] to give them greater flexibility to be ready for that future
+[208 p21 answers] But I don’t know, Tom, do you want to add anything?",Y,,Y,none,
+46,Dominion Energy_20170802,para1,68,114,68,45,0,,"[65 p1 remarks] Because of our unique MLP structure, our superior cash flows will also allow a dividend growth rate at Dominion Energy higher than 8% per year
+[66 p1 remarks] You can expect more clarity on our long-term growth plan and ongoing dividend policy at this fall's investor conferences
+[67 p1 remarks] With that, we will be happy to take your questions
+[68 p1 heading] Question-and-Answer Session","[69 p2 answers] Good morning
+[70 p2 answers] Michael Weinstein - Credit Suisse Securities (USA) LLC Hey, I was wondering if you could go through how you're dealing with the environmental opposition to the Atlantic Coast Pipeline within Virginia
+[71 p2 answers] What kind of deals have been reached with the opposition at this point?
+[72 p3 answers] I'm not sure I understand your question entirely","[109 p10 answers] It's a little more obvious to folks in the East, where vacant land is not quite as abundant
+[110 p10 answers] So we're exploring all of our options to meet our customers' demands for decades to come
+[111 p10 answers] That's part of why we're looking at the relicensing of North Anna and Surry as well, and pump storage in the Virginia mountains
+[112 p13 answers] Good morning, Jonathan",[113 p14 answers] Thank you,Y,,Y,,
+47,KLA-Tencor Corp._20170727,para1,45,106,46,60,0,,"[42 p1 remarks] With that, our guidance for the September quarter is: shipments in the range of $945 million to $1.025 billion; revenue between $910 million and $970 million and GAAP diluted EPS of $1.48 to $1.72 per share; as well as non-GAAP diluted EPS of $1.50 to $1.74 per share
+[43 p1 remarks] This September quarter EPS guidance range assumes a 20% tax rate in the quarter
+[44 p1 remarks] This concludes my remarks
+[45 p1 remarks] I will now turn the call back over to Ed to begin the Q&A","[46 p2 answers] Yes, Farhan, it's Bren
+[47 p2 answers] I think the only thing I would add to that is we're still waiting for these products and that contribution
+[48 p2 answers] But we have from a 3D NAND perspective, from planar NAND, we have seen intensity improve
+[49 p2 answers] If you think about the peripheral products around their wafer inspection and in metrology, where wafer flatness is really, really critical to advance layer developments, 3D NAND, film measurements, CE measurement, laser scanning, opportunities around defect inspection","[101 p12 answers] So $1 billion of WFE depending on the segment is not created equal for us
+[102 p12 answers] But we've seen some improvement on the memory said, which we're encouraged by
+[103 p12 answers] I think these new products, given the timing of when they'll ship and go to market, and we'll actually start to see revenue given the valuation process and so on, I think in the second half of the year, we might see some revenue, but I think it will be a pretty small amount
+[104 p12 answers] But as I look at our plans for next year, I look at the funnel, I don't see any reason why KLA shouldn't grow in line with – at least in line with the market, as we move into 2018.",[105 p13 answers] Thank you,Y,,Y,,
+48,Microsoft Corp._20170720,para1,118,187,119,68,0,,"[115 p1 remarks] Other income and expense should be about $250 million, as we expect to realize more gains from our equities portfolio
+[116 p1 remarks] Given the volume of equity vests that occur in our first quarter and based on today’s stock value, we expect our first quarter non-GAAP effective tax rate to be approximately 4 points lower than the estimated full year tax rate
+[117 p1 remarks] Finally, we adopted the new revenue standard, ASU 606, effective at the start of fiscal year 2018. To assist in the transition, Chris along with our Chief Accounting Officer, Frank Brod, will be hosting a conference call in early August to discuss these changes, present historical restated financial results, and share Q1 guidance converted to the new standard
+[118 p1 remarks] And with that let’s go to Q&A","[119 p2 answers] Let me break down the question in a couple of ways
+[120 p2 answers] Overall, when you think about COGS and the pacing, the depreciation rates of our servers don't change
+[121 p2 answers] It’s generally over a three-year period and there is other pieces of equipment that have a longer, shorter depreciation life
+[122 p2 answers] So that piece of depreciation doesn't change per se","[176 p16 answers] And so I think, we remain confident that double-digit target that we have for that KPI and is it really, I don't think sort of a comparability challenge per se, but that’s why we try to keep it at that high level to not get too tied to one or the other, given we know the TAM expansion that’s possible, we know we can grow within it
+[177 p16 answers] And I apologize, I didn't answer Marks last component, so let me just go back and I had forgotten, which was, was there anything unique in the expiry base for Q1, the answer is, it is up a little year-over-year, but in certainly not through the same type of Q4 comparable
+[178 p16 answers] When we tend to have these, we tried to call them out like we did in Q3 leading into Q4. So, Q1 I would say is just up a little
+[179 p16 answers] So I wouldn't expect any material impact","[180 p17 answers] Thanks Brad
+[181 p17 answers] The way I tend to think about it is, with any service you want the gross margin itself to improve, and that includes in the Azure services components themselves
+[182 p17 answers] The difference between core compute in-store versus the premium layers can be significant and we’ve had improvements across all of them
+[183 p17 answers] So, the real question on how and where should the Azure gross margin be is about sort of the ultimate mix of those
+[184 p17 answers] Anyhow, we saw significant improvement this year
+[185 p17 answers] We expect a lot of improvement again next year on each of those service lines
+[186 p17 answers] And where the actual mix occurs among those lines, I think we will just have to wait and see, but that’s why I tend to not focus at that layer it’s like can you get every service better, can you make material improvement, and then of course can you get usage and consumption going that leads to premium service usage, and of course over time you’d expect a higher mix of premium versus core",Y,,Y,none,
+49,Kimberly-Clark_20170124,para1,51,265,51,213,0,,"[48 p1 remarks] We expect to allocate between $2.2 billion and $2.4 billion to dividends and share repurchases in 2017. That's a higher amount than in 2016 and that’s equivalent to 5% to 6% of our current market capitalization
+[49 p1 remarks] So all in all, we remain focused on continuing to compete effectively in the near term as we execute our global business plans strategies for long term success and shareholder value creation
+[50 p1 remarks] That wraps up our prepared remarks and now we’ll begin to take your questions
+[51 p1 heading] Question-and-Answer Session","[52 p2 answers] I think I would say, we’re going to have some carry-over price drag in places like China
+[53 p2 answers] We still probably will get some additional positive price in markets like Brazil and Argentina, but we're not counting on a lot of price
+[54 p2 answers] In some of these markets the consumer has been pushed pretty hard and we just don't see of a big opportunity to take price
+[55 p2 answers] And even in markets like the U.K","[260 p54 answers] We've been pretty successful at transitioning the category from a lower cost briefs, which is more like an adult diaper to a higher cost pant will much similar to what we would sell in the U.S
+[261 p54 answers] , just because it’s much better solution and then deliver terrific value
+[262 p54 answers] Even though that is a income challenged consumer and so, you do still see responsiveness, but you don't have the explosive growth of GDP per capita and more people under in the category of that you probably have in China
+[263 p55 answers] Thanks Jon","[264 p56 answers] Well, once again, we had a good year 2016. We've laid out an aggressive plan for our global business class strategies in 2017. And we appreciate your support of Kimberly-Clark",Y,,Y,,
+50,Illumina Inc_20170801,para1,36,172,37,135,0,,"[33 p1 remarks] Since launch, adoption is ahead of our expectations and customer feedback has been very positive
+[34 p1 remarks] Reimbursement in Europe is progressing as Belgium recently began covering T21 testing for all women, and the French Health Authority (sic) [French National Authority for Health] recommend NIPT coverage in pregnancies with greater than 1 to 1,000 risks
+[35 p1 remarks] In closing, I am pleased with our second quarter results, given the continued progress of our NovaSeq launch, the trends we are witnessing across the rest of our portfolio and market segments, and our team's execution
+[36 p1 remarks] I will now turn the call over to Sam for a detailed overview of our second quarter results","[37 p2 answers] Sure
+[38 p2 answers] There are a number of things that played out from a consumable dynamics perspective in Q2. In the high throughput segments, we did continue to see a decline in the HiSeq consumables as we talked about in Q1 and as we expect it to continue to play out
+[39 p2 answers] On the X side, we did see strength driven by both our customers in China as well as you mentioned and we talked about in the call, our translational liquid biopsy customers
+[40 p2 answers] And in fact as we looked at the X instruments that were connected into BaseSpace, we continued to see our customers running Xs as they usually had","[167 p31 answers] I think there could be a marginal impact there, if you're servicing three different lines
+[168 p31 answers] If you're looking at the HiSeq, the X and the NovaSeq, and it eventually sort of converges to NovaSeq that could be some marginal improvements in terms of margin, but I'd say those are marginal
+[169 p32 answers] The big drivers were our direct to consumer customers
+[170 p32 answers] So they sell into the ancestry space and to the health traits for the consumer market and they are doing well and that's driving the number that you see",[171 p33 answers] In some cases we run the service for them and so we process the arrays for them and that shows up in the services line,Y,,Y,none,

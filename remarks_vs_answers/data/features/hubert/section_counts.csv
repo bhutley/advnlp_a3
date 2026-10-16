@@ -1,0 +1,573 @@
+event_id,remarks,answers,closing,heading
+3M Company_20170425,110,69,0,0
+3M Company_20170725,116,93,0,0
+A.O. Smith Corp_20170726,41,21,0,0
+ABIOMED Inc_20170504,58,159,0,0
+AES Corp_20170508,76,63,0,1
+AES Corp_20171102,86,122,0,1
+AMETEK Inc._20170207,95,260,0,0
+AMETEK Inc._20170802,63,189,0,0
+AT&T Inc._20170425,107,120,0,0
+AT&T Inc._20171024,176,223,0,0
+AbbVie Inc._20170427,64,69,0,0
+AbbVie Inc._20170728,55,10,0,0
+AbbVie Inc._20171027,52,55,0,0
+Abbott Laboratories_20171018,36,209,0,0
+Activision Blizzard_20170209,89,0,0,0
+Activision Blizzard_20170504,59,0,0,0
+Adobe Systems Inc_20170316,66,77,12,0
+Advance Auto Parts_20170524,113,189,6,0
+Advanced Micro Devices Inc_20170501,35,147,0,0
+Advanced Micro Devices Inc_20170725,40,175,3,0
+Advanced Micro Devices Inc_20171024,42,19,0,0
+Aetna Inc_20170131,66,53,0,0
+Aetna Inc_20170502,66,51,0,0
+Aetna Inc_20171031,75,67,0,0
+Agilent Technologies Inc_20170214,73,176,0,0
+Akamai Technologies Inc_20170207,90,127,0,0
+Akamai Technologies Inc_20170502,89,109,0,0
+Alaska Air Group Inc_20170208,62,52,0,1
+Alaska Air Group Inc_20171025,52,36,0,1
+Alexion Pharmaceuticals_20171026,56,34,0,0
+Align Technology_20170131,91,21,0,0
+Align Technology_20170427,77,129,0,0
+Align Technology_20170727,70,115,0,1
+Allegion_20170209,79,55,0,0
+Allegion_20170427,58,47,0,0
+"Allergan, Plc_20170803",71,102,0,0
+Alliance Data Systems_20170126,31,28,0,0
+Alliance Data Systems_20170420,34,70,0,0
+Alliance Data Systems_20171019,42,63,0,0
+Altria Group Inc_20170502,35,17,0,1
+Altria Group Inc_20170727,41,132,0,0
+Altria Group Inc_20171026,50,115,0,0
+Amazon.com Inc._20170202,18,36,4,1
+Amazon.com Inc._20170427,21,12,4,0
+Ameren Corp_20170216,87,16,0,0
+American Express Co_20170419,127,144,0,0
+American Express Co_20170719,130,0,0,0
+American Express Co_20171018,116,115,0,0
+American Tower Corp A_20170227,110,83,0,1
+American Tower Corp A_20170427,87,69,0,0
+AmerisourceBergen Corp_20170131,93,41,0,0
+AmerisourceBergen Corp_20170504,115,127,6,0
+AmerisourceBergen Corp_20170803,132,77,0,0
+AmerisourceBergen Corp_20171102,148,62,0,0
+Amgen Inc._20170725,88,88,0,0
+Amgen Inc._20171025,63,57,0,0
+Anthem Inc._20170201,33,110,0,0
+Anthem Inc._20170426,83,97,8,1
+Anthem Inc._20170726,62,79,9,0
+Aon plc_20170509,78,152,0,0
+Aon plc_20171027,66,94,0,0
+Apache Corporation_20170223,103,157,0,0
+Apache Corporation_20171102,78,128,0,0
+Archer-Daniels-Midland Co_20170207,40,38,0,0
+Archer-Daniels-Midland Co_20170502,34,59,0,0
+Archer-Daniels-Midland Co_20170801,32,23,0,0
+Archer-Daniels-Midland Co_20171031,30,71,0,0
+Autodesk Inc._20170302,46,38,0,1
+Automatic Data Processing_20170201,51,107,10,0
+Automatic Data Processing_20170503,40,83,0,1
+Automatic Data Processing_20170727,49,212,9,0
+Automatic Data Processing_20171102,50,203,12,0
+Avery Dennison Corp_20170201,58,23,0,1
+Avery Dennison Corp_20170426,60,54,0,1
+Avery Dennison Corp_20170725,59,63,0,1
+Avery Dennison Corp_20171025,58,58,0,1
+Ball Corp_20170504,45,83,0,0
+Ball Corp_20170803,50,168,2,1
+Ball Corp_20171102,52,162,0,1
+Baxter International Inc._20170426,57,164,0,0
+Baxter International Inc._20170726,94,87,0,1
+Becton Dickinson_20170803,123,121,0,0
+Becton Dickinson_20171102,165,36,0,0
+Biogen Inc._20170126,106,0,0,0
+Boeing Company_20170426,66,239,0,1
+Booking Holdings Inc_20170509,66,114,0,1
+Booking Holdings Inc_20171106,52,88,0,1
+BorgWarner_20170209,116,137,0,0
+BorgWarner_20170727,38,11,0,0
+Bristol-Myers Squibb_20170427,47,43,0,0
+Bristol-Myers Squibb_20170727,53,50,0,0
+Broadridge Financial Solutions_20170510,101,14,0,0
+"CA, Inc._20170802",67,7,0,1
+CBRE Group_20171103,73,21,0,0
+CBS Corp._20170807,113,77,0,0
+CBS Corp._20171102,120,123,0,0
+CIGNA Corp._20170202,61,176,0,0
+CIGNA Corp._20170505,70,194,8,0
+CIGNA Corp._20170804,61,114,8,0
+CME Group Inc._20171026,17,29,0,1
+CMS Energy_20170202,1,0,0,0
+CMS Energy_20170501,76,112,3,0
+CMS Energy_20171026,59,52,1,0
+CVS Health_20170209,110,108,0,1
+Cadence Design Systems_20170724,28,24,0,1
+Campbell Soup_20170217,161,59,0,0
+Campbell Soup_20170519,107,100,0,0
+Campbell Soup_20170831,128,63,0,0
+Campbell Soup_20171121,103,68,0,0
+Cardinal Health Inc._20170501,71,94,0,1
+Carmax Inc_20170922,57,204,10,1
+Carmax Inc_20171221,28,38,0,0
+Caterpillar Inc._20170126,132,147,0,1
+Caterpillar Inc._20170425,112,2,0,0
+Caterpillar Inc._20170725,139,17,0,0
+Caterpillar Inc._20171024,121,0,0,0
+Cboe Global Markets_20170804,74,61,0,0
+Celgene Corp._20170126,85,57,0,0
+Celgene Corp._20170427,68,52,0,0
+Celgene Corp._20170727,61,100,0,0
+Celgene Corp._20171026,67,17,0,0
+CenturyLink Inc_20170802,70,108,7,0
+CenturyLink Inc_20171108,47,73,0,0
+Chevron Corp._20170127,38,18,0,0
+Chevron Corp._20170428,82,142,0,1
+Chevron Corp._20170728,93,150,0,0
+Church & Dwight_20170803,58,77,0,1
+Church & Dwight_20171102,49,121,1,0
+Cimarex Energy_20170510,37,33,0,1
+Cisco Systems_20170215,45,70,0,0
+Cisco Systems_20171115,49,115,0,0
+Citigroup Inc._20170118,133,115,0,1
+Citigroup Inc._20171012,90,169,0,0
+Citrix Systems_20170802,50,117,6,1
+Coca-Cola Company (The)_20170209,88,52,7,0
+Coca-Cola Company (The)_20170726,63,169,4,0
+Cognizant Technology Solutions_20170803,74,31,0,0
+Cognizant Technology Solutions_20171101,64,50,4,0
+Comcast Corp._20170126,102,26,0,0
+Comcast Corp._20170427,87,17,0,0
+Comcast Corp._20170727,61,26,0,0
+Comerica Inc._20170117,63,75,0,0
+Comerica Inc._20170418,72,46,0,0
+Conagra Brands_20171221,121,108,0,0
+Corning Inc._20170124,118,45,0,0
+"Coty, Inc_20170209",96,115,0,0
+"Coty, Inc_20170822",61,73,0,0
+"Coty, Inc_20171109",63,142,0,0
+Crown Castle International Corp._20170719,50,148,3,0
+Cummins Inc._20170801,79,149,0,0
+D. R. Horton_20170124,13,3,0,0
+DTE Energy Co._20170726,65,25,0,0
+DaVita Inc._20170502,31,35,0,0
+DaVita Inc._20170801,23,6,0,0
+Darden Restaurants_20170926,41,178,0,1
+Darden Restaurants_20171219,44,261,0,0
+Digital Realty Trust Inc_20170216,60,112,0,0
+Digital Realty Trust Inc_20170427,75,151,0,0
+Dish Network_20170222,10,0,0,1
+Dish Network_20170501,20,20,0,1
+Dish Network_20170803,10,279,0,0
+Dish Network_20171109,17,31,0,0
+Dollar General_20171207,42,33,0,0
+Dominion Energy_20170504,71,48,0,1
+Dominion Energy_20170802,68,45,0,1
+Dominion Energy_20171030,62,43,0,1
+Dover Corp._20170420,81,46,0,0
+Dover Corp._20170720,71,26,0,0
+Duke Energy_20171103,77,127,4,0
+EQT Corporation_20170427,30,19,0,0
+EQT Corporation_20170727,36,20,0,0
+Ecolab Inc._20170221,32,0,3,1
+Ecolab Inc._20170502,27,375,0,0
+Ecolab Inc._20170801,27,0,3,0
+Ecolab Inc._20171031,32,0,4,0
+Edison Int'l_20170501,102,56,0,0
+Edwards Lifesciences_20170201,66,225,0,0
+Electronic Arts_20171031,62,186,0,0
+Emerson Electric Company_20170207,66,450,5,1
+Emerson Electric Company_20170502,89,378,8,1
+Equinix_20170802,87,67,0,0
+Equinix_20171101,95,2,0,0
+Estee Lauder Cos._20170202,127,91,0,0
+Estee Lauder Cos._20170503,134,148,0,0
+Estee Lauder Cos._20170818,120,130,0,0
+Estee Lauder Cos._20171101,105,121,0,0
+Exxon Mobil Corp._20171027,113,333,0,1
+F5 Networks_20170125,67,89,0,1
+F5 Networks_20170426,77,89,0,1
+F5 Networks_20170726,51,136,0,1
+FLIR Systems_20171025,52,13,0,0
+"Facebook, Inc._20171101",85,71,0,0
+Fidelity National Information Services_20170207,82,65,0,1
+Fidelity National Information Services_20170802,69,83,0,1
+Fifth Third Bancorp_20170124,141,26,0,0
+FleetCor Technologies Inc_20170803,78,79,0,0
+Foot Locker Inc_20170224,60,33,0,0
+Foot Locker Inc_20170519,82,73,0,0
+Foot Locker Inc_20171117,83,24,0,0
+Ford Motor_20170427,86,241,0,0
+Fortive Corp_20170207,85,190,0,0
+Fortune Brands Home & Security_20170802,92,142,0,0
+Franklin Resources_20170127,6,93,2,1
+Franklin Resources_20170428,6,10,0,0
+Freeport-McMoRan Inc._20170425,152,148,0,1
+Gap Inc._20170223,134,193,0,0
+Gap Inc._20170518,95,114,0,0
+Garmin Ltd._20170222,59,85,0,0
+Garmin Ltd._20170503,48,71,0,0
+Garmin Ltd._20171101,47,101,0,0
+Gartner Inc_20170202,148,66,0,0
+Gartner Inc_20170504,140,58,0,0
+Gartner Inc_20170808,146,76,0,0
+Gartner Inc_20171102,151,92,0,0
+General Dynamics_20170127,105,83,0,1
+General Dynamics_20170426,76,111,0,0
+General Dynamics_20171025,82,190,0,0
+General Growth Properties Inc._20170501,90,152,5,0
+General Growth Properties Inc._20170802,103,111,2,0
+General Mills_20170628,70,26,0,0
+General Mills_20171220,121,98,0,0
+General Motors_20170207,84,98,0,1
+General Motors_20170428,70,74,0,0
+General Motors_20170725,59,91,0,0
+General Motors_20171024,57,58,0,0
+Genuine Parts_20170221,88,52,0,1
+Gilead Sciences_20170502,55,58,0,0
+Goldman Sachs Group_20170118,12,0,0,0
+Goldman Sachs Group_20170718,89,152,0,1
+Goodyear Tire & Rubber_20170428,86,66,0,0
+Grainger (W.W.) Inc._20170125,33,74,5,1
+Grainger (W.W.) Inc._20170418,87,128,6,1
+Grainger (W.W.) Inc._20170719,96,178,0,1
+HCA Holdings_20170502,42,37,0,0
+HP Inc._20170222,60,74,0,0
+HP Inc._20170524,87,0,0,0
+HP Inc._20170823,71,82,0,1
+HP Inc._20171121,69,85,0,0
+Halliburton Co._20171023,138,123,7,1
+Hanesbrands Inc_20170502,59,50,0,0
+Hanesbrands Inc_20171101,45,5,0,0
+Harris Corporation_20170801,55,33,0,0
+Hasbro Inc._20170206,94,161,0,0
+Hasbro Inc._20170424,61,40,0,0
+Hasbro Inc._20171023,65,157,0,0
+Henry Schein_20170221,89,48,0,0
+Hess Corporation_20170125,75,60,0,0
+Hess Corporation_20170426,49,44,0,1
+Hess Corporation_20171025,64,133,0,1
+Hewlett Packard Enterprise_20170531,81,89,0,1
+Hewlett Packard Enterprise_20170905,90,142,0,0
+Hewlett Packard Enterprise_20171121,88,106,0,0
+Hilton Worldwide Holdings Inc_20170215,57,256,0,0
+Hilton Worldwide Holdings Inc_20170502,66,228,0,0
+Hologic_20170201,83,113,0,0
+Hologic_20170802,93,158,0,0
+Hologic_20171108,99,166,0,0
+Home Depot_20170221,59,82,0,1
+Home Depot_20170516,42,58,0,0
+Hormel Foods Corp._20170223,63,189,5,0
+Humana Inc._20170503,45,68,0,1
+Humana Inc._20170802,45,116,0,1
+IPG Photonics Corp._20170502,72,127,0,1
+Illinois Tool Works_20170424,67,54,0,1
+Illinois Tool Works_20171023,9,79,0,0
+Illumina Inc_20170131,43,21,0,1
+Illumina Inc_20170801,37,135,0,0
+Illumina Inc_20171024,77,213,0,0
+Incyte_20170214,58,8,0,1
+Incyte_20170504,44,0,0,1
+Incyte_20170801,28,0,0,1
+Ingersoll-Rand PLC_20170201,78,57,0,0
+Ingersoll-Rand PLC_20170426,113,31,0,0
+Intel Corp._20170427,57,50,0,0
+Intel Corp._20170727,72,137,0,0
+Intel Corp._20171026,78,107,0,0
+Intercontinental Exchange_20170207,53,73,0,0
+International Paper_20170202,115,20,0,0
+Interpublic Group_20170210,104,14,0,0
+Interpublic Group_20170421,61,3,0,0
+Intuit Inc._20170223,68,161,0,0
+Intuit Inc._20170523,64,228,0,1
+Invesco Ltd._20170727,67,102,0,0
+Invesco Ltd._20171026,60,118,0,0
+Iron Mountain Incorporated_20170223,102,37,0,0
+Iron Mountain Incorporated_20170427,73,12,0,0
+JPMorgan Chase & Co._20170714,96,134,0,1
+JPMorgan Chase & Co._20171012,83,152,0,1
+Johnson Controls International_20170201,62,17,0,0
+Johnson Controls International_20170427,62,77,0,0
+Johnson Controls International_20170727,75,28,0,0
+Johnson Controls International_20171109,87,54,0,0
+Juniper Networks_20170425,39,174,0,0
+Juniper Networks_20170725,39,187,0,0
+KLA-Tencor Corp._20170427,47,86,0,0
+KLA-Tencor Corp._20170727,46,60,0,0
+Kansas City Southern_20170120,68,48,0,1
+Kansas City Southern_20171020,44,92,0,0
+Kellogg Co._20170504,68,106,0,0
+Kellogg Co._20170803,106,98,0,0
+Kellogg Co._20171031,86,88,0,0
+Kimberly-Clark_20170124,51,213,0,1
+Kimberly-Clark_20170424,40,163,0,1
+Kimberly-Clark_20170725,39,11,0,0
+Kinder Morgan_20170419,80,130,0,0
+Kohl's Corp._20170223,69,129,0,0
+Kohl's Corp._20170511,41,55,0,0
+Kohl's Corp._20171109,75,195,0,1
+Kraft Heinz Co_20170215,66,38,0,0
+Kraft Heinz Co_20170503,44,46,0,1
+Kraft Heinz Co_20171101,57,40,0,1
+Kroger Co._20170302,60,58,0,0
+Kroger Co._20170615,54,84,0,0
+Kroger Co._20170908,94,161,0,1
+Kroger Co._20171130,60,36,0,0
+LKQ Corporation_20170427,77,116,0,0
+LKQ Corporation_20170727,97,134,0,1
+Lam Research_20170125,68,42,0,1
+Lam Research_20170418,67,32,0,1
+Lennar Corp._20170620,68,102,3,0
+Lennar Corp._20171003,93,102,1,0
+Lilly (Eli) & Co._20170131,69,33,0,0
+Lilly (Eli) & Co._20170425,49,50,0,0
+Lockheed Martin Corp._20170124,72,74,6,0
+Lockheed Martin Corp._20170425,52,86,6,0
+Lockheed Martin Corp._20170718,45,102,0,0
+Lockheed Martin Corp._20171024,71,157,0,0
+Lowe's Cos._20170524,57,35,0,0
+Lowe's Cos._20170823,53,26,0,1
+Lowe's Cos._20171121,51,20,0,1
+LyondellBasell_20170203,32,7,0,0
+MGM Resorts International_20170727,34,187,0,1
+MSCI Inc_20170504,113,16,0,1
+Marsh & McLennan_20170727,63,178,0,1
+Marsh & McLennan_20171026,78,117,0,1
+Martin Marietta Materials_20170214,91,369,7,1
+Martin Marietta Materials_20170502,81,338,6,1
+Martin Marietta Materials_20170801,112,301,6,1
+Martin Marietta Materials_20171102,97,318,6,1
+Masco Corp._20170727,58,101,0,0
+Masco Corp._20171024,49,61,0,0
+Mastercard Inc._20170131,79,172,11,0
+Mastercard Inc._20170727,93,175,12,0
+Mattel Inc._20170727,69,25,0,0
+Mattel Inc._20171026,142,154,0,0
+McDonald's Corp._20171024,52,96,0,1
+Merck & Co._20170202,60,26,0,0
+Merck & Co._20170502,49,68,0,0
+Merck & Co._20170728,58,68,0,0
+Merck & Co._20171027,56,19,0,0
+Michael Kors Holdings_20170207,80,165,3,1
+Micron Technology_20170629,62,58,0,0
+Micron Technology_20170926,79,87,0,1
+Microsoft Corp._20170126,109,81,0,0
+Microsoft Corp._20170427,97,69,0,0
+Microsoft Corp._20170720,119,67,0,0
+Molson Coors Brewing Company_20170802,60,36,0,0
+Mondelez International_20170802,105,78,0,0
+Motorola Solutions Inc._20170504,50,34,0,0
+Motorola Solutions Inc._20170803,52,50,0,0
+Motorola Solutions Inc._20171102,54,10,0,0
+Mylan N.V._20170510,62,37,0,0
+NRG Energy_20170228,119,56,2,1
+"Nasdaq, Inc._20170131",93,138,3,1
+Nektar Therapeutics_20170301,51,16,5,0
+Nektar Therapeutics_20171107,56,48,5,0
+NetApp_20170215,69,114,0,0
+NetApp_20171115,62,100,6,0
+Newell Brands_20170206,69,33,0,0
+Newmont Mining Corporation_20170725,59,12,0,0
+News Corp. Class A_20170509,91,26,0,0
+NiSource Inc._20170503,19,25,0,0
+Nielsen Holdings_20170727,76,99,0,0
+Nielsen Holdings_20171025,65,68,0,0
+Nike_20170321,93,87,0,1
+Noble Energy Inc_20170803,86,92,0,0
+Nordstrom_20170223,56,59,0,0
+Nordstrom_20171109,56,69,0,0
+Norfolk Southern Corp._20170426,43,70,0,0
+Norfolk Southern Corp._20171025,35,90,0,0
+Norwegian Cruise Line_20170222,43,35,0,0
+Nucor Corp._20170420,37,19,0,0
+Nucor Corp._20171019,42,36,0,0
+Nvidia Corporation_20170509,87,6,0,0
+Oracle Corp._20170621,82,40,0,0
+Oracle Corp._20170914,41,21,0,0
+Oracle Corp._20171214,57,61,0,0
+PACCAR Inc._20170725,38,106,0,1
+PACCAR Inc._20171024,46,178,0,1
+PG&E Corp._20170727,60,6,0,0
+PPG Industries_20170119,92,191,0,0
+PPL Corp._20170201,92,38,2,1
+PPL Corp._20170504,51,45,0,1
+PPL Corp._20170803,65,23,0,1
+Parker-Hannifin_20170202,43,20,0,0
+Parker-Hannifin_20170427,56,81,0,1
+Parker-Hannifin_20171102,40,29,0,0
+PayPal_20170126,97,50,4,0
+PayPal_20170726,94,125,0,0
+Pentair plc_20170725,53,90,0,0
+PepsiCo Inc._20170215,65,66,3,0
+PepsiCo Inc._20170426,86,84,3,0
+PepsiCo Inc._20170711,95,73,10,0
+PepsiCo Inc._20171004,74,189,5,0
+PerkinElmer_20171102,64,130,3,0
+Perrigo_20171109,87,82,0,0
+Pinnacle West Capital_20170224,60,7,0,0
+Pinnacle West Capital_20170502,48,32,0,0
+Pinnacle West Capital_20170803,36,26,0,1
+Pinnacle West Capital_20171103,53,28,0,1
+Polo Ralph Lauren Corp._20170202,95,83,2,0
+Polo Ralph Lauren Corp._20171102,97,55,0,1
+Prologis_20170718,49,29,0,0
+Public Serv. Enterprise Inc._20170428,72,39,0,1
+Quanta Services Inc._20170221,76,118,0,0
+Quanta Services Inc._20170504,73,177,0,0
+Quanta Services Inc._20170803,69,126,5,0
+Quest Diagnostics_20170420,40,122,4,0
+Quest Diagnostics_20170725,61,188,0,0
+Raytheon Co._20170427,66,76,0,1
+Raytheon Co._20171026,79,59,0,1
+Red Hat Inc._20170327,73,33,0,1
+Red Hat Inc._20170925,62,45,0,1
+Red Hat Inc._20171219,66,17,0,1
+Regeneron_20170504,86,29,0,0
+Regeneron_20170803,103,31,0,0
+Regeneron_20171108,76,39,0,0
+Regions Financial Corp._20170721,107,114,0,0
+Regions Financial Corp._20171024,123,59,0,0
+Republic Services Inc_20170216,50,48,0,0
+Republic Services Inc_20170727,42,62,0,0
+ResMed_20170123,84,111,4,0
+ResMed_20170427,98,144,10,0
+ResMed_20171026,68,115,4,0
+Rockwell Automation Inc._20170125,63,107,0,0
+Rockwell Automation Inc._20170426,51,117,0,0
+Rockwell Automation Inc._20170726,55,143,0,0
+Roper Technologies_20170209,153,27,0,1
+Ross Stores_20170228,34,51,0,0
+Ross Stores_20170518,20,27,0,0
+Ross Stores_20170817,23,36,0,0
+Ross Stores_20171116,32,39,1,1
+Royal Caribbean Cruises Ltd_20170801,81,72,0,0
+Royal Caribbean Cruises Ltd_20171107,169,44,0,0
+SCANA Corp_20170427,49,52,7,0
+SCANA Corp_20170803,49,19,0,0
+SVB Financial_20170126,84,84,0,1
+SVB Financial_20170427,103,53,0,1
+Salesforce.com_20170228,60,85,0,0
+Salesforce.com_20170822,51,139,0,0
+Schlumberger Ltd._20170421,55,168,0,1
+Schlumberger Ltd._20170721,65,145,0,1
+Seagate Technology_20170124,26,20,0,0
+Seagate Technology_20170426,27,0,0,0
+Seagate Technology_20170725,58,60,3,1
+Seagate Technology_20171023,38,11,0,0
+Sealed Air_20170209,69,117,0,0
+Sealed Air_20170509,72,72,0,0
+Sealed Air_20171108,79,115,0,0
+Sempra Energy_20170509,45,8,0,1
+Sherwin-Williams_20170420,58,146,0,1
+Sherwin-Williams_20170720,89,282,0,1
+Skyworks Solutions_20170119,46,235,2,1
+Skyworks Solutions_20170427,39,167,2,1
+Skyworks Solutions_20170720,36,183,2,1
+Skyworks Solutions_20171106,51,181,3,1
+Snap-On Inc._20170202,145,154,0,0
+Snap-On Inc._20170720,112,215,0,0
+Starbucks Corp._20170126,98,20,0,0
+Stericycle Inc_20170504,26,32,0,0
+Stericycle Inc_20170803,27,76,0,0
+Stericycle Inc_20171108,28,36,0,0
+Stryker Corp._20170727,71,13,0,1
+Stryker Corp._20171026,78,20,0,1
+SunTrust Banks_20170120,111,72,0,0
+SunTrust Banks_20171020,78,21,0,0
+Symantec Corp._20170510,136,105,10,0
+Synopsys Inc._20170215,82,147,0,0
+Synopsys Inc._20170517,62,119,0,0
+Synopsys Inc._20171129,83,76,0,0
+Sysco Corp._20170508,56,117,0,0
+Sysco Corp._20170814,51,31,0,0
+Sysco Corp._20171106,58,138,0,0
+TE Connectivity Ltd._20170125,87,129,0,0
+TE Connectivity Ltd._20170726,91,135,0,0
+"Tapestry, Inc._20170131",96,39,0,0
+Target Corp._20170816,87,32,0,0
+Target Corp._20171115,67,47,0,0
+Texas Instruments_20170124,76,34,3,1
+Texas Instruments_20170425,64,53,0,0
+Texas Instruments_20171024,46,43,0,0
+The Bank of New York Mellon Corp._20170720,91,80,0,0
+The Clorox Company_20170203,83,12,0,0
+The Clorox Company_20170503,64,0,0,0
+The Clorox Company_20170803,45,2,0,0
+The Clorox Company_20171101,47,1,0,0
+The Cooper Companies_20170831,48,68,6,0
+The Hershey Company_20170203,76,20,0,0
+The Hershey Company_20170426,94,126,0,0
+The Hershey Company_20171026,93,81,0,1
+The Mosaic Company_20170502,48,35,0,0
+The Mosaic Company_20170801,56,43,0,0
+The Mosaic Company_20171031,60,32,0,0
+The Walt Disney Company_20170207,54,43,0,0
+The Walt Disney Company_20170509,55,30,0,0
+The Walt Disney Company_20170808,45,13,0,0
+The Walt Disney Company_20171109,57,29,0,0
+Thermo Fisher Scientific_20170426,81,149,5,0
+Tiffany & Co._20170524,59,2,0,0
+Tractor Supply Company_20170201,65,2,0,0
+Tractor Supply Company_20170426,56,32,0,1
+Tractor Supply Company_20170726,56,101,0,1
+Tractor Supply Company_20171025,66,111,0,1
+TransDigm Group_20170207,110,237,0,0
+"Twitter, Inc._20170209",28,79,6,0
+"Twitter, Inc._20170426",17,32,0,1
+"Twitter, Inc._20170727",24,71,4,1
+Tyson Foods_20170206,84,188,0,0
+U.S. Bancorp_20170419,70,124,0,0
+U.S. Bancorp_20170719,54,55,0,0
+Ulta Beauty_20170309,87,79,3,0
+Ulta Beauty_20171130,147,61,3,0
+United Health Group Inc._20170418,45,45,0,0
+United Health Group Inc._20171017,38,11,0,0
+United Parcel Service_20170727,82,90,0,0
+United Technologies_20170725,57,13,0,0
+United Technologies_20171024,52,4,0,0
+Valero Energy_20170131,22,130,0,0
+Valero Energy_20170425,23,76,0,0
+Valero Energy_20170727,21,74,0,0
+Varian Medical Systems_20170125,53,76,0,1
+Varian Medical Systems_20171025,88,42,0,1
+Ventas Inc_20171027,80,76,0,1
+Verisign Inc._20170427,27,13,0,0
+Verisign Inc._20170727,28,22,0,0
+Verisign Inc._20171026,25,0,0,0
+Verizon Communications_20170124,152,179,0,0
+Verizon Communications_20170420,116,152,7,0
+Verizon Communications_20170727,140,110,7,0
+Verizon Communications_20171019,116,138,0,0
+Viacom Inc._20171116,79,20,0,0
+Vulcan Materials_20170802,81,174,6,1
+Walgreens Boots Alliance_20170405,95,23,0,0
+Walgreens Boots Alliance_20170629,83,32,0,0
+Walgreens Boots Alliance_20171025,126,139,0,0
+Walmart_20171116,31,162,0,1
+Waste Management Inc._20170216,28,21,0,0
+Waste Management Inc._20170726,31,48,0,0
+Waste Management Inc._20171026,41,111,6,0
+Wec Energy Group Inc_20170201,91,92,0,1
+Wec Energy Group Inc_20170502,54,108,4,0
+Wec Energy Group Inc_20171026,71,69,0,1
+Welltower Inc._20170505,41,68,0,0
+WestRock_20170124,115,75,0,0
+WestRock_20170426,104,44,0,0
+WestRock_20171102,119,53,0,0
+Western Digital_20171026,53,34,3,0
+Western Union Co_20170502,88,118,0,1
+Western Union Co_20171102,78,107,0,1
+Weyerhaeuser_20170203,116,124,0,1
+Weyerhaeuser_20170428,91,154,3,1
+XL Group_20171024,63,6,0,0
+Xcel Energy Inc_20170202,46,172,0,0
+Xcel Energy Inc_20170727,35,38,0,1
+Xerox_20170425,80,45,0,0
+Xerox_20170801,93,58,0,0
+Xilinx_20170426,36,37,0,0
+Yum! Brands Inc_20170209,88,116,12,0
+Yum! Brands Inc_20170803,76,76,4,0
+eBay Inc._20170125,94,89,0,0
+eBay Inc._20170419,5,0,0,0
+eBay Inc._20170720,65,30,0,0
