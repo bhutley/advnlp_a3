@@ -130,11 +130,14 @@ Direction models omit past volatility.
 
 The direction results have the same shape. The remarks' text carries the directional
 signal for the windows that start on day 0 (AUC 0.578 and 0.587, against 0.512 and 0.483
-for the answers; log-loss gain over S1 p = 0.057 and 0.056, uncorrected), and nothing
-is clearly above chance in the post-reaction window [+2, +5], which excludes the press
-release's first impact for every timing class. As in round 1, models with no
-directional information score below 0.5 here (S1: 0.432 for [+2, +5]), because the
-training-fold base rates are slightly anti-correlated with the test folds.
+for the answers; log-loss gain over S1 p = 0.057 and 0.056, uncorrected). In the
+post-reaction window [+2, +5], which excludes the press release's first impact for every
+timing class, the remarks' text no longer improves on S1 in log loss (−0.003, interval
+−0.011 to +0.006) and its AUC falls to 0.512; the call-level text of R2 keeps 0.531. As
+in round 1, models with no directional information score below 0.5 (S1: 0.432 for
+[+2, +5]), because the training-fold base rates are slightly anti-correlated with the
+test folds, so AUC differences from S1 overstate any gain and log loss is the fairer
+comparison.
 
 ![Round 3 MSE](../results/round3/figures/mse_round3.png)
 
@@ -151,7 +154,7 @@ rungs.
 The only content signal in the calls sits in the executive's prepared remarks, and its
 pattern points to the earnings news rather than to anything the call adds. The remarks
 help where the target includes the reaction to the press release (three-day volatility;
-direction from day 0) and fade once that reaction is excluded (longer volatility
+direction from day 0) and largely fade once that reaction is excluded (longer volatility
 horizons; direction over [+2, +5]). Prepared remarks restate the reported numbers and
 guidance, so a text model reading them partly reads the earnings surprise. The answers,
 the part of the call that exists only in the call, show no signal for volatility or
