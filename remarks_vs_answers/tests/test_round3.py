@@ -201,3 +201,15 @@ def test_load_round3_from_files(tmp_path):
     assert tab.loc["A_1", "call_tone"] == 0.3 and (d.arrays["text_emb"][0] == [8, 9, 10, 11]).all()
     assert d.format_cols == ["fmt_11025_16", "fmt_44100_64", "stereo"]
     assert d.arrays["audio_emb_ans"].shape == (3, 13 * 5) and d.audio_dim == 5
+
+
+def test_figures_from_synthetic_metrics(tmp_path):
+    import make_figures
+
+    rows = [{"target": t, "rung": r, "metric": met, "mean": 0.5 + 0.01 * i, "sd": 0.01, "n_repeats": 10}
+            for i, r in enumerate(make_figures.RUNGS)
+            for t, met in [(t, "mse") for t in make_figures.VOL] + [(t, "auc") for t in make_figures.DIR]]  # fmt: skip
+    pd.DataFrame(rows).to_csv(tmp_path / "metrics.csv", index=False)
+    assert make_figures.main(["--results", str(tmp_path)]) == 0
+    for name in ("mse_round3.png", "auc_round3.png"):
+        assert (tmp_path / "figures" / name).stat().st_size > 10_000

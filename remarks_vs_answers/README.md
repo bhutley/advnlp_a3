@@ -2,8 +2,19 @@
 
 Splits each call into the executive's **prepared remarks** and their **answers to
 analysts' questions**, so later work can compare the information content of the two for
-post-call volatility and direction. This folder holds the split and its hand audit;
-modelling on the split comes next, after a pre-registered design.
+post-call volatility and direction. This folder holds the split, its hand audit, and
+round 3 of the modelling: the pre-registered comparison of remarks and answers.
+
+## Round 3 in brief
+
+None of the four pre-registered hypotheses (H6–H9) is supported. The answers' text does
+not improve on the baseline, and the remarks' text beats it: at three days the remarks
+cut MSE by 5% while the answers raise it, and remarks beat answers by 0.037 (95% CI
+−0.069 to −0.007), the opposite of H7 (exploratory, since the registered test was
+one-sided the other way). The remarks also carry the direction signal for windows
+starting on day 0 (AUC 0.58–0.59) but not for [+2, +5]: most plausibly the earnings
+release restated. Voice adds nothing in either section. Full write-up:
+`docs/round3_results.md`; design: `docs/plans/2026-10-13-round3-design.md`.
 
 ## What the data contain
 
@@ -83,6 +94,23 @@ python make_audit.py --dataset /path/to/ACL19_Release
 python check_sections.py
 
 python -m pytest
+```
+
+Round 3 (each step's output feeds the next; see `docs/round3_results.md`):
+
+```sh
+# FinBERT sentence vectors, both models (a few minutes each)
+python ../text_embeddings/build_embeddings.py --model finbert_tone   --dataset "$DATA" --out-dir data/features/text
+python ../text_embeddings/build_embeddings.py --model prosus_finbert --dataset "$DATA" --out-dir data/features/text
+# HuBERT per-section means of all 13 layers (about 1 h)
+python build_audio_sections.py --dataset "$DATA"
+# round-3 features + must-pass checks → data/features/round3/ (seconds)
+python build_section_features.py
+# timing trial (keeps timings only), then the full run (about 3 h on an M5 MacBook Air)
+python run_round3.py --quick
+python run_round3.py --audio-repeats 10
+# figures → results/round3/figures/
+python make_figures.py
 ```
 
 `--dataset` defaults to `~/var/data/earnings_calls/ACL19_Release`. `build_sections.py`
